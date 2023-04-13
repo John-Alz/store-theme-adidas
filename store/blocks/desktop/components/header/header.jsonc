@@ -1,0 +1,179 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "slider-layout#header__slider--children",
+      // "rich-text#section-one",
+      "flex-layout.row#header__section--subheader",
+      "sticky-layout#desktop"
+    ]
+  },
+  "slider-layout#header__slider--children": {
+    "title": "Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "header__slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "rich-text#header__slider--one",
+      "rich-text#header__slider--two"
+    ]
+  },
+  "rich-text#header__slider--one": {
+    "props": {
+      "blockClass": "text-message",
+      "text": "✨COMPRA MÁS, AHORRA MÁS✨"
+    }
+  },
+  "rich-text#header__slider--two": {
+    "props": {
+      "blockClass": "text-message",
+    "text": "💎¡LAS COLABORACIONES DE ADIDAS SON UNA EXPRESIÓN DE CREATIVIDAD!💎"
+    }
+  },
+  "flex-layout.row#header__section--subheader": {
+    "title": "sub header",
+    "children": [
+      "rich-text#section__one--text",
+      "rich-text#section__two--text",
+      "rich-text#section__three--text",
+      "rich-text#section__four--text"
+    ],
+    "props": {
+      "blockClass": "header__section--subheader",
+      "colSizing" : "auto"    }
+  },
+  "rich-text#section__one--text": {
+    "props": {
+      "text" : "ayuda",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  },
+  "rich-text#section__two--text": {
+    "props": {
+      "text" : "cambios y devoluciones",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  },
+  "rich-text#section__three--text": {
+    "props": {
+      "text" : "seguimiento de pedidos",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  },
+  "rich-text#section__four--text": {
+    "props": {
+      "text" : "unete al club",
+      "blockClass" : "header__support--text",
+      "textPosition" : "CENTER"
+    }
+  },
+  "rich-text#section-one": {
+    "title": "text section one",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "texto de prueba.",
+      "textColor": "c-on-emphasis",
+      "font": "action--small",
+      "blockClass": "help-message"
+    }
+  },
+  "sticky-layout#desktop": {
+    "title": "header sticky",
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      // "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/header/adidas_logo.png",
+      "width": "65"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}
