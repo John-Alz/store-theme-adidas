@@ -8,9 +8,9 @@
   "header-layout.desktop": {
     "children": [
       "slider-layout#header__slider--children",
-      // "rich-text#section-one",
       "flex-layout.row#header__section--subheader",
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "rich-text#section-one"
     ]
   },
   "slider-layout#header__slider--children": {
@@ -56,6 +56,7 @@
       "flex-layout.col#section__four--text"
     ],
     "props": {
+      "colSizing": "auto",
       "blockClass": "header__section--subheader"
     }
   },
@@ -82,29 +83,29 @@
   "rich-text#section__one--text": {
     "props": {
       "text" : "ayuda",
-      "blockClass" : "header__support--text",
-      "textPosition" : "RIGHT"
+      "blockClass" : "header__support--text"
+      // "textPosition" : "RIGHT"
     }
   },
   "rich-text#section__two--text": {
     "props": {
       "text" : "cambios y devoluciones",
-      "blockClass" : "header__support--text",
-      "textPosition" : "RIGHT"
+      "blockClass" : "header__support--text"
+      // "textPosition" : "RIGHT"
     }
   },
   "rich-text#section__three--text": {
     "props": {
       "text" : "seguimiento de pedidos",
-      "blockClass" : "header__support--text",
-      "textPosition" : "RIGHT"
+      "blockClass" : "header__support--text"
+      // "textPosition" : "CENTER"
     }
   },
   "rich-text#section__four--text": {
     "props": {
       "text" : "unete al club",
-      "blockClass" : "header__support--text",
-      "textPosition" : "RIGHT"
+      "blockClass" : "header__support--text"
+      // "textPosition" : "left"
 
     }
   },
@@ -113,7 +114,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "texto de prueba.",
+      "text": "Suscríbete en adiClub y obtén 15% de descuento.Únete ya",
       "textColor": "c-on-emphasis",
       "font": "action--small",
       "blockClass": "help-message"
@@ -136,7 +137,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
+      "flex-layout.row#spacer",
       "search-bar",
       // "locale-switcher",
       "login",
@@ -144,11 +145,102 @@
     ]
   },
 
-  "flex-layout.col#spacer": {
+  "flex-layout.row#spacer": {
+    "children": [
+      "flex-layout.col#header__menu--one",
+      "flex-layout.col#header__menu--two",
+      "flex-layout.col#header__menu--three",
+      "flex-layout.col#header__menu--four",
+      "flex-layout.col#header__menu--five",
+      "flex-layout.col#header__menu--six"
+    ],
     "props": {
-      "width": "grow"
+        "colSizing": "auto",
+        "blockClass": "header__menu--middle"
     }
   },
+  "flex-layout.col#header__menu--one": {
+    "children": [
+      "rich-text#header__menu--one"
+    ]
+  },
+      "flex-layout.col#header__menu--two": {
+        "children": [
+          "rich-text#header__menu--two"
+        ],
+        "props": {
+        }
+      },
+      "flex-layout.col#header__menu--three": {
+        "children": [
+          "rich-text#header__menu--three"
+        ],
+        "props": {
+        }
+      },
+      "flex-layout.col#header__menu--four": {
+        "children": [
+          "rich-text#header__menu--four"
+        ],
+        "props": {
+        }
+      },
+      "flex-layout.col#header__menu--five": {
+        "children": [
+          "rich-text#header__menu--five"
+        ],
+        "props": {
+        }
+      },
+      "flex-layout.col#header__menu--six": {
+        "children": [
+          "rich-text#header__menu--six"
+        ],
+        "props": {
+        }
+      },
+      "rich-text#header__menu--one": {
+        "props": {
+          "text": "MUJER",
+          "blockClass" : "header__menu--text",
+          "textPosition" : "CENTER"
+        }
+      },
+      "rich-text#header__menu--two": {
+        "props": {
+          "text": "HOMBRE",
+          "blockClass" : "header__menu--text",
+          "textPosition" : "CENTER"
+        }
+      },
+      "rich-text#header__menu--three": {
+        "props": {
+          "text": "NIÑOS",
+          "blockClass" : "header__menu--text",
+          "textPosition" : "CENTER"
+        }
+      },
+      "rich-text#header__menu--four": {
+        "props": {
+          "text": "NOVEDADES",
+          "blockClass" : "header__menu--text--sub",
+          "textPosition" : "CENTER"
+        }
+      },
+      "rich-text#header__menu--five": {
+        "props": {
+          "text": "DEPORTE",
+          "blockClass" : "header__menu--text--sub",
+          "textPosition" : "CENTER"
+        }
+      },
+      "rich-text#header__menu--six": {
+        "props": {
+          "text": "MUNDO ADIDAS",
+          "blockClass" : "header__menu--text--sub",
+          "textPosition" : "CENTER"
+        }
+      },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -183,7 +275,7 @@
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
+      "flex-layout.row#spacer",
       "login",
       "minicart.v2"
     ],

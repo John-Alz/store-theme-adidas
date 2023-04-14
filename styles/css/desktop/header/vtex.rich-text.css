@@ -1,6 +1,6 @@
-/* .container--header__support--text {
-  width: 10px;
-} */
+.container--header__support--text {
+  padding: 5px 0 0 0;
+}
 
 .paragraph--text-message {
     color: #fff;
@@ -9,6 +9,23 @@
 }
 
 .paragraph--header__support--text {
-  font-size: 12px;
+  font-size: 11px;
 }
 
+.paragraph--header__menu--text {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.paragraph--header__menu--text--sub {
+  font-size: 14px;
+}
+
+.container--help-message {
+  background: #027bc6;
+  padding: 15px;
+}
+
+.paragraph--help-message {
+  font-size: 15px;
+}
