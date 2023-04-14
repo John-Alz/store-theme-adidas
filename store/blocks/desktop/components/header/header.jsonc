@@ -50,41 +50,62 @@
   "flex-layout.row#header__section--subheader": {
     "title": "sub header",
     "children": [
-      "rich-text#section__one--text",
-      "rich-text#section__two--text",
-      "rich-text#section__three--text",
-      "rich-text#section__four--text"
+      "flex-layout.col#section__one--text",
+      "flex-layout.col#section__two--text",
+      "flex-layout.col#section__three--text",
+      "flex-layout.col#section__four--text"
     ],
     "props": {
-      "blockClass": "header__section--subheader",
-      "colSizing" : "auto"    }
+      "blockClass": "header__section--subheader"
+    }
+  },
+  "flex-layout.col#section__one--text": {
+    "children":[
+      "rich-text#section__one--text"
+    ]
+  },
+  "flex-layout.col#section__two--text": {
+    "children":[
+      "rich-text#section__two--text"
+    ]
+  },
+  "flex-layout.col#section__three--text": {
+    "children":[
+      "rich-text#section__three--text"
+    ]
+  },
+  "flex-layout.col#section__four--text": {
+    "children":[
+      "rich-text#section__four--text"
+    ]
   },
   "rich-text#section__one--text": {
     "props": {
       "text" : "ayuda",
       "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
+      "textPosition" : "RIGHT"
     }
   },
   "rich-text#section__two--text": {
     "props": {
       "text" : "cambios y devoluciones",
       "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
+      "textPosition" : "RIGHT"
     }
   },
   "rich-text#section__three--text": {
     "props": {
       "text" : "seguimiento de pedidos",
       "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
+      "textPosition" : "RIGHT"
     }
   },
   "rich-text#section__four--text": {
     "props": {
       "text" : "unete al club",
       "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
+      "textPosition" : "RIGHT"
+
     }
   },
   "rich-text#section-one": {

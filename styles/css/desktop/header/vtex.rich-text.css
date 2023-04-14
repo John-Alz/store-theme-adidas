@@ -1,3 +1,7 @@
+/* .container--header__support--text {
+  width: 10px;
+} */
+
 .paragraph--text-message {
     color: #fff;
     font-size: 11px;
@@ -7,3 +11,4 @@
 .paragraph--header__support--text {
   font-size: 12px;
 }
+

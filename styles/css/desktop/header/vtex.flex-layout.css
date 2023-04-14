@@ -1,4 +1,17 @@
-.flexRowContent--header__sectio--subheader {
-  justify-content: right;
-  margin-left: 50px;
+/* .flexRowContent--header__sectio--subheader {
+  display: flex;
+  justify-content: end;
+} */
+
+.flexRowContent--header__section--subheader {
+  margin: 0;
+    max-width: none;
+    width: 38%;
+    display: flex;
+    border: 1px solid green;
+    margin-left: auto;
 }
+
+/* .flexRowContent--header__section--subheader :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 200px !important;
+} */
