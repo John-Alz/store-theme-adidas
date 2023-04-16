@@ -38,13 +38,13 @@
 .flexRow--header__menu--middle {
       padding-top: 30px;
       /* width: 100%; */
-      padding: 0 85px 0 390px;
+      padding: 0 120px 0 340px;
 
    }
 
 
    .flexRowContent--header__menu--middle {
-    padding: 20px 0 0 0;
+    padding: 17px 0 0 0;
     letter-spacing: .2rem;
     gap: 20px;
     }
