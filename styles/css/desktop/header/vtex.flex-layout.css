@@ -15,27 +15,37 @@
   height: 32px;
 } */
 
+
 .flexRowContent--header__section--subheader {
   padding-top: 4px;
   gap: 20px;
   width: 400px;
+  height: 1.8rem;
   float: right;
   margin-right: 40px;
 }
 
-.container--sticky-header {
+/* .flexRowContent {
   height: 3.5rem;
- }
+} */
+
+
+
+.flexRowContent--flex-container {
+  height: 3.3rem;
+}
 
 .flexRow--header__menu--middle {
       padding-top: 30px;
       /* width: 100%; */
-      padding: 0 100px 0 270px;
+      padding: 0 85px 0 390px;
+
    }
 
 
    .flexRowContent--header__menu--middle {
     padding: 20px 0 0 0;
+    letter-spacing: .2rem;
     gap: 20px;
     }
 

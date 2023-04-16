@@ -133,7 +133,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "flex-container"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -251,8 +252,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/img/header/adidas_logo.png",
-      "width": "65"
+      "url": "assets/img/header/Adidas_logo_two.svg",
+      "width": "93",
+      "blockClass": "container-logo"
     }
   },
   "login": {

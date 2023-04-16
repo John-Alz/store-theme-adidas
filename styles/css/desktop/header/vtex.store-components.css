@@ -1,0 +1,14 @@
+.searchBarContainer :global(.vtex-input-prefix__group ){
+  width: 180px;
+  height: 32px;
+  border-radius: 0;
+}
+
+/* .searchBarInnerContainer {
+  width: 202px;
+  background: red;
+}
+
+.searchBarIcon--search {
+  color: brown;
+} */
