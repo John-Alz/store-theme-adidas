@@ -12,13 +12,14 @@
   font-size: 11px;
 }
 
-.paragraph--header__menu--text {
-  font-weight: bolder;
+.container--menu__category--title {
+  font-weight: bold;
   font-size: 14px;
+  padding-top: 40px;
 }
 
-.paragraph--header__menu--text--sub {
-  font-size: 14px;
+.wrapper--menu__category--title {
+  transform: translateX(22px);
 }
 
 .container--help-message {
@@ -28,4 +29,10 @@
 
 .paragraph--help-message {
   font-size: 15px;
+}
+
+.container--menu__bottom,
+.container--menu__bottom-section  {
+  font-size: 14px;
+  font-weight: bold;
 }

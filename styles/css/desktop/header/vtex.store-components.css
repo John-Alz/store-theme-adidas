@@ -4,11 +4,6 @@
   border-radius: 0;
 }
 
-/* .searchBarInnerContainer {
-  width: 202px;
-  background: red;
+.imageElement--img__menu--subcategory {
+  transform: translateX(25px);
 }
-
-.searchBarIcon--search {
-  color: brown;
-} */

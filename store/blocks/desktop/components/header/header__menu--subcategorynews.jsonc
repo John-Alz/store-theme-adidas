@@ -1,0 +1,97 @@
+{
+  "rich-text#category__new-men-title": {
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "NOVEDADES HOMBRE"
+    }
+  },
+  "vtex.menu@2.x:menu#new-men__subcategory" : {
+    "title" : "best-products subcategory-menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#new-men__subcategory--point-one",
+      "menu-item#new-men__subcategory--point-two",
+      "menu-item#new-men__subcategory--point-three",
+      "menu-item#new-men__subcategory--point-four"
+    ]
+  },
+  "rich-text#category__new-women-title": {
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "NOVEDADES MUJER"
+    }
+  },
+  "vtex.menu@2.x:menu#new-women__subcategory" : {
+    "title" : "best-products subcategory-menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#new-women__subcategory--point-one",
+      "menu-item#new-men__subcategory--point-two",
+      "menu-item#new-men__subcategory--point-three",
+      "menu-item#new-men__subcategory--point-four"
+    ]
+  },
+  "rich-text#category__kids-news-title": {
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "NOVEDADES NIÑOS"
+    }
+  },
+  "vtex.menu@2.x:menu#new-kids__subcategory" : {
+    "title" : "best-products subcategory-menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#new-kids__subcategory--point-one",
+      "menu-item#new-men__subcategory--point-two",
+      "menu-item#new-men__subcategory--point-three",
+      "menu-item#new-men__subcategory--point-four"
+    ]
+  },
+  "rich-text#category__sports-news-title": {
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "DEPORTES"
+    }
+  },
+  "vtex.menu@2.x:menu#sports-news__subcategory" : {
+    "title" : "best-products subcategory-menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#sports-news__subcategory--point-one",
+      "menu-item#sports-news__subcategory--point-two",
+      "menu-item#sports-news__subcategory--point-three",
+      "menu-item#sports-news__subcategory--point-four"
+    ]
+  },
+  "rich-text#category__collections-title": {
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "COLECCIONES"
+    }
+  },
+  "vtex.menu@2.x:menu#collections__subcategory" : {
+    "title" : "best-products subcategory-menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "image#collections__subcategory--point-one",
+      "menu-item#collections__subcategory--point-two",
+      "menu-item#collections__subcategory--point-three",
+      "menu-item#collections__subcategory--point-four"
+    ]
+  }
+}

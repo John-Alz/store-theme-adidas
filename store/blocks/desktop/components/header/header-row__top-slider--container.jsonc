@@ -1,0 +1,24 @@
+{
+  "slider-layout#header__slider-top": {
+    "title": "Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "header__slider",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "rich-text#header__slider--one",
+      "rich-text#header__slider--two"
+    ]
+  }
+}

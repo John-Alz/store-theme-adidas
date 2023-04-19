@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#header__bottom--menu" : {
+    "title" : "header bottom-row menu container",
+    "children" : [
+      "vtex.menu@2.x:menu#header__bottom--menu"
+    ],
+    "props" : {
+      "colSizing" : "auto",
+      "blockClass" : "header__bottom--menu"
+    }
+  }
+}
