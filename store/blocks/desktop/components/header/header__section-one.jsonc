@@ -1,0 +1,13 @@
+{
+  "rich-text#section-one": {
+    "title": "text section one",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Suscríbete en adiClub y obtén 15% de descuento.Únete ya",
+      "textColor": "c-on-emphasis",
+      "font": "action--small",
+      "blockClass": "help-message"
+    }
+  }
+}

@@ -1,4 +1,24 @@
 {
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/header/adidas_logo_two.svg",
+      "width": "93",
+      "blockClass": "container-logo"
+    }
+  },
+  "flex-layout.col#spacer__desktop-one": {
+    "props": {
+      "blockClass": "header__spacer-one"
+    }
+  },
   "flex-layout.row#header__bottom--menu" : {
     "title" : "header bottom-row menu container",
     "children" : [
@@ -7,6 +27,24 @@
     "props" : {
       "colSizing" : "auto",
       "blockClass" : "header__bottom--menu"
+    }
+  },
+  "flex-layout.col#spacer__desktop-two": {
+    "props": {
+      "blockClass": "spacer__desktop-two"
+    }
+  },
+  "flex-layout.row#header__bottom--user" : {
+    "title" : "header bottom-row user section",
+    "children" : [
+      "image#home__user--login",
+      "image#home__user--favourites",
+      "image#home__user--cartshop"
+    ],
+    "props" : {
+      "blockClass" : "header__bottom--user",
+      "colSizing" : "auto",
+      "colGap" : 7
     }
   }
 }

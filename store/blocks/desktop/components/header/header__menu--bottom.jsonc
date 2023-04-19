@@ -13,35 +13,35 @@
     }
   },
   "rich-text#menu__bottom--products": {
-    "title": "menu-bottom all-products title",
+    "title": "menu bottom-products title",
     "props": {
       "text": "Todos los Productos",
       "blockClass": "menu__bottom"
     }
   },
   "rich-text#menu__bottom--shoes": {
-    "title": "menu-bottom all-products title",
+    "title": "menu bottom-shoes title",
     "props": {
       "text": "Todos el Calzado",
       "blockClass": "menu__bottom-section"
     }
   },
   "rich-text#menu__bottom--clothes": {
-    "title": "menu-bottom all-products title",
+    "title": "menu bottom-shoes title",
     "props": {
       "text": "Toda la Ropa",
       "blockClass": "menu__bottom-section"
     }
   },
   "rich-text#menu__bottom--accesories": {
-    "title": "menu-bottom all-products title",
+    "title": "menu bottom-accesories title",
     "props": {
       "text": "Todos los Accesorios",
       "blockClass": "menu__bottom-section"
     }
   },
   "rich-text#menu__bottom--sports": {
-    "title": "menu-bottom all-products title",
+    "title": "menu bottom-sports title",
     "props": {
       "text": "Todos los Deportes",
       "blockClass": "menu__bottom-section"
