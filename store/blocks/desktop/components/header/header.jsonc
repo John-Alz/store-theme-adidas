@@ -36,37 +36,23 @@
   },
 
 
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+
+
+
 
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
     "children": ["slider-layout#header__slider-top", "flex-layout.row#mobile", "rich-text#section-one"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "flex-layout.col#logo-desktop",
-      "flex-layout.row#header__bottom--user"
-    ],
-    "props": {
-      "blockClass": ["main-header-mobile"],
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "title": "Mega menu mobile",
-    "children": [
-      "mega-menu#mobile"
-    ]
-  },
-  "mega-menu#mobile": {
-    "props": {
-      "defaultDepartmentActive": "...",
-      "orientation": "vertical",
-      "openOnly": "vertical"
-    }
   }
 }

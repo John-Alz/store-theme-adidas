@@ -1,10 +1,8 @@
 {
-  "image#home__user--login" : {
+  "icon#home__user--login" : {
     "title" : "header user-section login logo",
     "props" : {
-      "src" : "assets/img/header/userProfile.svg",
-      "blockClass" : "home__user--login",
-      "maxWidth" : 20
+      "id": "icon-bag"
     }
   },
   "image#home__user--favourites" : {
@@ -20,10 +18,6 @@
     "props" : {
       "src" : "assets/img/header/userBag.svg",
       "blockClass" : "home__user--logo",
-      "link" : {
-        "url" : "/cart",
-        "newTab" : true
-      },
       "maxWidth" : 20
     }
   }

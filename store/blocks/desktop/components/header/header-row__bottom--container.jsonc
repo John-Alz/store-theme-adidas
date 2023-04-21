@@ -37,7 +37,7 @@
   "flex-layout.row#header__bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
-      "image#home__user--login",
+      "icon#home__user--login",
       "image#home__user--favourites",
       "image#home__user--cartshop"
     ],
