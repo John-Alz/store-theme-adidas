@@ -1,4 +1,39 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.menuContainer--header__bottom--menu {
+  padding: 5px;
+}
+
+.submenuWrapper--subemnu--department__gender {
+  z-index: 20;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.styledLinkContainer--menu__department--name-one,
+.styledLinkContainer--menu__department--name {
+  margin: 0 26px 0 0;
+}
+
+
+.submenu--subemnu--department__gender {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgb(232, 226, 226);
+}
+
+
+.styledLink--menu__department--name-one{
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+}
+
+.styledLink--menu__department--name{
+  font-size: 14px;
+}
+
+.menuItem--menu__subcategory--name {
+  font-size: 14px;
+  padding-top: 3px;
+  flex-grow: 1;
+}
+

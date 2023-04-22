@@ -1,0 +1,155 @@
+{
+  "rich-text#category__best-products-title": {
+    "title": "Title best products",
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "PRODUCTO DESTACADO"
+    }
+  },
+  "vtex.menu@2.x:menu#best-products__subcategory" : {
+    "title" : "best-products subcategory menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#best-products__subcategory--point-one",
+      "menu-item#best-products__subcategory--point-two",
+      "menu-item#best-products__subcategory--point-three",
+      "menu-item#best-products__subcategory--point-four",
+      "menu-item#best-products__subcategory--point-five",
+      "menu-item#best-products__subcategory--point-six",
+      "menu-item#best-products__subcategory--point-seven",
+      "image#best-products__subcategory--point-eleven",
+      "menu-item#best-products__subcategory--point-eight",
+      "menu-item#best-products__subcategory--point-nine",
+      "menu-item#best-products__subcategory--point-ten"
+    ]
+  },
+  "rich-text#category__shoes-title": {
+    "title": "Title shoes",
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "CALZADO"
+    }
+  },
+  "vtex.menu@2.x:menu#shoes__subcategory" : {
+    "title" : "shoes subcategory menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#shoes__subcategory--point-one",
+      "menu-item#shoes__subcategory--point-two",
+      "menu-item#shoes__subcategory--point-three",
+      "menu-item#shoes__subcategory--point-four",
+      "menu-item#shoes__subcategory--point-five",
+      "menu-item#shoes__subcategory--point-six",
+      "menu-item#shoes__subcategory--point-seven",
+      "menu-item#shoes__subcategory--point-eight",
+      "menu-item#shoes__subcategory--point-nine",
+      "menu-item#shoes__subcategory--point-ten",
+      "menu-item#shoes__subcategory--point-eleven"
+    ]
+  },
+  "rich-text#category__clothes-title": {
+    "title": "Title clothes",
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "ROPA"
+    }
+  },
+  "vtex.menu@2.x:menu#clothes__subcategory" : {
+    "title" : "clothes subcategory menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#clothes__subcategory--point-one",
+      "menu-item#clothes__subcategory--point-two",
+      "menu-item#clothes__subcategory--point-three",
+      "menu-item#clothes__subcategory--point-four",
+      "menu-item#clothes__subcategory--point-five",
+      "menu-item#clothes__subcategory--point-six",
+      "menu-item#clothes__subcategory--point-seven",
+      "menu-item#clothes__subcategory--point-eight",
+      "menu-item#clothes__subcategory--point-nine",
+      "menu-item#clothes__subcategory--point-ten",
+      "menu-item#clothes__subcategory--point-eleven"
+    ]
+  },
+  "rich-text#category__accessories-title": {
+    "title": "Title accesories",
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "ACCESORIOS"
+    }
+  },
+  "vtex.menu@2.x:menu#accessories__subcategory" : {
+    "title" : "accesories subcategory menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#accessories__subcategory--point-one",
+      "menu-item#accessories__subcategory--point-two",
+      "menu-item#accessories__subcategory--point-three",
+      "menu-item#accessories__subcategory--point-four",
+      "menu-item#accessories__subcategory--point-five",
+      "menu-item#accessories__subcategory--point-six",
+      "menu-item#accessories__subcategory--point-seven",
+      "menu-item#caccessories__subcategory--point-eight"
+    ]
+  },
+  "rich-text#category__sports-title": {
+    "title": "Title sports",
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "DEPORTES"
+    }
+  },
+  "vtex.menu@2.x:menu#sports__subcategory" : {
+    "title" : "sports subcategory menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#sports__subcategory--point-one",
+      "menu-item#sports__subcategory--point-two",
+      "menu-item#sports__subcategory--point-three",
+      "menu-item#sports__subcategory--point-four",
+      "menu-item#sports__subcategory--point-five",
+      "menu-item#sports__subcategory--point-six",
+      "menu-item#sports__subcategory--point-seven",
+      "menu-item#sports__subcategory--point-eight",
+      "menu-item#sports__subcategory--point-nine",
+      "menu-item#sports__subcategory--point-ten"
+    ]
+  },
+  "rich-text#category__adidas-classics-title": {
+    "title": "Title adidas clasics",
+    "props": {
+      "blockClass": "menu__category--title",
+      "text": "CLASICOS DE ADIDAS"
+    }
+  },
+  "vtex.menu@2.x:menu#adidas-classics__subcategory" : {
+    "title" : "adidas-clasics subcategory menu",
+    "props" : {
+      "blockClass" : "",
+      "orientation" : "vertical"
+    },
+    "children" : [
+      "menu-item#sadidas-classics__subcategory--point-one",
+      "menu-item#adidas-classics__subcategory--point-two",
+      "menu-item#adidas-classics__subcategory--point-three",
+      "menu-item#adidas-classics__subcategory--point-four",
+      "menu-item#adidas-classics__subcategory--point-five",
+      "image#adidas-classics__subcategory--point-six"
+    ]
+  }
+}

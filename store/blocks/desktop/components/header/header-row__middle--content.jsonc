@@ -1,0 +1,59 @@
+{
+  "flex-layout.col#section__one--text": {
+    "title": "sub header section one help",
+    "children":[
+      "rich-text#section__one--text"
+    ]
+  },
+  "flex-layout.col#section__two--text": {
+    "title": "sub header section two returns",
+    "children":[
+      "rich-text#section__two--text"
+    ]
+  },
+  "flex-layout.col#section__three--text": {
+    "title": "sub header section three order tracking",
+    "children":[
+      "rich-text#section__three--text"
+    ]
+  },
+  "flex-layout.col#section__four--text": {
+    "title": "sub header section three join",
+    "children":[
+      "rich-text#section__four--text"
+    ]
+  },
+  "rich-text#section__one--text": {
+    "title": "sub header title help",
+    "props": {
+      "text" : "ayuda",
+      "blockClass" : "header__support--text"
+      // "textPosition" : "RIGHT"
+    }
+  },
+  "rich-text#section__two--text": {
+    "title": "sub header title returns",
+    "props": {
+      "text" : "cambios y devoluciones",
+      "blockClass" : "header__support--text"
+      // "textPosition" : "RIGHT"
+    }
+  },
+  "rich-text#section__three--text": {
+    "title": "sub header title order tracking",
+    "props": {
+      "text" : "seguimiento de pedidos",
+      "blockClass" : "header__support--text"
+      // "textPosition" : "CENTER"
+    }
+  },
+  "rich-text#section__four--text": {
+    "title": "sub header title join",
+    "props": {
+      "text" : "unete al club",
+      "blockClass" : "header__support--text"
+      // "textPosition" : "left"
+
+    }
+  }
+}

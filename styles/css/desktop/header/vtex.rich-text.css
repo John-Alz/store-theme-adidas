@@ -1,3 +1,7 @@
+.container--header__support--text {
+  padding: 5px 0 0 0;
+}
+
 .paragraph--text-message {
     color: #fff;
     font-size: 11px;
@@ -5,5 +9,30 @@
 }
 
 .paragraph--header__support--text {
-  font-size: 12px;
+  font-size: 11px;
+}
+
+.container--menu__category--title {
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 40px;
+}
+
+.wrapper--menu__category--title {
+  transform: translateX(22px);
+}
+
+.container--help-message {
+  background: #027bc6;
+  padding: 15px;
+}
+
+.paragraph--help-message {
+  font-size: 15px;
+}
+
+.container--menu__bottom,
+.container--menu__bottom-section  {
+  font-size: 14px;
+  font-weight: bold;
 }

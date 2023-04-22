@@ -1,0 +1,53 @@
+{
+  "flex-layout.col#news__category--new-men": {
+    "title": "Category new men",
+    "children": [
+      "rich-text#category__new-men-title",
+      "vtex.menu@2.x:menu#new-men__subcategory"
+    ],
+    "props": {
+      "height": "0",
+      "blockClass": "menu__category-column"
+    }
+  },
+  "flex-layout.col#news__category--new-women": {
+    "title": "Category new women",
+    "children": [
+      "rich-text#category__new-women-title",
+      "vtex.menu@2.x:menu#new-women__subcategory"
+    ],
+    "props": {
+      "blockClass": "menu__category-column"
+    }
+  },
+  "flex-layout.col#news__category--kids-news": {
+    "title": "Category kids news",
+    "children": [
+      "rich-text#category__kids-news-title",
+      "vtex.menu@2.x:menu#new-kids__subcategory"
+    ],
+    "props": {
+      "blockClass": "menu__category-column"
+    }
+  },
+  "flex-layout.col#news__category--sports": {
+    "title": "Category sports news",
+    "children": [
+      "rich-text#category__sports-news-title",
+      "vtex.menu@2.x:menu#sports-news__subcategory"
+    ],
+    "props": {
+      "blockClass": "menu__category-column"
+    }
+  },
+  "flex-layout.col#news__category--collections": {
+    "title": "Category collections",
+    "children": [
+      "rich-text#category__collections-title",
+      "vtex.menu@2.x:menu#collections__subcategory"
+    ],
+    "props": {
+      "blockClass": "menu__category-column"
+    }
+  }
+}

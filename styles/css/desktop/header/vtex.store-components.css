@@ -1,0 +1,13 @@
+/* .logoImage {
+  transform: translateY(-10px);
+} */
+
+.searchBarContainer :global(.vtex-input-prefix__group ){
+  width: 180px;
+  height: 32px;
+  border-radius: 0;
+}
+
+.imageElement--img__menu--subcategory {
+  transform: translateX(25px);
+}

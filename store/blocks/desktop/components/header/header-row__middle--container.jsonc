@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#header__section--subheader": {
+    "title": "sub header",
+    "children": [
+      "flex-layout.col#section__one--text",
+      "flex-layout.col#section__two--text",
+      "flex-layout.col#section__three--text",
+      "flex-layout.col#section__four--text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header__section--subheader"
+    }
+  }
+}

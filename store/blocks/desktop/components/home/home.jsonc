@@ -1,7 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#home__section-1"
+      "flex-layout.row#home__section-1",
+      "icon#home__icon"
     ]
   },
   "flex-layout.row#home__section-1": {
@@ -19,6 +20,12 @@
       "font": "t-heading-2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "icon#home__icon": {
+    "props": {
+      "id": "sti-clock",
+      "size": 30
     }
   }
 }

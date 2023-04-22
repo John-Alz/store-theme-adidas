@@ -1,0 +1,35 @@
+{
+  "vtex.menu@2.x:submenu#department__news": {
+    "children": [
+      "flex-layout.col#header__menu--container-news"
+    ],
+    "props": {
+      "blockClass": "subemnu--department__gender",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#header__menu--container-news": {
+    "children": [
+      "flex-layout.row#menu__department--news",
+      "flex-layout.row#menu__bottom"
+    ],
+    "props": {
+      "blockClass": "header__menu--container"
+    }
+  },
+  "flex-layout.row#menu__department--news": {
+    "children": [
+      "flex-layout.col#news__category--new-men",
+      "flex-layout.col#news__category--new-women",
+      "flex-layout.col#news__category--kids-news",
+      "flex-layout.col#news__category--sports",
+      "flex-layout.col#news__category--collections"
+    ],
+    "props": {
+      "horizontalAlign": "around",
+      "colSizing": "auto",
+      "blockClass": "subemnu--department__news"
+    }
+  }
+  }
+

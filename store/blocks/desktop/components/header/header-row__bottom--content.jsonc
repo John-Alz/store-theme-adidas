@@ -1,0 +1,38 @@
+{
+  // "image#home__user--login" : {
+  //   "title" : "header user-section cart logo",
+  //   "props" : {
+  //     "src" : "assets/img/header/userProfile.svg",
+  //     "blockClass" : "home__user--logo",
+  //     "maxWidth" : 20
+  //   }
+  // },
+  "image#home__user--favourites" : {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/header/userWishlist.svg",
+      "blockClass" : "home__user--logo",
+      "maxWidth" : 20,
+      "maxHeight": 24
+    }
+  },
+  "login": {
+    "title": "header login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+
+  "minicart.v2": {
+    "props": {
+      "variation": "drawer"
+    }
+  }
+
+}
