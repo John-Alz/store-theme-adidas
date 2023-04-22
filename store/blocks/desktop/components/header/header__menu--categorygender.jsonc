@@ -1,5 +1,6 @@
 {
   "flex-layout.col#gender__category--best-products": {
+    "title": "Category best products",
     "children": [
       "rich-text#category__best-products-title",
       "vtex.menu@2.x:menu#best-products__subcategory"
@@ -10,6 +11,7 @@
     }
   },
   "flex-layout.col#gender__category--shoes": {
+    "title": "Category shoes",
     "children": [
       "rich-text#category__shoes-title",
       "vtex.menu@2.x:menu#shoes__subcategory"
@@ -19,6 +21,7 @@
     }
   },
   "flex-layout.col#gender__category--clothes": {
+    "title": "Category clothes",
     "children": [
       "rich-text#category__clothes-title",
       "vtex.menu@2.x:menu#clothes__subcategory"
@@ -28,6 +31,7 @@
     }
   },
   "flex-layout.col#gender__category--accessories": {
+    "title": "Category accesories",
     "children": [
       "rich-text#category__accessories-title",
       "vtex.menu@2.x:menu#accessories__subcategory"
@@ -37,6 +41,7 @@
     }
   },
   "flex-layout.col#gender__category--sports": {
+    "title": "Category sports",
     "children": [
       "rich-text#category__sports-title",
       "vtex.menu@2.x:menu#sports__subcategory"
@@ -46,6 +51,7 @@
     }
   },
   "flex-layout.col#gender__category--adidas-classics": {
+    "title": "Category adidas clasics",
     "children": [
       "rich-text#category__adidas-classics-title",
       "vtex.menu@2.x:menu#adidas-classics__subcategory"

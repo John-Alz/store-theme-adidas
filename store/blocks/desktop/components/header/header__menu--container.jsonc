@@ -1,6 +1,6 @@
 {
   "vtex.menu@2.x:menu#header__bottom--menu" : {
-    "title" : "header menu container",
+    "title" : "header menu bottom container",
     "props" : {
       "experimentalOptimizeRendering": true,
       "blockClass" : "header__bottom--menu"
@@ -15,6 +15,7 @@
     ]
   },
   "menu-item#department__gender--female": {
+    "title": "Department female",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",
@@ -33,6 +34,7 @@
     ]
   },
   "menu-item#department__gender--male": {
+    "title": "Department male",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",
@@ -51,6 +53,7 @@
     ]
   },
   "menu-item#department__gender--kids": {
+    "title": "Department kids",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",
@@ -69,6 +72,7 @@
     ]
   },
   "menu-item#department__news": {
+    "title": "Department news",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",
@@ -88,6 +92,7 @@
   },
 
   "menu-item#department__sports": {
+    "title": "Department sports",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",
@@ -106,6 +111,7 @@
     ]
   },
   "menu-item#department__adidas": {
+    "title": "Department adidas",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",

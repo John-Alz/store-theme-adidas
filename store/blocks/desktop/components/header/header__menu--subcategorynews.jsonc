@@ -1,12 +1,13 @@
 {
   "rich-text#category__new-men-title": {
+    "title": "Title category new men",
     "props": {
       "blockClass": "menu__category--title",
       "text": "NOVEDADES HOMBRE"
     }
   },
   "vtex.menu@2.x:menu#new-men__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "best products subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -19,13 +20,14 @@
     ]
   },
   "rich-text#category__new-women-title": {
+    "title": "Title category new women",
     "props": {
       "blockClass": "menu__category--title",
       "text": "NOVEDADES MUJER"
     }
   },
   "vtex.menu@2.x:menu#new-women__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "new women subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -38,13 +40,14 @@
     ]
   },
   "rich-text#category__kids-news-title": {
+    "title": "Title category kids new",
     "props": {
       "blockClass": "menu__category--title",
       "text": "NOVEDADES NIÑOS"
     }
   },
   "vtex.menu@2.x:menu#new-kids__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "kids new subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -57,13 +60,14 @@
     ]
   },
   "rich-text#category__sports-news-title": {
+    "title" : "sports news subcategory menu",
     "props": {
       "blockClass": "menu__category--title",
       "text": "DEPORTES"
     }
   },
   "vtex.menu@2.x:menu#sports-news__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "sports news subcategory-menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -76,13 +80,14 @@
     ]
   },
   "rich-text#category__collections-title": {
+    "title" : "collections subcategory menu",
     "props": {
       "blockClass": "menu__category--title",
       "text": "COLECCIONES"
     }
   },
   "vtex.menu@2.x:menu#collections__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "collections subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"

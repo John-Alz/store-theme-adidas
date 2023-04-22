@@ -22,11 +22,11 @@
 }
 
 .flexRowContent--header__bottom :nth-child(2n) {
-  flex-grow: .6;
+  flex-grow: .7;
 }
 
 .flexRowContent--header__bottom :nth-child(4n) {
-  flex-grow: .2;
+  flex-grow: .3;
 }
 
 .flexRowContent--header__bottom :nth-child(6n) {
@@ -35,9 +35,19 @@
 
 
 
-.flexRow--header__bottom--user {
-  padding-left: 10px;
+
+.flexRowContent--header__bottom--user :first-child {
+  padding-right: 2px;
 }
+
+.flexRowContent--header__bottom--user :nth-child(2n) {
+  padding-right: 2px;
+  transform: translateY(8px);
+}
+
+
+
+
 
 
 .flexColChild--header__menu--container {
@@ -67,6 +77,16 @@
   justify-content: space-between;
 }
 
+.flexRowContent--header__bottom--user {
+  display: flex;
+  padding-right: 20px;
+}
+
+
 .flexRowContent--header__bottom--user :nth-child(3n) {
   margin-right: 10px;
+}
+
+.flexRowContent--drawer-header :nth-child(2n) {
+  padding-right: 70px;
 }

@@ -1,3 +1,7 @@
+/* .logoImage {
+  transform: translateY(-10px);
+} */
+
 .searchBarContainer :global(.vtex-input-prefix__group ){
   width: 180px;
   height: 32px;

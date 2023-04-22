@@ -1,11 +1,13 @@
 {
   "rich-text#header__slider--one": {
+    "title": "slider section one",
     "props": {
       "blockClass": "text-message",
       "text": "✨COMPRA MÁS, AHORRA MÁS✨"
     }
   },
   "rich-text#header__slider--two": {
+    "title": "slider section two",
     "props": {
       "blockClass": "text-message",
     "text": "💎¡LAS COLABORACIONES DE ADIDAS SON UNA EXPRESIÓN DE CREATIVIDAD!💎"

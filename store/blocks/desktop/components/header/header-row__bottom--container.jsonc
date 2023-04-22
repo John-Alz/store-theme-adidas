@@ -1,5 +1,6 @@
 {
   "flex-layout.col#logo-desktop": {
+    "title": "logo adidas",
     "props": {
       "verticalAlign": "middle"
     },
@@ -15,6 +16,7 @@
     }
   },
   "flex-layout.col#spacer__desktop-one": {
+    "title": "spacer header one",
     "props": {
       "blockClass": "header__spacer-one"
     }
@@ -30,16 +32,16 @@
     }
   },
   "flex-layout.col#spacer__desktop-two": {
+    "title": "spacer header two",
     "props": {
-      "blockClass": "spacer__desktop-two"
-    }
+      "blockClass": "spacer__desktop-two"    }
   },
   "flex-layout.row#header__bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
-      "icon#home__user--login",
-      "image#home__user--favourites",
-      "image#home__user--cartshop"
+      "login",
+      "image#home__user--favourites" ,
+      "minicart.v2"
     ],
     "props" : {
       "blockClass" : "header__bottom--user",

@@ -1,12 +1,13 @@
 {
   "rich-text#category__best-products-title": {
+    "title": "Title best products",
     "props": {
       "blockClass": "menu__category--title",
       "text": "PRODUCTO DESTACADO"
     }
   },
   "vtex.menu@2.x:menu#best-products__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "best-products subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -26,13 +27,14 @@
     ]
   },
   "rich-text#category__shoes-title": {
+    "title": "Title shoes",
     "props": {
       "blockClass": "menu__category--title",
       "text": "CALZADO"
     }
   },
   "vtex.menu@2.x:menu#shoes__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "shoes subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -52,13 +54,14 @@
     ]
   },
   "rich-text#category__clothes-title": {
+    "title": "Title clothes",
     "props": {
       "blockClass": "menu__category--title",
       "text": "ROPA"
     }
   },
   "vtex.menu@2.x:menu#clothes__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "clothes subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -78,13 +81,14 @@
     ]
   },
   "rich-text#category__accessories-title": {
+    "title": "Title accesories",
     "props": {
       "blockClass": "menu__category--title",
       "text": "ACCESORIOS"
     }
   },
   "vtex.menu@2.x:menu#accessories__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "accesories subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -101,13 +105,14 @@
     ]
   },
   "rich-text#category__sports-title": {
+    "title": "Title sports",
     "props": {
       "blockClass": "menu__category--title",
       "text": "DEPORTES"
     }
   },
   "vtex.menu@2.x:menu#sports__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "sports subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"
@@ -126,13 +131,14 @@
     ]
   },
   "rich-text#category__adidas-classics-title": {
+    "title": "Title adidas clasics",
     "props": {
       "blockClass": "menu__category--title",
       "text": "CLASICOS DE ADIDAS"
     }
   },
   "vtex.menu@2.x:menu#adidas-classics__subcategory" : {
-    "title" : "best-products subcategory-menu",
+    "title" : "adidas-clasics subcategory menu",
     "props" : {
       "blockClass" : "",
       "orientation" : "vertical"

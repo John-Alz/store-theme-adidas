@@ -34,4 +34,6 @@
 .menuItem--menu__subcategory--name {
   font-size: 14px;
   padding-top: 3px;
+  flex-grow: 1;
 }
+
