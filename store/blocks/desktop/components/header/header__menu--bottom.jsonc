@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#menu__bottom": {
+    "title": "menu bottom",
+    "children": [
+      "rich-text#menu__bottom--products",
+      "rich-text#menu__bottom--shoes",
+      "rich-text#menu__bottom--clothes",
+      "rich-text#menu__bottom--accesories",
+      "rich-text#menu__bottom--sports"
+    ],
+    "props" : {
+      "blockClass" : "menu__bottom"
+    }
+  },
+  "rich-text#menu__bottom--products": {
+    "title": "menu bottom-products title",
+    "props": {
+      "text": "Todos los Productos",
+      "blockClass": "menu__bottom"
+    }
+  },
+  "rich-text#menu__bottom--shoes": {
+    "title": "menu bottom-shoes title",
+    "props": {
+      "text": "Todos el Calzado",
+      "blockClass": "menu__bottom-section"
+    }
+  },
+  "rich-text#menu__bottom--clothes": {
+    "title": "menu bottom-shoes title",
+    "props": {
+      "text": "Toda la Ropa",
+      "blockClass": "menu__bottom-section"
+    }
+  },
+  "rich-text#menu__bottom--accesories": {
+    "title": "menu bottom-accesories title",
+    "props": {
+      "text": "Todos los Accesorios",
+      "blockClass": "menu__bottom-section"
+    }
+  },
+  "rich-text#menu__bottom--sports": {
+    "title": "menu bottom-sports title",
+    "props": {
+      "text": "Todos los Deportes",
+      "blockClass": "menu__bottom-section"
+    }
+  }
+}

@@ -7,173 +7,112 @@
   },
   "header-layout.desktop": {
     "children": [
-      "slider-layout#header__slider--children",
-      // "rich-text#section-one",
+      "slider-layout#header__slider-top",
       "flex-layout.row#header__section--subheader",
-      "sticky-layout#desktop"
+      "flex-layout.row#desktop",
+      "rich-text#section-one"
     ]
   },
-  "slider-layout#header__slider--children": {
-    "title": "Slider con hijos declarados",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "mobile": 1
-      },
-      "infinite": true,
-      "blockClass": "header__slider",
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "autoplay": {
-        "timeout": 4000,
-        "stopOnHover": true
-      }
-    },
-    "children": [
-      "rich-text#header__slider--one",
-      "rich-text#header__slider--two"
-    ]
-  },
-  "rich-text#header__slider--one": {
-    "props": {
-      "blockClass": "text-message",
-      "text": "✨COMPRA MÁS, AHORRA MÁS✨"
-    }
-  },
-  "rich-text#header__slider--two": {
-    "props": {
-      "blockClass": "text-message",
-    "text": "💎¡LAS COLABORACIONES DE ADIDAS SON UNA EXPRESIÓN DE CREATIVIDAD!💎"
-    }
-  },
-  "flex-layout.row#header__section--subheader": {
-    "title": "sub header",
-    "children": [
-      "rich-text#section__one--text",
-      "rich-text#section__two--text",
-      "rich-text#section__three--text",
-      "rich-text#section__four--text"
-    ],
-    "props": {
-      "blockClass": "header__section--subheader",
-      "colSizing" : "auto"    }
-  },
-  "rich-text#section__one--text": {
-    "props": {
-      "text" : "ayuda",
-      "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
-    }
-  },
-  "rich-text#section__two--text": {
-    "props": {
-      "text" : "cambios y devoluciones",
-      "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
-    }
-  },
-  "rich-text#section__three--text": {
-    "props": {
-      "text" : "seguimiento de pedidos",
-      "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
-    }
-  },
-  "rich-text#section__four--text": {
-    "props": {
-      "text" : "unete al club",
-      "blockClass" : "header__support--text",
-      "textPosition" : "CENTER"
-    }
-  },
-  "rich-text#section-one": {
-    "title": "text section one",
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "texto de prueba.",
-      "textColor": "c-on-emphasis",
-      "font": "action--small",
-      "blockClass": "help-message"
-    }
-  },
-  "sticky-layout#desktop": {
-    "title": "header sticky",
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
-  },
+
   "flex-layout.row#desktop": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "header__bottom"
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
+      // "image#header__logo",
+      // "flex-layout.row#spacer",
+      "flex-layout.col#spacer__desktop-one",
+      "flex-layout.row#header__bottom--menu",
+      "flex-layout.col#spacer__desktop-two",
       "search-bar",
-      // "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.row#header__bottom--user"
     ]
   },
 
-  "flex-layout.col#spacer": {
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "width": "grow"
+      "openAutocompleteOnFocus": true
     }
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/header/adidas_logo.png",
-      "width": "65"
-    }
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
-    }
-  },
+
+
+
+
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": ["slider-layout#header__slider-top", "flex-layout.row#mobile", "rich-text#section-one"]
   },
   "flex-layout.row#mobile": {
+    "title": "header mobile",
     "children": [
       "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      // "flex-layout.col#spacer__desktop-one",
+      "flex-layout.col#logo-desktop",
+      // "flex-layout.col#spacer__desktop-two",
+      "flex-layout.row#header__bottom--user"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": ["main-header-mobile"],
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
   "drawer": {
-    "children": []
+    "title": "Mega menu mobile",
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
   }
 }
+

@@ -1,0 +1,1030 @@
+{
+  "menu-item#best-products__subcategory--point-one": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades mujer"
+      }
+  }
+},
+  "menu-item#best-products__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Los Mas Vendidos",
+        "text": "Los Mas Vendidos"
+      }
+  }
+  },
+  "menu-item#best-products__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Solo en adidas",
+        "text": "Solo en adidas"
+      }
+  }
+    },
+  "menu-item#best-products__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "KITS MUNDIAL FEMENINO FIFA 2023",
+        "text": "KITS MUNDIAL FEMENINO FIFA 2023"
+      }
+  }
+    },
+  "menu-item#best-products__subcategory--point-five": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Exclusivo Miembros",
+        "text": "Exclusivo Miembros"
+      }
+  }
+    },
+  "menu-item#best-products__subcategory--point-six": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Proximo Lanzamientos",
+        "text": "Proximo Lanzamientos"
+      }
+  }
+    },
+  "menu-item#best-products__subcategory--point-seven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Seleccion Colombia ¡Nuevo!",
+        "text": "Seleccion Colombia ¡Nuevo!"
+      }
+  }
+    },
+    "image#best-products__subcategory--point-eleven": {
+      "props" : {
+        "blockClass": "img__menu--subcategory",
+        "src" : "assets/img/menu/Colombia_tcm.jpg",
+        "maxWidth" : 130,
+        "maxHeight" : 120
+      }
+    },
+  "menu-item#best-products__subcategory--point-eight": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ultraboost light",
+        "text": "Ultraboost light"
+      }
+  }
+    },
+  "menu-item#best-products__subcategory--point-nine": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sportswear ¡Ropa comoda!",
+        "text": "portswear ¡Ropa comoda!"
+      }
+  }
+    },
+  "menu-item#best-products__subcategory--point-ten": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hasta 50% OFF",
+        "text": "Shop"
+      }
+  }
+},
+
+//Calzado
+
+  "menu-item#shoes__subcategory--point-one": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ver Todos los Tenis",
+        "text": "Ver Todos los Tenis"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Running",
+        "text": "Running"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Training",
+        "text": "Training"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-five": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outdoor",
+        "text": "Outdoor"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-six": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Guayos",
+        "text": "Guayos"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-seven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-eight": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chanclas",
+        "text": "Chanclas"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-nine": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Originals",
+        "text": "Originals"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-ten": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Samba",
+        "text": "Samba"
+      }
+  }
+},
+  "menu-item#shoes__subcategory--point-eleven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gazelle",
+        "text": "Gazelle"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-one": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hasta 50% OFF Ropa",
+        "text": "Hasta 50% OFF Ropa"
+      }
+  }
+  },
+  "menu-item#clothes__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Licras",
+        "text": "Licras"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-five": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chaquetas",
+        "text": "Chaquetas"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-six": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sueters y Buzos",
+        "text": "Sueters y Buzos"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-seven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-eight": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Camisetas de Futbol",
+        "text": "Camisetas de Futbol"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-nine": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sudaderas",
+        "text": "Sudaderas"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-ten": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "shorts"
+      }
+  }
+},
+  "menu-item#clothes__subcategory--point-eleven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Originals",
+        "text": "Originals"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-one": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hasta 50% OFF Accesorios",
+        "text": "Hasta 50% OFF Accesorios"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bolsos y Morrales",
+        "text": "Bolsos y Morrales"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Balones Copa Mundial",
+        "text": "Balones Copa Mundial"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-five": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Guantes",
+        "text": "Guantes"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-six": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gorras",
+        "text": "Gorras"
+      }
+  }
+},
+  "menu-item#accessories__subcategory--point-seven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Medias",
+        "text": "Medias"
+      }
+  }
+},
+  "menu-item#caccessories__subcategory--point-eight": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Botellas de Agua",
+        "text": "Botellas de Agua"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-one": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Running",
+        "text": "Running"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Futbol",
+        "text": "Futbol"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Training",
+        "text": "Training"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ciclismo",
+        "text": "Ciclismo"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-five": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tennis",
+        "text": "Tennis"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-six": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outdoor",
+        "text": "Outdoor"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-seven": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Natación",
+        "text": "Natación"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-eight": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Yoga",
+        "text": "Yoga"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-nine": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Basketball",
+        "text": "Basketball"
+      }
+  }
+},
+  "menu-item#sports__subcategory--point-ten": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Padel",
+        "text": "Padel"
+      }
+  }
+},
+"menu-item#sadidas-classics__subcategory--point-one": {
+  "props": {
+    "id": "menu-item-shop",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "menu__subcategory--name",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Superstar",
+      "text": "Superstar"
+    }
+}
+},
+"menu-item#adidas-classics__subcategory--point-two": {
+  "props": {
+    "id": "menu-item-shop",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "menu__subcategory--name",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Forum",
+      "text": "Forum"
+    }
+}
+},
+"menu-item#adidas-classics__subcategory--point-three": {
+  "props": {
+    "id": "menu-item-shop",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "menu__subcategory--name",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Stan Smith",
+      "text": "Stan Smith"
+    }
+}
+},
+"menu-item#adidas-classics__subcategory--point-four": {
+  "props": {
+    "id": "menu-item-shop",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "menu__subcategory--name",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Gazelle",
+      "text": "Gazelle"
+    }
+}
+},
+"menu-item#adidas-classics__subcategory--point-five": {
+  "props": {
+    "id": "menu-item-shop",
+    "type": "custom",
+    "highlight": false,
+    "blockClass": "menu__subcategory--name",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Samba",
+      "text": "Samba"
+    }
+}
+},
+ "image#adidas-classics__subcategory--point-six": {
+    "props" : {
+      "blockClass": "img__menu--subcategory",
+      "src" : "assets/img/menu/menu_final.jpg",
+      "maxWidth" : 120,
+      "maxHeight" : 120
+    }
+  },
+
+  //Next menu
+
+  "image#new-men__subcategory--point-one": {
+    "props" : {
+      "blockClass": "img__menu--subcategory",
+      "src" : "assets/img/menu/Hombre_tcm.jpg",
+      "maxWidth" : 200,
+      "maxHeight" : 120
+    }
+  },
+
+  "menu-item#new-men__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Calzado",
+        "text": "Calzado"
+      }
+  }
+  },
+  "menu-item#new-men__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      }
+  }
+  },
+  "menu-item#new-men__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+  }
+  },
+
+  "image#new-women__subcategory--point-one": {
+    "props" : {
+      "blockClass": "img__menu--subcategory",
+      "src" : "assets/img/menu/Mujer_tcm.jpg",
+      "maxWidth" : 200,
+      "maxHeight" : 120
+    }
+  },
+  "image#new-kids__subcategory--point-one": {
+    "props" : {
+      "blockClass": "img__menu--subcategory",
+      "src" : "assets/img/menu/Ninos_tcm.jpg",
+      "maxWidth" : 200,
+      "maxHeight" : 120
+    }
+  },
+  "image#sports-news__subcategory--point-one": {
+    "props" : {
+      "blockClass": "img__menu--subcategory",
+      "src" : "assets/img/menu/Deportes_tcm.jpg",
+      "maxWidth" : 200,
+      "maxHeight" : 120
+    }
+  },
+
+  "menu-item#sports-news__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Running",
+        "text": "Running"
+      }
+  }
+  },
+  "menu-item#sports-news__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Training",
+        "text": "Training"
+      }
+  }
+  },
+  "menu-item#sports-news__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Futbol",
+        "text": "Futbol"
+      }
+  }
+  },
+  "image#collections__subcategory--point-one": {
+    "props" : {
+      "blockClass": "img__menu--subcategory",
+      "src" : "assets/img/menu/Colecciones_tcm.jpg",
+      "maxWidth" : 200,
+      "maxHeight" : 120
+    }
+  },
+
+  "menu-item#collections__subcategory--point-two": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chapters",
+        "text": "Chapters"
+      }
+  }
+  },
+  "menu-item#collections__subcategory--point-three": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "adizero",
+        "text": "adizero"
+      }
+  }
+  },
+  "menu-item#collections__subcategory--point-four": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__subcategory--name",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Superstar",
+        "text": "Superstar"
+      }
+  }
+  }
+}
+
+
