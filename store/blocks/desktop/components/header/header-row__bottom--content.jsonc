@@ -11,27 +11,30 @@
     "title" : "header user section favorites logo",
     "props" : {
       "src" : "assets/img/header/userWishlist.svg",
-      "blockClass" : "home__user--logo",
-      "maxWidth" : 20,
-      "maxHeight": 24
+      "blockClass" : "home__favourite--logo",
+      "maxWidth" : 28,
+      "maxHeight": 28
     }
   },
-  "login": {
-    "title": "header login",
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "hideIconLabel": true
+  "icon#home__user--cart" : {
+    "title" : "header user section cart logo",
+    "props" : {
+      "id": "hpa-cart"
     }
   },
-
-  "minicart.v2": {
-    "props": {
-      "variation": "drawer"
+  "icon-cart#minicart__empty--cart" : {
+    "title" : "minicart cart logo",
+    "props" : {
+      "id": "icon-bag",
+      "size": 100
+    }
+  },
+  "icon#home__user--login" : {
+    "title" : "header user section login logo",
+    "props" : {
+      "id": "hpa-profile",
+      "blockClass": "icon__user--login",
+      "size": 20
     }
   }
 

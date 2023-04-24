@@ -10,7 +10,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/img/header/adidas_logo_two.svg",
+      "url": "assets/img/header/Adidas_logo_two.svg",
       "width": "93",
       "blockClass": "container-logo"
     }
@@ -39,7 +39,7 @@
   "flex-layout.row#header__bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
-      "login",
+      "modal-trigger#example",
       "image#home__user--favourites" ,
       "minicart.v2"
     ],
@@ -47,6 +47,28 @@
       "blockClass" : "header__bottom--user",
       "colSizing" : "auto",
       "colGap" : 7
+    }
+  },
+  "modal-trigger#example": {
+    "children": [
+      "icon#home__user--login" ,
+      "modal-layout#example"
+    ]
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "Click me"
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "login-content#modal__login"
+    ]
+  },
+  "login-content#modal__login" : {
+    "title" : "header modal login-content",
+    "props" : {
+      "defaultOption" : 0
     }
   }
 }

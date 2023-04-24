@@ -34,8 +34,6 @@
 }
 
 
-
-
 .flexRowContent--header__bottom--user :first-child {
   padding-right: 2px;
 }
@@ -82,6 +80,9 @@
   padding-right: 20px;
 }
 
+.flexRowContent--header__bottom--user :nth-child(2n) {
+  padding-left: 15px;
+}
 
 .flexRowContent--header__bottom--user :nth-child(3n) {
   margin-right: 10px;

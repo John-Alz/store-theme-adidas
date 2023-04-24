@@ -11,3 +11,33 @@
 .imageElement--img__menu--subcategory {
   transform: translateX(25px);
 }
+
+.imageElement--home__search--logo {
+  transform: translateY(3px);
+}
+
+.infoCardTextContainer--info-card-example {
+  margin-left: 150px;
+}
+
+.infoCardContainer--info-card-example {
+  height: 670px;
+  border: 0;
+
+}
+
+.infoCardHeadline--info-card-example {
+  color: #fff;
+  font-weight: 700;
+}
+.infoCardSubhead--info-card-example {
+  color: #fff;
+}
+
+.infoCardTextContainer--info-card-example :global(.vtex-button) {
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+}
+
+

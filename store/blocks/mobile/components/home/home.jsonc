@@ -1,29 +1,71 @@
 {
-  "responsive-layout.mobile#phone__and__tablet": {
-    "title": "Responsive Mobile",
-    "children": ["flex-layout.row#mobile__home"]
+  "store.home": {
+    "blocks": [
+      "info-card#one",
+      "search-result-layout.customQuery#home__search"
+    ]
   },
-
-  "flex-layout.row#mobile__home": {
-    "title": "Mobile Row with text",
+  "info-card#one__mobile": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/img3.jpg",
+      "headline": "HOME OFF CLASSICS",
+      "subhead": "Clásicos atemporales por una buena razon",
+      "callToActionText": "Comprar ahora",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "search-result-layout.customQuery#home__search": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
     "children": [
-      "rich-text#hello-vtex"
-    ],
-    "props": {
-      "marginTop": 10,
-      "border": ["top", "bottom"],
-      "borderWidth": 1,
-      "borderColor": "danger"
-    }
+      "flex-layout.row#search__result"
+    ]
   },
-
-  "rich-text#hello-vtex": {
-    "title": "Text of MOBILE",
-    "props": {
-      "text": "Éxisto en Tablet y Phone -->> VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
-    }
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": [
+      "flex-layout.row#search__result"
+    ]
+  },
+  "flex-layout.row#search__result": {
+    "children": [
+      "flex-layout.col#home__results--rearch"
+    ]
+  },
+  "flex-layout.col#home__results--rearch": {
+    "children": [
+      "search-content#home__results--search"
+    ]
+  },
+  "search-content#home__results--search": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button"
+    ]
   }
 }
