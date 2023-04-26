@@ -10,7 +10,7 @@
 
 .styledLinkContainer--menu__department--name-one,
 .styledLinkContainer--menu__department--name {
-  margin: 0 26px 0 0;
+  margin: 0 20px 0 0;
 }
 
 
@@ -23,17 +23,28 @@
 
 .styledLink--menu__department--name-one{
   font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 1.8px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
 }
 
 .styledLink--menu__department--name{
   font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
+  font-family: "AdihausDIN-Regular";
 }
 
 .menuItem--menu__subcategory--name {
   font-size: 14px;
   padding-top: 3px;
-  flex-grow: 1;
+}
+
+.styledLinkContent--menu__subcategory--name {
+  font-size: 14px;
+  color: #000;
+  font-family: "AdihausDIN-Regular";
 }
 

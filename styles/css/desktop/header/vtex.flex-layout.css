@@ -1,6 +1,5 @@
 .flexRowContent--header__section--subheader {
   padding-top: 4px;
-  gap: 20px;
   width: 400px;
   height: 1.8rem;
   float: right;
@@ -16,13 +15,14 @@
   padding: 0px 80px 0 285px;
 } */
 
+
 .flexRow--header__bottom {
   transform: translateY(-8px);
   height: 3.2rem;
 }
 
 .flexRowContent--header__bottom :nth-child(2n) {
-  flex-grow: .7;
+  flex-grow: .8;
 }
 
 .flexRowContent--header__bottom :nth-child(4n) {
@@ -35,11 +35,11 @@
 
 
 .flexRowContent--header__bottom--user :first-child {
-  padding-right: 2px;
+  padding-right: 5px;
 }
 
 .flexRowContent--header__bottom--user :nth-child(2n) {
-  padding-right: 2px;
+  padding-right: 15px;
   transform: translateY(8px);
 }
 
@@ -77,17 +77,17 @@
 
 .flexRowContent--header__bottom--user {
   display: flex;
-  padding-right: 20px;
 }
 
 .flexRowContent--header__bottom--user :nth-child(2n) {
   padding-left: 15px;
 }
 
-.flexRowContent--header__bottom--user :nth-child(3n) {
-  margin-right: 10px;
-}
 
 .flexRowContent--drawer-header :nth-child(2n) {
   padding-right: 70px;
+}
+
+.flexRow--main-header-mobile {
+  height: 65px;
 }

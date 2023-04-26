@@ -11,7 +11,7 @@
     "title" : "header user section favorites logo",
     "props" : {
       "src" : "assets/img/header/userWishlist.svg",
-      "blockClass" : "home__favourite--logo",
+      "blockClass" : "home__favorite--logo",
       "maxWidth" : 28,
       "maxHeight": 28
     }
@@ -20,6 +20,14 @@
     "title" : "header user section cart logo",
     "props" : {
       "id": "hpa-cart"
+    }
+  },
+  "icon#home__user--search" : {
+    "title" : "header user section cart logo",
+    "props" : {
+      "id": "icon-search",
+      "blockClass": "icon__user--search",
+      "size": 18
     }
   },
   "icon-cart#minicart__empty--cart" : {

@@ -1,0 +1,552 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop"]
+  },
+  "footer-layout.desktop": {
+    "children": ["rich-text#footer__section--one", "flex-layout.row#footer__section--two"]
+  },
+  "flex-layout.row#footer__section--two": {
+    "children": [
+      "flex-layout.col#footer__section--products",
+      "flex-layout.col#footer__section--deports",
+      "flex-layout.col#footer__section--attendance",
+      "flex-layout.col#footer__section--information"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "blockClass": "footer__section--two"
+    }
+  },
+  "flex-layout.col#footer__section--products": {
+    "children": [
+      "rich-text#footer__section--products",
+      "flex-layout.col#footer__item--one",
+      "flex-layout.col#footer__item--two",
+      "flex-layout.col#footer__item--three",
+      "flex-layout.col#footer__item--four",
+      "flex-layout.col#footer__item--five",
+      "flex-layout.col#footer__item--six",
+      "flex-layout.col#footer__item--seven",
+      "flex-layout.col#footer__item--eight",
+      "flex-layout.col#footer__item--nine",
+      "flex-layout.col#footer__item--ten",
+      "flex-layout.col#footer__item--eleven",
+      "flex-layout.col#footer__item--twelve",
+      "flex-layout.col#footer__item--thirteen",
+      "flex-layout.col#footer__item--fourteen",
+      "flex-layout.col#footer__item--fifteen"
+    ]
+  },
+  "rich-text#footer__section--products": {
+    "props": {
+      "text": "PRODUCTOS",
+      "blockClass": "footer__section--titles"
+    }
+  },
+  "flex-layout.col#footer__item--one": {
+    "children": [
+      "rich-text#footer__item--one"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--two": {
+    "children": [
+      "rich-text#footer__item--two"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--three": {
+    "children": [
+      "rich-text#footer__item--three"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--four": {
+    "children": [
+      "rich-text#footer__item--four"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--five": {
+    "children": [
+      "rich-text#footer__item--five"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--six": {
+    "children": [
+      "rich-text#footer__item--six"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--seven": {
+    "children": [
+      "rich-text#footer__item--eight"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--eight": {
+    "children": [
+      "rich-text#footer__item--nine"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--nine": {
+    "children": [
+      "rich-text#footer__item--ten"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--ten": {
+    "children": [
+      "rich-text#footer__item--ten"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--eleven": {
+    "children": [
+      "rich-text#footer__item--eleven"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--twelve": {
+    "children": [
+      "rich-text#footer__item--twelve"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--thirteen": {
+    "children": [
+      "rich-text#footer__item--thirteen"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--fourteen": {
+    "children": [
+      "rich-text#footer__item--fourteen"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--fifteen": {
+    "children": [
+      "rich-text#footer__item--fifteen"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "rich-text#footer__item--one": {
+    "props": {
+      "text": "Calzado",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--two": {
+    "props": {
+      "text": "Tenis",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--three": {
+    "props": {
+    "text": "Ropa",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--four": {
+    "props": {
+    "text": "Accesorios",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--five": {
+    "props": {
+    "text": "Guayos",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--six": {
+    "props": {
+    "text": "Rompevientos",
+    "blockClass": "footer__text--item--select"
+    }
+  },
+  "rich-text#footer__item--seven": {
+    "props": {
+    "text": "Sudaderas",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--eight": {
+    "props": {
+    "text": "Novedades",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--nine": {
+    "props": {
+    "text": "Black Friday",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--ten": {
+    "props": {
+    "text": "Outlet",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--eleven": {
+    "props": {
+    "text": "Hot Sale",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--twelve": {
+    "props": {
+    "text": "Cyber Lunes",
+    "blockClass": "footer__text--item--select"
+    }
+  },
+  "rich-text#footer__item--thirteen": {
+    "props": {
+    "text": "adiClub",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--fourteen": {
+    "props": {
+    "text": "adidas app",
+    "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--fifteen": {
+    "props": {
+    "text": "adidas Runners",
+    "blockClass": "footer__text--item"
+    }
+  },
+
+
+  "flex-layout.col#footer__section--deports": {
+    "children": [
+      "rich-text#footer__section--two-deports",
+      "flex-layout.col#footer__item--deports--one",
+      "flex-layout.col#footer__item--deports--two",
+      "flex-layout.col#footer__item--deports--three",
+      "flex-layout.col#footer__item--deports--four",
+      "flex-layout.col#footer__item--deports--five",
+      "flex-layout.col#footer__item--deports--six",
+      "rich-text#footer__section--two-collections",
+      "flex-layout.col#footer__item--collections--one",
+      "flex-layout.col#footer__item--collections--two",
+      "flex-layout.col#footer__item--collections--three",
+      "flex-layout.col#footer__item--collections--four",
+      "flex-layout.col#footer__item--collections--five",
+      "flex-layout.col#footer__item--collections--six"
+    ]
+  },
+  "rich-text#footer__section--two-deports": {
+    "props": {
+      "text": "DEPORTES",
+      "blockClass": "footer__section--titles"
+    }
+  },
+  "flex-layout.col#footer__item--deports--one": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--two": {
+    "children": [
+      "rich-text#footer__item--deports--two"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--three": {
+    "children": [
+      "rich-text#footer__item--deports--three"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--four": {
+    "children": [
+      "rich-text#footer__item--deports--four"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--five": {
+    "children": [
+      "rich-text#footer__item--deports--five"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--six": {
+    "children": [
+      "rich-text#footer__item--deports--six"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+
+  //collections
+
+  "rich-text#footer__section--two-collections": {
+    "props": {
+      "text": "COLLECTIONS",
+      "blockClass": "footer__section--titles"
+    }
+  },
+  "flex-layout.col#footer__item--collections--one": {
+    "children": [
+      "rich-text#footer__item--collections--one"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--collections--two": {
+    "children": [
+      "rich-text#footer__item--collections--two"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--collections--three": {
+    "children": [
+      "rich-text#footer__item--collections--three"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--collections--four":{
+    "children": [
+      "rich-text#footer__item--collections--four"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--collections--five": {
+    "children": [
+      "rich-text#footer__item--collections--five"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--collections--six": {
+    "children": [
+      "rich-text#footer__item--collections--six"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+
+  //
+  "rich-text#footer__item--deports--one": {
+    "props": {
+      "text": "Selección Colombia",
+      "blockClass": "footer__text--item"
+
+    }
+  },
+  "rich-text#footer__item--deports--two": {
+    "props": {
+      "text": "Millonarios",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--deports--three": {
+    "props": {
+      "text": "Futbol",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--deports--four": {
+    "props": {
+      "text": "Ciclismo",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--deports--five": {
+    "props": {
+      "text": "Running",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--deports--six": {
+    "props": {
+      "text": "Basketball",
+      "blockClass": "footer__text--item"
+    }
+  },
+
+  //Collections
+
+
+  "rich-text#footer__item--collections--one": {
+    "props": {
+      "text": "Ultraboost",
+      "blockClass": "footer__text--item"
+
+    }
+  },
+  "rich-text#footer__item--collections--two": {
+    "props": {
+      "text": "Originals",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--collections--three": {
+    "props": {
+      "text": "Forum",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--collections--four": {
+    "props": {
+      "text": "Stan Smith",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--collections--five": {
+    "props": {
+      "text": "adicolor",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--collections--six": {
+    "props": {
+      "text": "Superstar",
+      "blockClass": "footer__text--item"
+    }
+  },
+
+  //
+
+
+  "flex-layout.col#footer__section--attendance": {
+    "children": [
+      "rich-text#footer__section--two-attendance",
+      "flex-layout.col#footer__item--attendance--one",
+      "flex-layout.col#footer__item--attendance--two",
+      "flex-layout.col#footer__item--attendance--three"
+    ]
+  },
+  "rich-text#footer__section--two-attendance": {
+    "props": {
+      "text": "ASISTENCIA",
+      "blockClass": "footer__section--titles"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--one": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ]
+  },
+  "flex-layout.col#footer__item--attendance--two": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ]
+  },
+  "flex-layout.col#footer__item--attendance--three": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ]
+  },
+  "rich-text#footer__item--attendance--one": {
+    "props": {
+      "text": "hola"
+    }
+  },
+
+
+  "flex-layout.col#footer__section--information": {
+    "children": [
+      "rich-text#footer__section--two-information",
+      "flex-layout.col#footer__item--information--one",
+      "flex-layout.col#footer__item--information--two",
+      "flex-layout.col#footer__item--information--three"
+    ]
+  },
+  "rich-text#footer__section--two-information": {
+    "props": {
+      "text": "INFORMACIÓN DE <br/> LA EMPRESA",
+      "blockClass": "footer__section--titles"
+    }
+  },
+  "flex-layout.col#footer__item--information--one": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ]
+  },
+  "flex-layout.col#footer__item--information--two": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ]
+  },
+  "flex-layout.col#footer__item--information--three": {
+    "children": [
+      "rich-text#footer__item--deports--one"
+    ]
+  },
+  "rich-text#footer__item--information--one": {
+    "props": {
+      "text": "hola"
+    }
+  }
+
+
+
+  }
+
