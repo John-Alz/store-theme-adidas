@@ -21,7 +21,7 @@
   height: 3.2rem;
 }
 
-.flexRowContent--header__bottom :nth-child(2n) {
+/* .flexRowContent--header__bottom :nth-child(2n) {
   flex-grow: .8;
 }
 
@@ -31,7 +31,12 @@
 
 .flexRowContent--header__bottom :nth-child(6n) {
   flex-grow: 0;
-}
+} */
+
+/* .flexRowContent--header__bottom :global(){
+  flex: 1;
+} */
+
 
 
 

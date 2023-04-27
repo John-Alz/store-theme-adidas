@@ -43,7 +43,7 @@
     "title" : "header user section cart logo",
     "props" : {
       "id": "icon-search",
-      "blockClass": "icon__user--search",
+      "blockClass": "home__user--search",
       "size": 18
     }
   },
@@ -51,6 +51,7 @@
     "title" : "minicart cart logo",
     "props" : {
       "id": "icon-bag",
+      "blockClass": "minicart__empty--cart",
       "size": 100
     }
   },

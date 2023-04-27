@@ -1,5 +1,6 @@
 .logoImage {
   transform: translateY(-10px);
+  flex: 1;
 }
 
 .logoImage--container__logo--mobile {
@@ -11,6 +12,11 @@
   height: 32px;
   border-radius: 0;
 }
+
+/* .searchBarInnerContainer :global(.vtex-styleguide-9-x-input) {
+  background-attachment: red;
+} */
+
 
 
 .imageElement--img__menu--subcategory {
@@ -28,4 +34,8 @@
 .imageElement--header__favorite--logo {
   transform: translateY(-1px);
   margin-left: 15px;
+}
+
+.searchBarInnerContainer :global(.vtex-styleguide-9-x-input) {
+  background-attachment: red;
 }

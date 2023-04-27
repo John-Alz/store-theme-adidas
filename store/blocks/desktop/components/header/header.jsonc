@@ -119,6 +119,9 @@
     "blocks": [
         "drawer-trigger#mobile__icon--search"
     ],
+    "props": {
+      "slideDirection": "rightToLeft"
+    },
     "children": [
         "search-bar"
     ],

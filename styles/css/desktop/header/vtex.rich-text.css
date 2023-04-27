@@ -33,6 +33,9 @@
   background: #027bc6;
   padding: 14px;
 }
+.link--help-message {
+  color: #fff;
+}
 
 .paragraph--help-message {
   font-size: 16px;
@@ -46,4 +49,9 @@
   font-weight: bold;
   color: #000;
   font-family: "AdihusDIN-Bold";
+}
+
+.paragraph--minicart__empty--text {
+  color: #000;
+  font-family: "AdihausDIN-Regular";
 }
