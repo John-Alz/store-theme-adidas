@@ -1,8 +1,9 @@
 {
-  "minicart.v2": {
+  "minicart.v2#desktop__minicart--icon": {
     "props": {
       "variation": "drawer",
-      "itemcountMoe": "total"
+      "itemcountMoe": "total",
+      "blockClass": "desktop__minicart--icon"
     },
     "children": [
       "minicart-base-content"
@@ -44,4 +45,6 @@
       "minicart-checkout-button"
     ]
   }
+
+
 }

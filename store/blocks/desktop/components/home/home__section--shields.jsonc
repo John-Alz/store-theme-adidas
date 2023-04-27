@@ -1,0 +1,156 @@
+{
+  "rich-text#desktop__text--shields": {
+    "props": {
+      "text": "Encuentra a tu equipo",
+      "blockClass": "desktop__text--shields"
+    }
+  },
+
+
+  "flex-layout.row#desktop__shields": {
+    "children": [
+      "flex-layout.col#shield__colombia--one",
+      "flex-layout.col#shield__millonarios--one",
+      "flex-layout.col#shield__medellin--one",
+      "flex-layout.col#shield__junior--one",
+      "flex-layout.col#shield__arsenal--one",
+      "flex-layout.col#shield__madrid--one",
+      "flex-layout.col#shield__manchester--one",
+      "flex-layout.col#shield__juventus--one",
+      "flex-layout.col#shield__bayern--one"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "colJustify": "center",
+      "blockClass": "desktop__shields"
+    }
+  },
+
+  "flex-layout.col#shield__colombia--one": {
+    "children": [
+      "image#shield__colombia--img"
+    ]
+  },
+  "flex-layout.col#shield__millonarios--one":{
+    "children": [
+      "image#shield__millonarios--img"
+    ]
+  },
+  "flex-layout.col#shield__medellin--one":{
+    "children": [
+      "image#shield__medellin--img"
+    ]
+  },
+  "flex-layout.col#shield__junior--one":{
+    "children": [
+      "image#shield__junior--img"
+    ]
+  },
+  "flex-layout.col#shield__arsenal--one":{
+    "children": [
+      "image#shield__arsenal--img"
+    ]
+  },
+  "flex-layout.col#shield__madrid--one":{
+    "children": [
+      "image#shield__madrid--img"
+    ]
+  },
+  "flex-layout.col#shield__manchester--one":{
+    "children": [
+      "image#shield__manchester--img"
+    ]
+  },
+  "flex-layout.col#shield__juventus--one":{
+    "children": [
+      "image#shield__juventus--img"
+    ]
+  },
+  "flex-layout.col#shield__bayern--one":{
+    "children": [
+      "image#shield__bayern--img"
+    ]
+  },
+
+  "image#shield__colombia--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/colombia__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__millonarios--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/millonarios__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__medellin--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/medellin__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__junior--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/junior__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__arsenal--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/arsenal__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__madrid--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/madrid__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__manchester--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/manchester__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__juventus--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/juventus__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__bayern--img": {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/home/bayern__shield.jpg",
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  }
+}

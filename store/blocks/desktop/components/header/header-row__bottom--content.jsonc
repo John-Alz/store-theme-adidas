@@ -16,6 +16,23 @@
       "maxHeight": 28
     }
   },
+  "image#Header__user--favourites" : {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/header/userWishlist.svg",
+      "blockClass" : "header__favorite--logo",
+      "maxWidth" : 28,
+      "maxHeight": 28
+    }
+  },
+  "icon#home__user--favorites" : {
+    "title" : "header user section cart logo",
+    "props" : {
+      "id": "icon-favorites",
+      "size": 19,
+      "blockClass": "home__user--favorites"
+    }
+  },
   "icon#home__user--cart" : {
     "title" : "header user section cart logo",
     "props" : {
@@ -37,11 +54,11 @@
       "size": 100
     }
   },
-  "icon#home__user--login" : {
+  "icon#home__user--login": {
     "title" : "header user section login logo",
     "props" : {
       "id": "hpa-profile",
-      "blockClass": "icon__user--login",
+      "blockClass": "home__user--login",
       "size": 20
     }
   }

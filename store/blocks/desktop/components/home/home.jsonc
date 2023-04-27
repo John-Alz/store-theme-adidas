@@ -1,24 +1,16 @@
 {
-  "store.home": {
-    "blocks": [
-      "info-card#one",
-      "search-result-layout.customQuery#home__search"
-    ]
+  "responsive-layout.desktop#home__section-1": {
+    "title": "Home Section 1 Desktop",
+    "children": ["info-card#one","info-card#two","rich-text#desktop__text--shields", "flex-layout.row#desktop__shields", "search-result-layout.customQuery#home__search"]
   },
-  "info-card#one": {
-    "props": {
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "assets/img/home/home__image--desktop.jpg",
-      "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
-      "subhead": "Experimenta la primavera.",
-      "callToActionText": "VER AHORA",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-example",
-      "textAlignment": "center"
-    }
-  },
+
+  //
+
+
+
+
+  //
+
   "search-result-layout.customQuery#home__search": {
     "props": {
       "querySchema": {

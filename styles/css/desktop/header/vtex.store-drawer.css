@@ -1,0 +1,9 @@
+.drawerTriggerContainer {
+  transform: translateY(3px);
+  padding-right: 15px;
+
+}
+
+.openIconContainer {
+  padding: 0 !important;
+}

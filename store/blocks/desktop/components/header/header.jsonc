@@ -50,16 +50,15 @@
 
 
   "header-layout.mobile": {
-    "children": ["slider-layout#header__slider-top", "flex-layout.row#mobile"]
+    "children": ["slider-layout#header__slider-top", "flex-layout.row#mobile", "rich-text#section-one"]
   },
   "flex-layout.row#mobile": {
     "title": "header mobile",
     "children": [
-      "drawer",
-      // "image#home__user--favourites",
+      "flex-layout.row#header__mobile--section-one",
       "header-spacer",
       // "flex-layout.col#spacer__desktop-one",
-      "flex-layout.col#logo-desktop",
+      "logo#mobile",
       // "flex-layout.col#spacer__desktop-two",
       "flex-layout.row#header___mobile--bottom--user"
     ],
@@ -73,14 +72,38 @@
   "flex-layout.row#header___mobile--bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
-      "modal-trigger#example",
-      "drawer#search",
-      "minicart.v2"
+      "flex-layout.col#icon__mobile--profile",
+      "flex-layout.col#icon__mobile--search",
+      "flex-layout.col#icon__mobile--cart"
     ],
     "props" : {
       "blockClass" : "header__bottom--user",
       "colSizing" : "auto",
       "colGap" : 7
+    }
+  },
+  "flex-layout.col#icon__mobile--cart": {
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "icon__mobile--cart"
+    }
+  },
+  "flex-layout.col#icon__mobile--search": {
+    "children": [
+      "drawer#search"
+    ],
+    "props": {
+      "blockClass": "icon__mobile--search"
+    }
+  },
+  "flex-layout.col#icon__mobile--profile": {
+    "children": [
+      "modal-trigger#example"
+    ],
+    "props": {
+      "blockClass": "icon__mobile--profile"
     }
   },
   "image#home__user--search": {
@@ -124,6 +147,17 @@
       "defaultOption" : 0
     }
   },
+
+  "flex-layout.row#header__mobile--section-one": {
+    "children": [
+      "drawer",
+      "image#Header__user--favourites"
+    ],
+    "props": {
+      "blockClass": "header__mobile--section-one"
+    }
+  },
+
   "drawer": {
     "title": "Mega menu mobile",
     "children": [
