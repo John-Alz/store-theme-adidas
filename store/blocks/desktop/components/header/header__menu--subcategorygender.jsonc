@@ -30,6 +30,7 @@
     "title": "Title shoes",
     "props": {
       "blockClass": "menu__category--title",
+      "font": "t-heading-3",
       "text": "CALZADO"
     }
   },

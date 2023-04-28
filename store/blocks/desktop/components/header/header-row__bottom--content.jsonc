@@ -1,37 +1,66 @@
 {
-  // "image#home__user--login" : {
-  //   "title" : "header user-section cart logo",
-  //   "props" : {
-  //     "src" : "assets/img/header/userProfile.svg",
-  //     "blockClass" : "home__user--logo",
-  //     "maxWidth" : 20
-  //   }
-  // },
+  "image#home__user--login" : {
+    "title" : "header user-section cart logo",
+    "props" : {
+      "src" : "assets/img/header/userProfile.svg",
+      "blockClass" : "home__user--logo",
+      "maxWidth" : 20
+    }
+  },
   "image#home__user--favourites" : {
     "title" : "header user section favorites logo",
     "props" : {
       "src" : "assets/img/header/userWishlist.svg",
-      "blockClass" : "home__user--logo",
-      "maxWidth" : 20,
-      "maxHeight": 24
+      "blockClass" : "home__favorite--logo",
+      "maxWidth" : 28,
+      "maxHeight": 28
     }
   },
-  "login": {
-    "title": "header login",
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "hideIconLabel": true
+  "image#Header__user--favourites" : {
+    "title" : "header user section favorites logo",
+    "props" : {
+      "src" : "assets/img/header/userWishlist.svg",
+      "blockClass" : "header__favorite--logo",
+      "maxWidth" : 28,
+      "maxHeight": 28
     }
   },
-
-  "minicart.v2": {
-    "props": {
-      "variation": "drawer"
+  "icon#home__user--favorites" : {
+    "title" : "header user section cart logo",
+    "props" : {
+      "id": "icon-favorites",
+      "size": 19,
+      "blockClass": "home__user--favorites"
+    }
+  },
+  "icon#home__user--cart" : {
+    "title" : "header user section cart logo",
+    "props" : {
+      "id": "hpa-cart"
+    }
+  },
+  "icon#home__user--search" : {
+    "title" : "header user section cart logo",
+    "props" : {
+      "id": "icon-search",
+      "blockClass": "home__user--search",
+      "size": 18
+    }
+  },
+  "icon-cart#minicart__empty--cart" : {
+    "title" : "minicart cart logo",
+    "props" : {
+      "id": "icon-bag",
+      "blockClass": "minicart__empty--cart",
+      "size": 100
+    }
+  },
+  "icon#home__user--login": {
+    "title" : "header user section login logo",
+    "props" : {
+      "id": "hpa-profile",
+      "blockClass": "home__user--login",
+      "size": 20
     }
   }
 

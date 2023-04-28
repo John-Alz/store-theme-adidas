@@ -11,7 +11,8 @@
       "menu-item#department__gender--kids",
       "menu-item#department__news",
       "menu-item#department__sports",
-      "menu-item#department__adidas"
+      "menu-item#department__adidas",
+      "menu-item#department__week"
     ]
   },
   "menu-item#department__gender--female": {
@@ -123,6 +124,25 @@
         "noFollow": false,
         "tagTitle": "MUNDO ADIDAS",
         "text": "MUNDO ADIDAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__news"
+    ]
+  },
+  "menu-item#department__week": {
+    "title": "Department adidas",
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__department--week",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MEMBERS WEEK",
+        "text": "MEMBERS WEEK"
       }
     },
     "blocks": [

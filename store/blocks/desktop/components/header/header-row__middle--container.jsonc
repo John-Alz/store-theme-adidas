@@ -9,7 +9,8 @@
     ],
     "props": {
       "colSizing": "auto",
-      "blockClass": "header__section--subheader"
+      "blockClass": "header__section--subheader",
+      "fullWidth": "true"
     }
   }
 }

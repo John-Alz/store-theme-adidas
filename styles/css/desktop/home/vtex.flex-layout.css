@@ -3,3 +3,13 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
+
+.flexRow--desktop__shields {
+  background-color: rgb(235, 237, 238);
+}
+
+.flexRowContent--desktop__shields {
+  background-color: rgb(235, 237, 238);
+  padding-bottom: 25px;
+  gap: 20px;
+}

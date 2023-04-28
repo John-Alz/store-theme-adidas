@@ -1,0 +1,10 @@
+{
+  "rich-text#footer__section--one": {
+    "props": {
+      "text": "ÚNETE AL CLUB Y AHORRA UN 15%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "footer__section--one"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+
+  "flex-layout.row#desktop__footer--main": {
+    "children": [
+      "flex-layout.col#footer__section--three"
+    ]
+  },
+
+  "flex-layout.col#footer__section--three": {
+    "title" : "footer section-two container",
+    "children": [
+      "flex-layout.row#footerThree__group--one",
+      "flex-layout.row#footerThree__group--two"
+      // "rich-text#footer__copyright"
+    ],
+    "props" : {
+      "blockClass" : "footer__section--three",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.row#footerThree__group--two": {
+    "title" : "footer section-two group-one",
+    "children" : [
+      "rich-text#footerThree__li--one",
+      "rich-text#footerThree__li--two"
+    ],
+    "props" : {
+      "blockClass" : "footer__section--three",
+      "colSizing" : "auto",
+      "colGap" : 0
+    }
+  },
+
+  "flex-layout.row#footerThree__group--one" : {
+    "title" : "footer section-two group-one",
+    "children" : [
+      "rich-text#footerThree__li--one",
+      "rich-text#footerThree__li--two",
+      "rich-text#footerThree__li--three",
+      "rich-text#footerThree__li--four",
+      "rich-text#footerThree__li--five",
+      "rich-text#footerThree__li--six",
+      "rich-text#footerThree__li--seven",
+      "rich-text#footerThree__li--eight"
+    ],
+    "props" : {
+      "blockClass" : "footer__section--three",
+      "colSizing" : "auto",
+      "colGap" : 0
+    }
+  },
+  "rich-text#footerThree__li--one" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Nuestros Datos",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--two" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Términos y Condiciones",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--three" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Politica de Privacidad",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--four" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Terminos #YESadidas",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--five" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Seleccionar País",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--six" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Aviso de Privacidad",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--seven" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Uso del Sitio",
+      "blockClass" : "footer-li-three"
+    }
+  },
+  "rich-text#footerThree__li--eight" : {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "SIC",
+      "blockClass" : "footer-li-three"
+    }
+  }
+  // "rich-text#footer__copyright" : {
+  //   "title" : "footer section-two copyright",
+  //   "props" : {
+  //     "text" : "© 2022 adidas Colombia LTDA",
+  //     "blockClass" : "footer-copyright"
+  //   }
+  // }
+}

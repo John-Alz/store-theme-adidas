@@ -1,0 +1,34 @@
+.container--footer__section--one {
+  background: #ede734;
+  padding: 50px;
+}
+
+.paragraph--footer__section--one {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+
+.paragraph--footer__section--titles {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.paragraph--footer__text--item {
+  font-size: 13px;
+}
+.paragraph--footer__text--item--select {
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.container--footer__section--titles {
+  padding-bottom: 5px;
+}
+
+.paragraph--footer-li-three {
+  color: #fff;
+  font-family: "AdihausDIN-Regular";
+  font-size: 12px;
+  padding-top: 30px;
+}

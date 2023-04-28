@@ -1,0 +1,59 @@
+.infoCardTextContainer--info-card-example {
+  margin-left: 150px;
+}
+
+.infoCardContainer--info-card-example {
+  height: 670px;
+  border: 0;
+
+}
+
+.infoCardHeadline--info-card-example {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "adineuePRO-Bold";
+}
+.infoCardSubhead--info-card-example {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "AdihausDIN-Regular";
+}
+
+
+
+.infoCardTextContainer--info-card-example :global(.vtex-button) {
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "AdihausDIN-Regular";
+  height: 50px;
+  border: none;
+  border-radius: 0;
+}
+
+.infoCardTextContainer--info-card-example :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.infoCardTextContainer--info-card-example :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
