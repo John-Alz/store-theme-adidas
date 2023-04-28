@@ -25,3 +25,10 @@
 .container--footer__section--titles {
   padding-bottom: 5px;
 }
+
+.paragraph--footer-li-three {
+  color: #fff;
+  font-family: "AdihausDIN-Regular";
+  font-size: 12px;
+  padding-top: 30px;
+}

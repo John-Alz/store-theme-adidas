@@ -37,6 +37,14 @@
   font-family: "AdihausDIN-Regular";
 }
 
+.styledLink--menu__department--week {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #e32b2b;
+  font-family: "AdihausDIN-Regular";
+}
+
 .menuItem--menu__subcategory--name {
   font-size: 14px;
   padding-top: 3px;
@@ -48,3 +56,13 @@
   font-family: "AdihausDIN-Regular";
 }
 
+.styledLinkContainer--menu__department--week {
+  margin: 0 !important;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 1128px) {
+  .styledLinkContainer--menu__department--week {
+    padding-right: 1px; /* Reducimos el padding a la mitad cuando el ancho de la pantalla es menor o igual a 768px */
+  }
+}

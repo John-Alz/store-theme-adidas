@@ -29,7 +29,7 @@
       // "flex-layout.row#spacer",
       "flex-layout.col#spacer__desktop-one",
       "flex-layout.row#header__bottom--menu",
-      "flex-layout.col#spacer__desktop-two",
+      // "flex-layout.col#spacer__desktop-two",
       "search-bar",
       "flex-layout.row#header__bottom--user"
     ]
@@ -72,7 +72,7 @@
   "flex-layout.row#header___mobile--bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
-      "flex-layout.col#icon__mobile--profile",
+      "modal-trigger#mobile__profile--tigger",
       "flex-layout.col#icon__mobile--search",
       "flex-layout.col#icon__mobile--cart"
     ],
@@ -98,14 +98,14 @@
       "blockClass": "icon__mobile--search"
     }
   },
-  "flex-layout.col#icon__mobile--profile": {
-    "children": [
-      "modal-trigger#example"
-    ],
-    "props": {
-      "blockClass": "icon__mobile--profile"
-    }
-  },
+  // // "flex-layout.col#icon__mobile--profile": {
+  // //   "children": [
+  // //     "image#home__user--login"
+  // //   ],
+  // //   "props": {
+  // //     "blockClass": "icon__mobile--profile"
+  // //   }
+  // // },
   "image#home__user--search": {
     "title" : "header user section favorites logo",
   "props" : {
@@ -206,6 +206,33 @@
       "horizontalAlign": "left",
       "paddingLeft": 4
     }
-  }
+  },
+
+  //
+
+  "modal-trigger#mobile__profile--tigger": {
+    "children": [
+      "image#home__user--login",
+      "modal-layout#example"
+    ],
+    "props": {
+      "blockClass": "mobile__profile--tigger"
+    }
+  },
+  "modal-layout#mobile__profile--modal": {
+    "children": [
+      "login-content#modal__login"
+    ],
+    "props": {
+      "blockClass": "mobile__profile--modal"
+    }
+  },
+  "login-content#mobile__modal--content" : {
+    "title" : "header modal login-content",
+    "props" : {
+      "defaultOption" : 0,
+      "blockClass": "mobile__modal--content"
+    }
+}
 }
 

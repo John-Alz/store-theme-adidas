@@ -39,3 +39,16 @@
 .searchBarInnerContainer :global(.vtex-styleguide-9-x-input) {
   background-attachment: red;
 }
+
+.imageElement--home__user--logo  {
+  transform: translateY(-1px);
+}
+
+@media screen and (max-width: 640px) {
+
+  .imageElement--home__user--logo {
+    padding-right: 30px;
+  }
+
+ }
+

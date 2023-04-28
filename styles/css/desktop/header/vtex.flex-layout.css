@@ -3,7 +3,7 @@
   width: 400px;
   height: 1.8rem;
   float: right;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 .flexRowContent--header__bottom {
@@ -19,6 +19,7 @@
 .flexRow--header__bottom {
   transform: translateY(-8px);
   height: 3.2rem;
+  padding-right: 45px;
 }
 
 /* .flexRowContent--header__bottom :nth-child(2n) {
@@ -103,9 +104,7 @@
   padding-right: 15px;
 }
 
-.flexColChild--icon__desktop--cart {
-  padding-right: 20px;
-}
+
 
 .flexColChild--icon__mobile--search {
   transform: translateY(10px);
@@ -124,5 +123,4 @@
   display: flex;
   transform: translateY(3px);
 }
-
 

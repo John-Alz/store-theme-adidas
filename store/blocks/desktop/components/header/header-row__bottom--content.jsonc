@@ -1,12 +1,12 @@
 {
-  // "image#home__user--login" : {
-  //   "title" : "header user-section cart logo",
-  //   "props" : {
-  //     "src" : "assets/img/header/userProfile.svg",
-  //     "blockClass" : "home__user--logo",
-  //     "maxWidth" : 20
-  //   }
-  // },
+  "image#home__user--login" : {
+    "title" : "header user-section cart logo",
+    "props" : {
+      "src" : "assets/img/header/userProfile.svg",
+      "blockClass" : "home__user--logo",
+      "maxWidth" : 20
+    }
+  },
   "image#home__user--favourites" : {
     "title" : "header user section favorites logo",
     "props" : {

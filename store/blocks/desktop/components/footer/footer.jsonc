@@ -3,14 +3,15 @@
     "blocks": ["footer-layout.desktop"]
   },
   "footer-layout.desktop": {
-    "children": ["rich-text#footer__section--one", "flex-layout.row#footer__section--two"]
+    "children": ["rich-text#footer__section--one", "flex-layout.row#footer__section--two", "flex-layout.row#desktop__footer--main"]
   },
   "flex-layout.row#footer__section--two": {
     "children": [
       "flex-layout.col#footer__section--products",
       "flex-layout.col#footer__section--deports",
       "flex-layout.col#footer__section--attendance",
-      "flex-layout.col#footer__section--information"
+      "flex-layout.col#footer__section--information",
+      "flex-layout.col#footer__section--social"
     ],
     "props": {
       "colSizing": "auto",
@@ -36,7 +37,10 @@
       "flex-layout.col#footer__item--thirteen",
       "flex-layout.col#footer__item--fourteen",
       "flex-layout.col#footer__item--fifteen"
-    ]
+    ],
+    "props":{
+      "blockClass": "footer__section--products"
+    }
   },
   "rich-text#footer__section--products": {
     "props": {
@@ -271,7 +275,9 @@
       "flex-layout.col#footer__item--collections--three",
       "flex-layout.col#footer__item--collections--four",
       "flex-layout.col#footer__item--collections--five",
-      "flex-layout.col#footer__item--collections--six"
+      "flex-layout.col#footer__item--collections--six",
+      "flex-layout.col#footer__item--collections--seven",
+      "flex-layout.col#footer__item--collections--eigth"
     ]
   },
   "rich-text#footer__section--two-deports": {
@@ -326,6 +332,24 @@
     }
   },
   "flex-layout.col#footer__item--deports--six": {
+    "children": [
+      "rich-text#footer__item--deports--six"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--seven": {
+    "children": [
+      "rich-text#footer__item--deports--six"
+    ],
+    "props": {
+      "blockClass": "footer__section--item",
+      "preventVerticalStretch": "auto"
+    }
+  },
+  "flex-layout.col#footer__item--deports--eigth": {
     "children": [
       "rich-text#footer__item--deports--six"
     ],
@@ -391,6 +415,22 @@
       "blockClass": "footer__section--item"
     }
   },
+  "flex-layout.col#footer__item--collections--seven": {
+    // "children": [
+    //   "rich-text#footer__item--collections--seven"
+    // ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--collections--eigth": {
+    // "children": [
+    //   "rich-text#footer__item--collections--eigth"
+    // ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
 
   //
   "rich-text#footer__item--deports--one": {
@@ -427,7 +467,7 @@
   "rich-text#footer__item--deports--six": {
     "props": {
       "text": "Basketball",
-      "blockClass": "footer__text--item"
+      "blockClass": "footer__text--item--select"
     }
   },
 
@@ -471,6 +511,18 @@
       "blockClass": "footer__text--item"
     }
   },
+  // "rich-text#footer__item--collections--seven": {
+  //   "props": {
+  //     "text": "ㅤ⠀ㅤ",
+  //     "blockClass": "footer__text--transparent"
+  //   }
+  // },
+  // "rich-text#footer__item--collections--eigth": {
+  //   "props": {
+  //     "text": "ㅤ⠀ㅤ",
+  //     "blockClass": "footer__text--transparent"
+  //   }
+  // },
 
   //
 
@@ -480,7 +532,21 @@
       "rich-text#footer__section--two-attendance",
       "flex-layout.col#footer__item--attendance--one",
       "flex-layout.col#footer__item--attendance--two",
-      "flex-layout.col#footer__item--attendance--three"
+      "flex-layout.col#footer__item--attendance--three",
+      "flex-layout.col#footer__item--attendance--four",
+      "flex-layout.col#footer__item--attendance--five",
+      "flex-layout.col#footer__item--attendance--six",
+      "flex-layout.col#footer__item--attendance--seven",
+      "flex-layout.col#footer__item--attendance--eight",
+      "flex-layout.col#footer__item--attendance--nine",
+      "flex-layout.col#footer__item--attendance--ten",
+      "flex-layout.col#footer__item--attendance--eleven",
+      "flex-layout.col#footer__item--attendance--twelve",
+      "flex-layout.col#footer__item--attendance--thirteen",
+      "flex-layout.col#footer__item--attendance--fourteen",
+      "flex-layout.col#footer__item--attendance--fifteen",
+      "flex-layout.col#footer__item--attendance--sixteen",
+      "flex-layout.col#footer__item--attendance--seventeen"
     ]
   },
   "rich-text#footer__section--two-attendance": {
@@ -491,22 +557,204 @@
   },
   "flex-layout.col#footer__item--attendance--one": {
     "children": [
-      "rich-text#footer__item--deports--one"
-    ]
+      "rich-text#footer__item--attendance--one"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
   },
   "flex-layout.col#footer__item--attendance--two": {
     "children": [
-      "rich-text#footer__item--deports--one"
-    ]
+      "rich-text#footer__item--attendance--two"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
   },
   "flex-layout.col#footer__item--attendance--three": {
     "children": [
-      "rich-text#footer__item--deports--one"
-    ]
+      "rich-text#footer__item--attendance--three"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--four": {
+    "children": [
+      "rich-text#footer__item--attendance--four"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--five": {
+    "children": [
+      "rich-text#footer__item--attendance--five"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--six": {
+    "children": [
+      "rich-text#footer__item--attendance--six"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--seven": {
+    "children": [
+      "rich-text#footer__item--attendance--seven"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--eight": {
+    "children": [
+      "rich-text#footer__item--attendance--eight"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--nine": {
+    "children": [
+      "rich-text#footer__item--attendance--nine"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--ten": {
+    "children": [
+      "rich-text#footer__item--attendance--ten"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--eleven": {
+    "children": [
+      "rich-text#footer__item--attendance--eleven"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--twelve":{
+    "children": [
+      "rich-text#footer__item--attendance--twelve"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--thirteen": {
+    "children": [
+      "rich-text#footer__item--attendance--thirteen"
+    ],
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--fourteen": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--fifteen": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--sixteen": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--attendance--seventeen": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
   },
   "rich-text#footer__item--attendance--one": {
     "props": {
-      "text": "hola"
+      "text": "Dudas Frecuentes",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--two": {
+    "props": {
+      "text": "Guia de Tallas",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--three": {
+    "props": {
+      "text": "Realizar Pedidos",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--four": {
+    "props": {
+      "text": "Productos adidas",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--five": {
+    "props": {
+      "text": "Ventas por Whatsppp",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--six": {
+    "props": {
+      "text": "Pago",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--seven": {
+    "props": {
+      "text": "Envío",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--eight": {
+    "props": {
+      "text": "Solucionar mi Devolución",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--nine": {
+    "props": {
+      "text": "Devoluciones",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--ten": {
+    "props": {
+      "text": "Cambio en Tiendas",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--eleven": {
+    "props": {
+      "text": "Como Usar Nuestro Sitio",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--twelve": {
+    "props": {
+      "text": "Como Saber la Talla de tu Bra",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--attendance--thirteen": {
+    "props": {
+      "text": "Mapa del Sitio",
+      "blockClass": "footer__text--item"
     }
   },
 
@@ -516,7 +764,17 @@
       "rich-text#footer__section--two-information",
       "flex-layout.col#footer__item--information--one",
       "flex-layout.col#footer__item--information--two",
-      "flex-layout.col#footer__item--information--three"
+      "flex-layout.col#footer__item--information--three",
+      "rich-text#footer__section--two-stores",
+      "flex-layout.col#footer__item--stores--one",
+      "flex-layout.col#footer__item--stores--two",
+      "flex-layout.col#footer__item--stores--three",
+      "flex-layout.col#footer__item--stores--four",
+      "flex-layout.col#footer__item--stores--five",
+      "flex-layout.col#footer__item--stores--six",
+      "flex-layout.col#footer__item--stores--seven",
+      "flex-layout.col#footer__item--stores--eight",
+      "flex-layout.col#footer__item--stores--nine"
     ]
   },
   "rich-text#footer__section--two-information": {
@@ -527,26 +785,143 @@
   },
   "flex-layout.col#footer__item--information--one": {
     "children": [
-      "rich-text#footer__item--deports--one"
+      "rich-text#footer__item--information--one"
     ]
   },
   "flex-layout.col#footer__item--information--two": {
     "children": [
-      "rich-text#footer__item--deports--one"
+      "rich-text#footer__item--information--two"
     ]
   },
   "flex-layout.col#footer__item--information--three": {
     "children": [
-      "rich-text#footer__item--deports--one"
+      "rich-text#footer__item--information--three"
     ]
   },
   "rich-text#footer__item--information--one": {
     "props": {
-      "text": "hola"
+      "text": "Acerca de adidas",
+      "blockClass": "footer__text--item"
     }
-  }
+  },
+  "rich-text#footer__item--information--two": {
+    "props": {
+      "text": "Trabaja en Nuestro Equipo",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "rich-text#footer__item--information--three": {
+    "props": {
+      "text": "Prensa",
+      "blockClass": "footer__text--item--select"
+    }
+  },
 
+  //stores
+  "rich-text#footer__section--two-stores": {
+    "props": {
+      "text": "TIENDAS",
+      "blockClass": "footer__section--titles"
+    }
+  },
 
+  "flex-layout.col#footer__item--stores--one": {
+    "children": [
+      "rich-text#footer__item--store--one"
+    ]
+  },
+
+  "flex-layout.col#footer__item--stores--two": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--three": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--four": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--five": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--six": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--seven": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--eight": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+  "flex-layout.col#footer__item--stores--nine": {
+    "props": {
+      "blockClass": "footer__section--item"
+    }
+  },
+
+  "rich-text#footer__item--store--one": {
+    "props": {
+      "text": "Buscador de Tiendas",
+      "blockClass": "footer__text--item"
+    }
+  },
+
+  "flex-layout.col#footer__section--social": {
+    "children": [
+      "flex-layout.col#footer__text--social",
+      "flex-layout.col#footer__item--social"
+    ]
+  },
+
+  "flex-layout.col#footer__text--social": {
+    "children": [
+      "rich-text#footer__section--two-social"
+    ],
+    "props": {
+      "blockClass": "footer__text--social"
+    }
+  },
+
+  "rich-text#footer__section--two-social":{
+    "props": {
+      "text": "SIGUENOS",
+      "blockClass": "footer__section--titles"
+    }
+    },
+
+    "flex-layout.col#footer__item--social": {
+      "children": [
+        "social-networks#footer"
+      ],
+      "props": {
+        "blockClass": "footer__item--social"
+      }
+    },
+
+    "social-networks#footer": {
+      "title" : "footer social-network",
+      "props": {
+        "socialNetworks": [
+          { "url": "https://facebook.com/foo", "name": "Facebook" },
+          { "url": "https://twitter.com/foo", "name": "Twitter" },
+          { "url": "https://twitter.com/foo", "name": "Youtube" },
+          { "url": "https://twitter.com/foo", "name": "Pinterest" }
+        ]
+      }
+    }
 
   }
 

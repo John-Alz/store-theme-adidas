@@ -41,13 +41,13 @@
       "blockClass" : "header__bottom--menu"
     }
   },
-  "flex-layout.col#spacer__desktop-two": {
-    "title": "spacer header two",
-    "props": {
-      "blockClass": "spacer__desktop-two",
-      "width": "grow"
-    }
-  },
+  // "flex-layout.col#spacer__desktop-two": {
+  //   "title": "spacer header two",
+  //   "props": {
+  //     "blockClass": "spacer__desktop-two",
+  //     "width": "grow"
+  //   }
+  // },
   "flex-layout.row#header__bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
