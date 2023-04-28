@@ -1,0 +1,21 @@
+.flexRow--footer__section--two {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.flexRowContent--footer__section--two {
+  gap: 70px;
+}
+
+.flexCol--footer__section--item {
+  padding-top: 5px;
+}
+
+.flexRowContent--footer__section--three {
+  gap: 40px;
+}
+
+.flexCol--footer__section--three  {
+  background: #282c31;
+}
+

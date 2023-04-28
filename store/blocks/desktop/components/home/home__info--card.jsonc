@@ -1,0 +1,30 @@
+{
+  "info-card#one": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/home__image--desktop.jpg",
+      "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
+      "subhead": "Experimenta la primavera.",
+      "callToActionText": "VER AHORA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#two": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/home__image2--desktop.jpg",
+      "headline": "HOME OFF CLASSICS",
+      "subhead": "Clásicos atemporales por una buena razon",
+      "callToActionText": "Comprar ahora",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  }
+}

@@ -6,16 +6,23 @@
     color: #fff;
     font-size: 11px;
     font-weight: bold;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-family: "AdihausDIN-Regular";
 }
 
 .paragraph--header__support--text {
-  font-size: 11px;
+  font-size: 12px;
+  color: #000;
+  font-family: "AdihausDIN-Regular";
 }
 
 .container--menu__category--title {
   font-weight: bold;
   font-size: 14px;
   padding-top: 40px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
 }
 
 .wrapper--menu__category--title {
@@ -24,15 +31,27 @@
 
 .container--help-message {
   background: #027bc6;
-  padding: 15px;
+  padding: 14px;
+}
+.link--help-message {
+  color: #fff;
 }
 
 .paragraph--help-message {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "AdihausDIN-Regular";
 }
 
 .container--menu__bottom,
 .container--menu__bottom-section  {
   font-size: 14px;
   font-weight: bold;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+}
+
+.paragraph--minicart__empty--text {
+  color: #000;
+  font-family: "AdihausDIN-Regular";
 }

@@ -1,0 +1,6 @@
+{
+  "responsive-layout.mobile#header": {
+    "title": "header mobile",
+    "children": ["slider-layout#header__slider-top", "flex-layout.row#mobile"]
+  }
+}

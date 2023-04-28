@@ -10,15 +10,25 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/img/header/adidas_logo_two.svg",
+      "url": "assets/img/header/Adidas_logo_two.svg",
       "width": "93",
       "blockClass": "container-logo"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/header/adidas_logo.png",
+      "width": "50",
+      "blockClass": "container__logo--mobile"
     }
   },
   "flex-layout.col#spacer__desktop-one": {
     "title": "spacer header one",
     "props": {
-      "blockClass": "header__spacer-one"
+      "blockClass": "header__spacer-one",
+      "width": "grow"
     }
   },
   "flex-layout.row#header__bottom--menu" : {
@@ -31,22 +41,70 @@
       "blockClass" : "header__bottom--menu"
     }
   },
-  "flex-layout.col#spacer__desktop-two": {
-    "title": "spacer header two",
-    "props": {
-      "blockClass": "spacer__desktop-two"    }
-  },
+  // "flex-layout.col#spacer__desktop-two": {
+  //   "title": "spacer header two",
+  //   "props": {
+  //     "blockClass": "spacer__desktop-two",
+  //     "width": "grow"
+  //   }
+  // },
   "flex-layout.row#header__bottom--user" : {
     "title" : "header bottom-row user section",
     "children" : [
-      "login",
-      "image#home__user--favourites" ,
-      "minicart.v2"
+      // "modal-trigger#example",
+      // "icon#home__user--favorites"  ,
+      // "minicart.v2"
+      "flex-layout.row#icon__desktop--profile",
+      "flex-layout.col#icon__desktop--favorites",
+      "flex-layout.col#icon__desktop--cart"
     ],
     "props" : {
       "blockClass" : "header__bottom--user",
       "colSizing" : "auto",
       "colGap" : 7
     }
+  },
+  "flex-layout.col#icon__desktop--cart": {
+    "children": [
+      "minicart.v2#desktop__minicart--icon"
+    ],
+    "props": {
+      "blockClass": "icon__desktop--cart"
+    }
+  },
+  "flex-layout.row#icon__desktop--profile": {
+    "children": [
+      "modal-trigger#example"
+    ],
+    "props": {
+      "blockClass": "icon__desktop--profile",
+      "paddingRight": 0
+    }
+  },
+  "flex-layout.col#icon__desktop--favorites": {
+    "children": [
+      "icon#home__user--favorites"
+    ],
+    "props": {
+      "blockClass": "icon__desktop--favorites"
+    }
+  },
+  "modal-trigger#example": {
+    "children": [
+      "icon#home__user--login",
+      "modal-layout#example"
+    ]
+  },
+  "modal-layout#example": {
+    "children": [
+      "login-content#modal__login"
+    ]
+  },
+  "login-content#modal__login" : {
+    "title" : "header modal login-content",
+    "props" : {
+      "defaultOption" : 0
+    }
   }
+
 }
