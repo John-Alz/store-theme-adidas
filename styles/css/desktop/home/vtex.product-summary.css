@@ -2,3 +2,22 @@
   width: 170px;
   height: 190px;
 }
+
+/* .nameContainer--product__name {
+  justify-content: flex-start;
+  margin-left: 5px;
+} */
+
+.nameContainer--product__name {
+  padding-bottom: 0 !important;
+}
+
+.brandName--product__name, .price_installment--product__price {
+  color: #000;
+  font-size: 14px;
+  font-family: "AdihausDIN-Regular";
+}
+
+.priceContainer--product__price  {
+  padding-top: 0 !important;
+}

@@ -1,13 +1,9 @@
 {
   "store.home": {
-    "title": "Store home",
+    "title" : "home global container",
     "blocks": [
-      "info-card#one",
-      "info-card#two",
-      "rich-text#desktop__text--shields",
-      "flex-layout.row#desktop__shields",
-      // "search-result-layout.customQuery#home__search",
-      "flex-layout.row#home__shelf"
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
     ]
   }
 }

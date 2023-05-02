@@ -3,9 +3,11 @@
     "blocks": ["footer-layout.desktop"]
   },
   "footer-layout.desktop": {
+    "title": "footer desktop",
     "children": ["rich-text#footer__section--one", "flex-layout.row#footer__section--two", "flex-layout.row#desktop__footer--main"]
   },
   "flex-layout.row#footer__section--two": {
+    "title": "footer desktop middle",
     "children": [
       "flex-layout.col#footer__section--products",
       "flex-layout.col#footer__section--deports",
@@ -20,6 +22,7 @@
     }
   },
   "flex-layout.col#footer__section--products": {
+    "title": "footer middle section products",
     "children": [
       "rich-text#footer__section--products",
       "flex-layout.col#footer__item--one",
@@ -43,12 +46,14 @@
     }
   },
   "rich-text#footer__section--products": {
+    "title": "footer middle title products",
     "props": {
       "text": "PRODUCTOS",
       "blockClass": "footer__section--titles"
     }
   },
   "flex-layout.col#footer__item--one": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--one"
     ],
@@ -57,6 +62,7 @@
     }
   },
   "flex-layout.col#footer__item--two": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--two"
     ],
@@ -65,6 +71,7 @@
     }
   },
   "flex-layout.col#footer__item--three": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--three"
     ],
@@ -73,6 +80,7 @@
     }
   },
   "flex-layout.col#footer__item--four": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--four"
     ],
@@ -81,6 +89,7 @@
     }
   },
   "flex-layout.col#footer__item--five": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--five"
     ],
@@ -89,6 +98,7 @@
     }
   },
   "flex-layout.col#footer__item--six": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--six"
     ],
@@ -97,6 +107,7 @@
     }
   },
   "flex-layout.col#footer__item--seven": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--eight"
     ],
@@ -105,6 +116,7 @@
     }
   },
   "flex-layout.col#footer__item--eight": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--nine"
     ],
@@ -113,6 +125,7 @@
     }
   },
   "flex-layout.col#footer__item--nine": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--ten"
     ],
@@ -121,6 +134,7 @@
     }
   },
   "flex-layout.col#footer__item--ten": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--ten"
     ],
@@ -129,6 +143,7 @@
     }
   },
   "flex-layout.col#footer__item--eleven": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--eleven"
     ],
@@ -137,6 +152,7 @@
     }
   },
   "flex-layout.col#footer__item--twelve": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--twelve"
     ],
@@ -145,6 +161,7 @@
     }
   },
   "flex-layout.col#footer__item--thirteen": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--thirteen"
     ],
@@ -153,6 +170,7 @@
     }
   },
   "flex-layout.col#footer__item--fourteen": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--fourteen"
     ],
@@ -161,6 +179,7 @@
     }
   },
   "flex-layout.col#footer__item--fifteen": {
+    "title": "footer middle items products",
     "children": [
       "rich-text#footer__item--fifteen"
     ],
@@ -169,90 +188,105 @@
     }
   },
   "rich-text#footer__item--one": {
+    "title": "footer middle text products",
     "props": {
       "text": "Calzado",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--two": {
+    "title": "footer middle text products",
     "props": {
       "text": "Tenis",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--three": {
+    "title": "footer middle text products",
     "props": {
     "text": "Ropa",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--four": {
+    "title": "footer middle text products",
     "props": {
     "text": "Accesorios",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--five": {
+    "title": "footer middle text products",
     "props": {
     "text": "Guayos",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--six": {
+    "title": "footer middle text products",
     "props": {
     "text": "Rompevientos",
     "blockClass": "footer__text--item--select"
     }
   },
   "rich-text#footer__item--seven": {
+    "title": "footer middle text products",
     "props": {
     "text": "Sudaderas",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--eight": {
+    "title": "footer middle text products",
     "props": {
     "text": "Novedades",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--nine": {
+    "title": "footer middle text products",
     "props": {
     "text": "Black Friday",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--ten": {
+    "title": "footer middle text products",
     "props": {
     "text": "Outlet",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--eleven": {
+    "title": "footer middle text products",
     "props": {
     "text": "Hot Sale",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--twelve": {
+    "title": "footer middle text products",
     "props": {
     "text": "Cyber Lunes",
     "blockClass": "footer__text--item--select"
     }
   },
   "rich-text#footer__item--thirteen": {
+    "title": "footer middle text products",
     "props": {
     "text": "adiClub",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--fourteen": {
+    "title": "footer middle text products",
     "props": {
     "text": "adidas app",
     "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--fifteen": {
+    "title": "footer middle text products",
     "props": {
     "text": "adidas Runners",
     "blockClass": "footer__text--item"
@@ -261,6 +295,7 @@
 
 
   "flex-layout.col#footer__section--deports": {
+    "title": "footer middle section deports",
     "children": [
       "rich-text#footer__section--two-deports",
       "flex-layout.col#footer__item--deports--one",
@@ -281,12 +316,14 @@
     ]
   },
   "rich-text#footer__section--two-deports": {
+    "title": "footer middle title deports",
     "props": {
       "text": "DEPORTES",
       "blockClass": "footer__section--titles"
     }
   },
   "flex-layout.col#footer__item--deports--one": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--one"
     ],
@@ -296,6 +333,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--two": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--two"
     ],
@@ -305,6 +343,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--three": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--three"
     ],
@@ -314,6 +353,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--four": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--four"
     ],
@@ -323,6 +363,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--five": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--five"
     ],
@@ -332,6 +373,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--six": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--six"
     ],
@@ -341,6 +383,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--seven": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--six"
     ],
@@ -350,6 +393,7 @@
     }
   },
   "flex-layout.col#footer__item--deports--eigth": {
+    "title": "footer middle items deports",
     "children": [
       "rich-text#footer__item--deports--six"
     ],
@@ -362,12 +406,14 @@
   //collections
 
   "rich-text#footer__section--two-collections": {
+    "title": "footer middle title collections",
     "props": {
       "text": "COLLECTIONS",
       "blockClass": "footer__section--titles"
     }
   },
   "flex-layout.col#footer__item--collections--one": {
+    "title": "footer middle items collections",
     "children": [
       "rich-text#footer__item--collections--one"
     ],
@@ -376,6 +422,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--two": {
+    "title": "footer middle items collections",
     "children": [
       "rich-text#footer__item--collections--two"
     ],
@@ -384,6 +431,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--three": {
+    "title": "footer middle items collections",
     "children": [
       "rich-text#footer__item--collections--three"
     ],
@@ -392,6 +440,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--four":{
+    "title": "footer middle items collections",
     "children": [
       "rich-text#footer__item--collections--four"
     ],
@@ -400,6 +449,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--five": {
+    "title": "footer middle items collections",
     "children": [
       "rich-text#footer__item--collections--five"
     ],
@@ -408,6 +458,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--six": {
+    "title": "footer middle items collections",
     "children": [
       "rich-text#footer__item--collections--six"
     ],
@@ -416,6 +467,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--seven": {
+    "title": "footer middle items collections",
     // "children": [
     //   "rich-text#footer__item--collections--seven"
     // ],
@@ -424,6 +476,7 @@
     }
   },
   "flex-layout.col#footer__item--collections--eigth": {
+    "title": "footer middle items collections",
     // "children": [
     //   "rich-text#footer__item--collections--eigth"
     // ],
@@ -434,6 +487,7 @@
 
   //
   "rich-text#footer__item--deports--one": {
+    "title": "footer middle text deports",
     "props": {
       "text": "Selección Colombia",
       "blockClass": "footer__text--item"
@@ -441,30 +495,35 @@
     }
   },
   "rich-text#footer__item--deports--two": {
+    "title": "footer middle text deports",
     "props": {
       "text": "Millonarios",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--deports--three": {
+    "title": "footer middle text deports",
     "props": {
       "text": "Futbol",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--deports--four": {
+    "title": "footer middle text deports",
     "props": {
       "text": "Ciclismo",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--deports--five": {
+    "title": "footer middle text deports",
     "props": {
       "text": "Running",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--deports--six": {
+    "title": "footer middle text deports",
     "props": {
       "text": "Basketball",
       "blockClass": "footer__text--item--select"
@@ -475,6 +534,7 @@
 
 
   "rich-text#footer__item--collections--one": {
+    "title": "footer middle text collections",
     "props": {
       "text": "Ultraboost",
       "blockClass": "footer__text--item"
@@ -482,52 +542,46 @@
     }
   },
   "rich-text#footer__item--collections--two": {
+    "title": "footer middle text collections",
     "props": {
       "text": "Originals",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--collections--three": {
+    "title": "footer middle text collections",
     "props": {
       "text": "Forum",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--collections--four": {
+    "title": "footer middle text collections",
     "props": {
       "text": "Stan Smith",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--collections--five": {
+    "title": "footer middle text collections",
     "props": {
       "text": "adicolor",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--collections--six": {
+    "title": "footer middle text collections",
     "props": {
       "text": "Superstar",
       "blockClass": "footer__text--item"
     }
   },
-  // "rich-text#footer__item--collections--seven": {
-  //   "props": {
-  //     "text": "ㅤ⠀ㅤ",
-  //     "blockClass": "footer__text--transparent"
-  //   }
-  // },
-  // "rich-text#footer__item--collections--eigth": {
-  //   "props": {
-  //     "text": "ㅤ⠀ㅤ",
-  //     "blockClass": "footer__text--transparent"
-  //   }
-  // },
 
   //
 
 
   "flex-layout.col#footer__section--attendance": {
+    "title": "footer middle section attendance",
     "children": [
       "rich-text#footer__section--two-attendance",
       "flex-layout.col#footer__item--attendance--one",
@@ -550,12 +604,14 @@
     ]
   },
   "rich-text#footer__section--two-attendance": {
+    "title": "footer middle title attendance",
     "props": {
       "text": "ASISTENCIA",
       "blockClass": "footer__section--titles"
     }
   },
   "flex-layout.col#footer__item--attendance--one": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--one"
     ],
@@ -564,6 +620,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--two": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--two"
     ],
@@ -572,6 +629,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--three": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--three"
     ],
@@ -580,6 +638,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--four": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--four"
     ],
@@ -588,6 +647,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--five": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--five"
     ],
@@ -596,6 +656,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--six": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--six"
     ],
@@ -604,6 +665,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--seven": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--seven"
     ],
@@ -612,6 +674,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--eight": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--eight"
     ],
@@ -620,6 +683,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--nine": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--nine"
     ],
@@ -628,6 +692,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--ten": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--ten"
     ],
@@ -636,6 +701,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--eleven": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--eleven"
     ],
@@ -644,6 +710,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--twelve":{
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--twelve"
     ],
@@ -652,6 +719,7 @@
     }
   },
   "flex-layout.col#footer__item--attendance--thirteen": {
+    "title": "footer middle items attendance",
     "children": [
       "rich-text#footer__item--attendance--thirteen"
     ],
@@ -660,98 +728,115 @@
     }
   },
   "flex-layout.col#footer__item--attendance--fourteen": {
+    "title": "footer middle items attendance",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--attendance--fifteen": {
+    "title": "footer middle items attendance",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--attendance--sixteen": {
+    "title": "footer middle items attendance",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--attendance--seventeen": {
+    "title": "footer middle items attendance",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "rich-text#footer__item--attendance--one": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Dudas Frecuentes",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--two": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Guia de Tallas",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--three": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Realizar Pedidos",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--four": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Productos adidas",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--five": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Ventas por Whatsppp",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--six": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Pago",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--seven": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Envío",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--eight": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Solucionar mi Devolución",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--nine": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Devoluciones",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--ten": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Cambio en Tiendas",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--eleven": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Como Usar Nuestro Sitio",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--twelve": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Como Saber la Talla de tu Bra",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--attendance--thirteen": {
+    "title": "footer middle text attendance",
     "props": {
       "text": "Mapa del Sitio",
       "blockClass": "footer__text--item"
@@ -760,6 +845,7 @@
 
 
   "flex-layout.col#footer__section--information": {
+    "title": "footer middle section information",
     "children": [
       "rich-text#footer__section--two-information",
       "flex-layout.col#footer__item--information--one",
@@ -778,39 +864,46 @@
     ]
   },
   "rich-text#footer__section--two-information": {
+    "title": "footer middle title information",
     "props": {
       "text": "INFORMACIÓN DE <br/> LA EMPRESA",
       "blockClass": "footer__section--titles"
     }
   },
   "flex-layout.col#footer__item--information--one": {
+    "title": "footer middle items information",
     "children": [
       "rich-text#footer__item--information--one"
     ]
   },
   "flex-layout.col#footer__item--information--two": {
+    "title": "footer middle items information",
     "children": [
       "rich-text#footer__item--information--two"
     ]
   },
   "flex-layout.col#footer__item--information--three": {
+    "title": "footer middle items information",
     "children": [
       "rich-text#footer__item--information--three"
     ]
   },
   "rich-text#footer__item--information--one": {
+    "title": "footer middle text information",
     "props": {
       "text": "Acerca de adidas",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--information--two": {
+    "title": "footer middle text information",
     "props": {
       "text": "Trabaja en Nuestro Equipo",
       "blockClass": "footer__text--item"
     }
   },
   "rich-text#footer__item--information--three": {
+    "title": "footer middle text information",
     "props": {
       "text": "Prensa",
       "blockClass": "footer__text--item--select"
@@ -819,6 +912,7 @@
 
   //stores
   "rich-text#footer__section--two-stores": {
+    "title": "footer middle title stores",
     "props": {
       "text": "TIENDAS",
       "blockClass": "footer__section--titles"
@@ -826,102 +920,239 @@
   },
 
   "flex-layout.col#footer__item--stores--one": {
+    "title": "footer middle items stores",
     "children": [
       "rich-text#footer__item--store--one"
     ]
   },
 
   "flex-layout.col#footer__item--stores--two": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--three": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--four": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--five": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--six": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--seven": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--eight": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
   "flex-layout.col#footer__item--stores--nine": {
+    "title": "footer middle items stores",
     "props": {
       "blockClass": "footer__section--item"
     }
   },
 
   "rich-text#footer__item--store--one": {
+    "title": "footer middle text store",
     "props": {
       "text": "Buscador de Tiendas",
       "blockClass": "footer__text--item"
     }
   },
 
+
+
   "flex-layout.col#footer__section--social": {
+    "title": "footer middle section social",
     "children": [
-      "flex-layout.col#footer__text--social",
-      "flex-layout.col#footer__item--social"
+      "rich-text#footer__section--two-social",
+      "flex-layout.col#footer__item--social--one",
+      "flex-layout.col#footer__item--social--two",
+      "flex-layout.col#footer__item--social--three",
+      "flex-layout.col#footer__item--social--four",
+      "flex-layout.col#footer__item--social--five",
+      "flex-layout.col#footer__item--social--six",
+      "flex-layout.col#footer__item--social--seven",
+      "flex-layout.col#footer__item--social--eight",
+      "flex-layout.col#footer__item--social--nine",
+      "flex-layout.col#footer__item--social--ten",
+      "flex-layout.col#footer__item--social--eleven",
+      "flex-layout.col#footer__item--social--twelve"
     ]
   },
 
-  "flex-layout.col#footer__text--social": {
-    "children": [
-      "rich-text#footer__section--two-social"
-    ],
-    "props": {
-      "blockClass": "footer__text--social"
-    }
-  },
-
-  "rich-text#footer__section--two-social":{
+  "rich-text#footer__section--two-social": {
+    "title": "footer middle title social",
     "props": {
       "text": "SIGUENOS",
       "blockClass": "footer__section--titles"
     }
-    },
+  },
+  "flex-layout.col#footer__item--social--one": {
+    "title": "footer middle items social",
+    "children": [
+      "image#footer__item--social--one"
+    ]
+  },
+  "flex-layout.col#footer__item--social--two": {
+    "title": "footer middle items social",
+    "children": [
+      "image#footer__item--social--two"
+    ]
+  },
+  "flex-layout.col#footer__item--social--three": {
+    "title": "footer middle items social",
+    "children": [
+      "image#footer__item--social--three"
+    ]
+  },
+  "flex-layout.col#footer__item--social--four": {
+    "title": "footer middle items social",
+    "children": [
+      "image#footer__item--social--four"
+    ]
+  },
+  "flex-layout.col#footer__item--social--five": {
+    "title": "footer middle items social",
+    "children": [
+      "image#footer__item--social--five"
+    ]
+  },
+  "flex-layout.col#footer__item--social--six": {
+    "title": "footer middle items social",
+    "children": [
+      "image#footer__item--social--six"
+    ]
+  },
 
-    "flex-layout.col#footer__item--social": {
-      "children": [
-        "social-networks#footer"
-      ],
-      "props": {
-        "blockClass": "footer__item--social"
-      }
-    },
+  "flex-layout.col#footer__item--social--seven": {
+    "title": "footer middle items social"
+  },
+  "flex-layout.col#footer__item--social--eight": {
+    "title": "footer middle items social"
+  },
+  "flex-layout.col#footer__item--social--nine":{
+    "title": "footer middle items social"
+  },
+  "flex-layout.col#footer__item--social--ten":{
+    "title": "footer middle items social"
+  },
+  "flex-layout.col#footer__item--social--eleven":{
+    "title": "footer middle items social"
+  },
+  "flex-layout.col#footer__item--social--twelve":{
+    "title": "footer middle items social"
+  },
 
-    "social-networks#footer": {
-      "title" : "footer social-network",
-      "props": {
-        "socialNetworks": [
-          { "url": "https://facebook.com/foo", "name": "Facebook" },
-          { "url": "https://twitter.com/foo", "name": "Twitter" },
-          { "url": "https://twitter.com/foo", "name": "Youtube" },
-          { "url": "https://twitter.com/foo", "name": "Pinterest" }
-        ]
-      }
+
+  "image#footer__item--social--one": {
+    "title": "footer middle text social",
+    "props": {
+      "src": "assets/img/footer/facebook_image_footer.jpg",
+      "blockClass": "footer__text--item"
     }
+  },
+  "image#footer__item--social--two": {
+    "title": "footer middle text social",
+    "props": {
+      "src": "assets/img/footer/instagram_image_footer.jpg",
+      "blockClass": "footer__text--item"
+    }
+  },
+  "image#footer__item--social--three": {
+    "title": "footer middle text social",
+    "props": {
+      "src": "assets/img/footer/twitter_image_footer.jpg",
+      "blockClass": "footer__text--item--select"
+    }
+  },
+  "image#footer__item--social--four": {
+    "title": "footer middle text social",
+    "props": {
+      "src": "assets/img/footer/pinterest_logo_footer.jpg",
+      "blockClass": "footer__text--item--select"
+    }
+  },
+  "image#footer__item--social--five": {
+    "title": "footer middle text social",
+    "props": {
+      "src": "assets/img/footer/tiktok_logo_footer.jpg",
+      "blockClass": "footer__text--item--select"
+    }
+  },
+  "image#footer__item--social--six": {
+    "title": "footer middle text social",
+    "props": {
+      "src": "assets/img/footer/youtube_logo_footer.jpg",
+      "blockClass": "footer__text--item--select"
+    }
+  }
+
+
+
+
+  // "flex-layout.col#footer__text--social": {
+  //   "title": "footer middle title container social",
+  //   "children": [
+  //     "rich-text#footer__section--two-social"
+  //   ],
+  //   "props": {
+  //     "blockClass": "footer__text--social"
+  //   }
+  // },
+
+  // "rich-text#footer__section--two-social":{
+  //   "title": "footer middle title social",
+  //   "props": {
+  //     "text": "SIGUENOS",
+  //     "blockClass": "footer__section--titles"
+  //   }
+  //   },
+
+  //   "flex-layout.col#footer__item--social": {
+  //     "title": "footer middle title container social icons",
+  //     "children": [
+  //       "social-networks#footer"
+  //     ],
+  //     "props": {
+  //       "blockClass": "footer__item--social"
+  //     }
+  //   },
+
+  //   "social-networks#footer": {
+  //     "title" : "footer social-network",
+  //     "props": {
+  //       "socialNetworks": [
+  //         { "url": "https://facebook.com/foo", "name": "Facebook" },
+  //         { "url": "https://twitter.com/foo", "name": "Twitter" },
+  //         { "url": "https://twitter.com/foo", "name": "Youtube" },
+  //         { "url": "https://twitter.com/foo", "name": "Pinterest" }
+  //       ]
+  //     }
+  //   }
 
   }
 

@@ -1,0 +1,51 @@
+{
+  "flex-layout.col#home__cards--tendencies": {
+    "title": "home tendencies cards",
+    "children": [
+      "rich-text#home__cardtendencies--title",
+      "slider-layout#home__slider--children"
+    ]
+  },
+  "rich-text#home__cardtendencies--title": {
+    "title": "home section cards tendencies title",
+    "props": {
+      "text": "TENDENCIAS",
+      "blockClass": "tendencies__cards--title"
+    }
+  },
+  "slider-layout#home__slider--children": {
+    "title": "Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "home__tendencies--slider"
+    },
+    "children": [
+      "flex-layout.col#cards__tendencies--one",
+      "flex-layout.col#cards__tendencies--two",
+      "flex-layout.col#cards__tendencies--three",
+      "flex-layout.col#cards__tendencies--four",
+      "flex-layout.col#cards__tendencies--five",
+      "flex-layout.col#cards__tendencies--six"
+    ]
+  },
+  "flex-layout.row#home__cards--row": {
+    "title": "home tendencies cards row container",
+    "children": [
+      "flex-layout.col#cards__tendencies--one",
+      "flex-layout.col#cards__tendencies--two",
+      "flex-layout.col#cards__tendencies--three",
+      "flex-layout.col#cards__tendencies--four",
+      "flex-layout.col#cards__tendencies--five",
+      "flex-layout.col#cards__tendencies--six"
+    ],
+    "props": {
+      "blockClass": "card__tendencies--container"
+    }
+  }
+}

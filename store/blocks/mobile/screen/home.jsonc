@@ -1,0 +1,42 @@
+{
+  "responsive-layout.mobile": {
+    "title": "Home Section one mobile",
+    "children": [
+      "flex-layout.row#home__container"
+    ],
+    "props": {
+      "blockClass": "container__desktop"
+    }
+  },
+
+  "flex-layout.row#home__container": {
+    "children": [
+      "flex-layout.col#home"
+    ],
+    "props": {
+      "blockClass": "container__desktop--row"
+    }
+  },
+
+  "flex-layout.col#home": {
+    "children": [
+      "info-card#one",
+      "info-card#two",
+      "rich-text#home__slider--title-one",
+      "flex-layout.row#home__shelf",
+      "flex-layout.col#home__cards--tendencies",
+      "rich-text#desktop__text--shields",
+      "flex-layout.row#desktop__shields",
+      // "search-result-layout.customQuery#home__search",
+      "rich-text#home__slider--title-two",
+      "flex-layout.row#home__shelf",
+      "flex-layout.col#home__grid--popular",
+      "rich-text#home__slider--title-two",
+      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__section--history"
+    ],
+    "props": {
+      "blockClass": "container__desktop--col"
+    }
+  }
+}

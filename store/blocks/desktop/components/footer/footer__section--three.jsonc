@@ -1,17 +1,21 @@
 {
 
   "flex-layout.row#desktop__footer--main": {
+    "title": "footer bottom",
     "children": [
       "flex-layout.col#footer__section--three"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__footer--main"
+    }
   },
 
   "flex-layout.col#footer__section--three": {
-    "title" : "footer section-two container",
+    "title" : "footer section-three container",
     "children": [
       "flex-layout.row#footerThree__group--one",
-      "flex-layout.row#footerThree__group--two"
-      // "rich-text#footer__copyright"
+      "flex-layout.row#footerThree__group--two",
+      "rich-text#footer__copyright"
     ],
     "props" : {
       "blockClass" : "footer__section--three",
@@ -23,13 +27,28 @@
   "flex-layout.row#footerThree__group--two": {
     "title" : "footer section-two group-one",
     "children" : [
-      "rich-text#footerThree__li--one",
-      "rich-text#footerThree__li--two"
+      "rich-text#footerThree__text--one",
+      "rich-text#footerThree__text--two"
     ],
     "props" : {
       "blockClass" : "footer__section--three",
       "colSizing" : "auto",
       "colGap" : 0
+    }
+  },
+
+  "rich-text#footerThree__text--one": {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "Uso del Sitio",
+      "blockClass" : "footer-li-three"
+  }
+  },
+  "rich-text#footerThree__text--two": {
+    "title" : "footer section-two group-one list-item",
+    "props" : {
+      "text" : "SIC",
+      "blockClass" : "footer-li-three--other"
     }
   },
 
@@ -42,8 +61,7 @@
       "rich-text#footerThree__li--four",
       "rich-text#footerThree__li--five",
       "rich-text#footerThree__li--six",
-      "rich-text#footerThree__li--seven",
-      "rich-text#footerThree__li--eight"
+      "rich-text#footerThree__li--seven"
     ],
     "props" : {
       "blockClass" : "footer__section--three",
@@ -96,22 +114,17 @@
   "rich-text#footerThree__li--seven" : {
     "title" : "footer section-two group-one list-item",
     "props" : {
-      "text" : "Uso del Sitio",
+      "text" : "Configuración de las Cookies",
       "blockClass" : "footer-li-three"
     }
   },
-  "rich-text#footerThree__li--eight" : {
-    "title" : "footer section-two group-one list-item",
+
+
+  "rich-text#footer__copyright" : {
+    "title" : "footer section-two copyright",
     "props" : {
-      "text" : "SIC",
-      "blockClass" : "footer-li-three"
+      "text" : "© 2023 adidas, adidas Colombia Ltda.",
+      "blockClass" : "footer-copyright"
     }
   }
-  // "rich-text#footer__copyright" : {
-  //   "title" : "footer section-two copyright",
-  //   "props" : {
-  //     "text" : "© 2022 adidas Colombia LTDA",
-  //     "blockClass" : "footer-copyright"
-  //   }
-  // }
 }

@@ -61,8 +61,15 @@
   padding-right: 30px;
 }
 
+@media screen and (max-width: 1280px) {
+  .menuItem--menu__department--week {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1128px) {
   .styledLinkContainer--menu__department--week {
     padding-right: 1px; /* Reducimos el padding a la mitad cuando el ancho de la pantalla es menor o igual a 768px */
   }
 }
+

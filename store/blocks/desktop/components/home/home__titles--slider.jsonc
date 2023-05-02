@@ -1,0 +1,14 @@
+{
+  "rich-text#home__slider--title-one": {
+    "props": {
+      "text": "¿Aún estás interesado?",
+      "blockClass": "home__slider--title-one"
+    }
+  },
+  "rich-text#home__slider--title-two": {
+    "props": {
+      "text": "LO MEJOR DE ADIDAS",
+      "blockClass": "home__slider--title-one"
+    }
+  }
+}

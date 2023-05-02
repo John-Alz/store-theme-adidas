@@ -1,5 +1,6 @@
 {
   "info-card#one": {
+    "title": "infocard number one home",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": true,
@@ -14,6 +15,7 @@
     }
   },
   "info-card#two": {
+    "title": "infocard number two home",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": true,

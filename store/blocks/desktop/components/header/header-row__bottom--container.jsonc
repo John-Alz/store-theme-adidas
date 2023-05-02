@@ -65,6 +65,7 @@
     }
   },
   "flex-layout.col#icon__desktop--cart": {
+    "title": "header minicart",
     "children": [
       "minicart.v2#desktop__minicart--icon"
     ],
@@ -73,6 +74,7 @@
     }
   },
   "flex-layout.row#icon__desktop--profile": {
+    "title": "header login",
     "children": [
       "modal-trigger#example"
     ],
@@ -82,6 +84,7 @@
     }
   },
   "flex-layout.col#icon__desktop--favorites": {
+    "title": "header favorites",
     "children": [
       "icon#home__user--favorites"
     ],
@@ -90,12 +93,14 @@
     }
   },
   "modal-trigger#example": {
+    "title": "header modal login",
     "children": [
       "icon#home__user--login",
       "modal-layout#example"
     ]
   },
   "modal-layout#example": {
+    "title": "header modal layout login",
     "children": [
       "login-content#modal__login"
     ]

@@ -1,5 +1,6 @@
 {
   "rich-text#footer__section--one": {
+    "title": "footer news letter",
     "props": {
       "text": "ÚNETE AL CLUB Y AHORRA UN 15%",
       "textAlignment": "CENTER",
