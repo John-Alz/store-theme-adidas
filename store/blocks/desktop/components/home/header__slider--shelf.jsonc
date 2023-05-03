@@ -3,7 +3,10 @@
     "title": "home shelf products",
     "children": [
       "list-context.product-list"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__shelf"
+    }
   },
 
   "list-context.product-list": {
@@ -18,9 +21,9 @@
       "title": "home slider shelf products",
       "props": {
         "itemsPerPage": {
-          "desktop": 6,
-          "tablet": 3,
-          "phone": 1
+          "desktop": 5,
+          "tablet": 4,
+          "phone": 3
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",

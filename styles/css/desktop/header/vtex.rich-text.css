@@ -55,3 +55,7 @@
   color: #000;
   font-family: "AdihausDIN-Regular";
 }
+
+.paragraph--mobile__menu {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+.paragraph--mobile__footer--one  {
+  font-family: "AdihausDIN-Regular";
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff
+}
+
+.paragraph--footer__section--one-mobile {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+}
+
+.paragraph--mobile__footer--item {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "AdihausDIN-Regular";
+  padding: 10px 15px 10px 15px;
+}
+
+.paragraph--footer__menu--item {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "AdihausDIN-Regular";
+  padding: 20px 15px 10px 15px;
+}
+
+.container--footer__menu--item {
+  justify-content: center;
+}

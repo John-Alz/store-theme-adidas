@@ -1,4 +1,17 @@
 {
+
+  "flex-layout.row#desktop__footer--newsletter": {
+    "title": "desktop footer news letter container",
+    "children": [
+      "rich-text#footer__section--one",
+      "link#footer__newsletter--button"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "desktop__footer--newsletter"
+    }
+  },
+
   "rich-text#footer__section--one": {
     "title": "footer news letter",
     "props": {
@@ -6,6 +19,16 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "footer__section--one"
+    }
+  },
+
+  "link#footer__newsletter--button": {
+    "title": "desktop footer news letter button",
+    "props": {
+      "href" : "#",
+      "displayMode" : "button",
+      "label": "REGISTRATE GARTIS",
+      "blockClass": "footer__newsletter--button"
     }
   }
 }

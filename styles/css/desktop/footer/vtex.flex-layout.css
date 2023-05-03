@@ -1,3 +1,13 @@
+.flexRow--desktop__footer--newsletter {
+  background: #ede734;
+  padding: 40px;
+}
+
+.flexRowContent--desktop__footer--newsletter {
+  justify-content: center;
+  gap: 30px;
+}
+
 .flexRow--footer__section--two {
   padding-top: 35px;
   padding-bottom: 35px;

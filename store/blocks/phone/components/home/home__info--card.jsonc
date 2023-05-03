@@ -1,0 +1,32 @@
+{
+  "info-card#phone__one--bunny": {
+    "title": "infocard number one home",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/home__image--mobile.jpg",
+      "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
+      "subhead": "Experimenta la primavera.",
+      "callToActionText": "VER AHORA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "phone__infocards",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#phone__two--classics": {
+    "title": "infocard number two home",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/home__image2--desktop.jpg",
+      "headline": "HOME OFF CLASSICS",
+      "subhead": "Clásicos atemporales por una buena razon",
+      "callToActionText": "Comprar ahora",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "phone__infocards",
+      "textAlignment": "center"
+    }
+  }
+}

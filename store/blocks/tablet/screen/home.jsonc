@@ -1,6 +1,42 @@
 {
-  "responsive-layout.tablet#home__section-1": {
-    "title": "Section 1 Tablet Home",
-    "children": ["flex-layout.row#tablet__home__section-1"]
+  "responsive-layout.tablet": {
+    "title": "Home Section one tablet",
+    "children": [
+      "flex-layout.row#home__container--tablet"
+    ],
+    "props": {
+      "blockClass": "container__desktop"
+    }
+  },
+
+  "flex-layout.row#home__container--tablet": {
+    "children": [
+      "flex-layout.col#home__tablet"
+    ],
+    "props": {
+      "blockClass": "container__desktop--row"
+    }
+  },
+
+  "flex-layout.col#home__tablet": {
+    "children": [
+      "info-card#tablet__one--bunny",
+      "info-card#tablet__two--classics",
+      "rich-text#home__slider--title-one",
+      "flex-layout.row#home__shelf",
+      "flex-layout.row#mobile__menu--home",
+      "flex-layout.col#home__cards--tendencies",
+      "flex-layout.col#desktop__shields--container",
+      // "search-result-layout.customQuery#home__search",
+      "rich-text#home__slider--title-two",
+      "flex-layout.row#home__shelf",
+      "flex-layout.col#home__grid--popular",
+      "rich-text#home__slider--title-two",
+      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__section--history"
+    ],
+    "props": {
+      "blockClass": "container__desktop--col"
+    }
   }
 }

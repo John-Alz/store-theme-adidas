@@ -1,6 +1,12 @@
+.imageWrapper--product__image {
+  background: #EBEEF0;
+  padding-bottom: 60px;
+}
+
 .image--product__image {
   width: 170px;
   height: 190px;
+  transform: translateY(35px);
 }
 
 /* .nameContainer--product__name {
@@ -10,6 +16,8 @@
 
 .nameContainer--product__name {
   padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  /* justify-content: flex-start; */
 }
 
 .brandName--product__name, .price_installment--product__price {
@@ -20,4 +28,5 @@
 
 .priceContainer--product__price  {
   padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }

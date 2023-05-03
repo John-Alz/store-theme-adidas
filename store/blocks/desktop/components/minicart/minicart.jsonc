@@ -94,12 +94,15 @@
   "flex-layout.col#main-container.desktop": {
     "children": [
       "flex-layout.col#sub-container.desktop",
-      "flex-layout.row#message.desktop"
+      "flex-layout.row#message_desktop"
     ],
     "props": {
       "width": "grow",
       "blockClass": "main-container__container"
     }
+  },
+  "flex-layout.row#message_desktop": {
+
   },
   "flex-layout.col#sub-container.desktop": {
     "children": [
@@ -191,18 +194,18 @@
       "verticalAlign": "middle",
       "blockClass": "remove__button--minicart"
     }
-  },
-  "flex-layout.row#message.desktop": {
-    "children": ["message#desktop"],
-    "props": {
-      "marginTop": "4"
-    }
-  },
-  "message#desktop": {
-    "props": {
-      "layout": "cols"
-    }
   }
+  // "flex-layout.row#message.desktop": {
+  //   "children": ["message#desktop"],
+  //   "props": {
+  //     "marginTop": "4"
+  //   }
+  // },
+  // "message#desktop": {
+  //   "props": {
+  //     "layout": "cols"
+  //   }
+  // }
 
 
 }
