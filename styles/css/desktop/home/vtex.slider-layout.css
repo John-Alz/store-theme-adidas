@@ -33,7 +33,7 @@
 
 .sliderTrack--carousel_home {
   gap: 20px;
-  width: 350% !important;
+  /* width: 350% !important; */
 }
 
 .sliderLayoutContainer--home__tendencies--slider {
@@ -46,3 +46,25 @@
   padding: 10px;
   border: solid 1px;
 }
+
+.caretIcon--carousel_home {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+}
+.caretIcon--carousel_home:hover {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border: solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .sliderLayoutContainer--home__tendencies--slider {
+    width: 98%;
+    /* margin: 0 auto; */
+  }
+
+
+ }

@@ -15,15 +15,8 @@
       "blockClass": "container-logo"
     }
   },
-  "logo#mobile": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/header/adidas_logo.png",
-      "width": "50",
-      "blockClass": "container__logo--mobile"
-    }
-  },
+
+
   "flex-layout.col#spacer__desktop-one": {
     "title": "spacer header one",
     "props": {
@@ -54,7 +47,7 @@
       // "modal-trigger#example",
       // "icon#home__user--favorites"  ,
       // "minicart.v2"
-      "flex-layout.row#icon__desktop--profile",
+      "flex-layout.col#icon__desktop--profile",
       "flex-layout.col#icon__desktop--favorites",
       "flex-layout.col#icon__desktop--cart"
     ],
@@ -73,7 +66,7 @@
       "blockClass": "icon__desktop--cart"
     }
   },
-  "flex-layout.row#icon__desktop--profile": {
+  "flex-layout.col#icon__desktop--profile": {
     "title": "header login",
     "children": [
       "modal-trigger#example"
@@ -98,16 +91,24 @@
       "icon#home__user--login",
       "modal-layout#example"
     ]
+    ,
+    "props" : {
+      "blockClass": "modal__login"
+    }
   },
   "modal-layout#example": {
     "title": "header modal layout login",
     "children": [
       "login-content#modal__login"
-    ]
+    ],
+    "props" : {
+      "blockClass": "modal__layout--login"
+    }
   },
   "login-content#modal__login" : {
     "title" : "header modal login-content",
     "props" : {
+      "blockClass": "modal__login--content",
       "defaultOption" : 0
     }
   }

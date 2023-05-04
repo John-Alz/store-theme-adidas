@@ -1,0 +1,13 @@
+.tileListTitle  {
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+}
+
+.itemListTitle,
+.itemListItem {
+  font-size: 16px;
+  font-family: "AdihausDIN-Regular";
+  color: #000;
+}

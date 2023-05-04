@@ -1,0 +1,75 @@
+/* .containerNormal  {
+  height: 400px;
+} */
+
+.clearLink  {
+  margin: 0 5px 0 5px;
+}
+
+/* .element {
+  height: 55%;
+} */
+
+/* .imageContainer  {
+  width: 50%;
+  background: #EBEEF0;
+} */
+
+.imageNormal {
+  width: 100px;
+}
+
+.information {
+  color: red;
+  justify-content: flex-start;
+  /* height: 0% !important; */
+}
+
+.nameContainer  {
+  padding: 0 !important;
+}
+
+
+.productBrand {
+  font-size: 16px;
+  font-family: "AdihausDIN-Regular";
+}
+
+
+.buyButtonContainer  {
+  display: none;
+}
+
+/* .buyButtonContainer  :global(.vtex-button) {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 9px;
+  font-family: "AdihausDIN-Regular";
+  font-weight: 700;
+}
+
+.buyButtonContainer  :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.buyButtonContainer  :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+} */

@@ -5,8 +5,20 @@
 } */
 
 .flexRowContent--home__shelf {
-    width: 80%;
-    margin: 0 auto 30px auto;
+  padding-left: 150px;
+}
+
+.flexRowContent--home__shelf :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  position: absolute;
+    top: 0;
+    right: 40px;
+    justify-content: right;
+}
+.flexRowContent--home__shelf :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  position: absolute;
+    top: 0;
+    left: 100px;
+    justify-content: right;
 }
 
 .flexRow--desktop__shields {
@@ -67,6 +79,14 @@
   height: max-content !important;
 }
 
+@media screen and (max-width: 1024px) {
+
+  .flexRowContent--home__shelf {
+    padding-left: 10px;
+  }
+
+
+ }
 
 @media screen and (max-width: 640px) {
 
@@ -77,6 +97,15 @@
   }
 
 }
+
+@media screen and (max-width: 1024px) {
+
+  .flexRowContent--popular__grid--item {
+    width: 98%;
+  }
+
+
+ }
 
 @media screen and (max-width: 900px) {
 

@@ -18,8 +18,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 2,
-        "mobile": 1
+        "tablet": 3,
+        "mobile": 2
       },
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "never",
