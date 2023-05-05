@@ -131,7 +131,7 @@
     ]
   },
   "menu-item#department__week": {
-    "title": "Department adidas",
+    "title": "Department week",
     "props": {
       "id": "menu-item-shop",
       "type": "custom",
@@ -146,7 +146,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#department__news"
+      "vtex.menu@2.x:submenu#department__gender"
     ]
   }
 }

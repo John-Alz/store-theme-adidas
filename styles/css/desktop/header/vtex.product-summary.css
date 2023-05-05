@@ -1,0 +1,21 @@
+.container--header__autocomplete--results {
+  margin-left: 20px;
+}
+
+.image--autocomplete__product--image {
+  transform: translateY(8px);
+  width: 100px;
+}
+
+.nameContainer--autocomplete__product--name {
+  padding: 0 !important;
+}
+
+.productBrand--autocomplete__product--name,
+.currencyContainer--autocomplete__product--price {
+  color: #000;
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  font-weight: 400;
+}
+

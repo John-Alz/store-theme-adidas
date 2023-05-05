@@ -1,3 +1,17 @@
+.wrapper--home__slider--title-one {
+  font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    font-family: "adineuePRO-Bold";
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container--home__slider--title-one {
+  margin-top: 50px;
+}
+
+
 .container--desktop__text--shields {
   font-family: "AdihausDIN-Regular";
   font-size: 16px;
@@ -10,3 +24,106 @@
   padding-top: 20px;
   background-color: rgb(235, 237, 238);
 }
+
+.container--tendencies__cards--title {
+
+  padding-left: 10px;
+  margin: 0 auto;
+  width: 80%;
+
+}
+
+/* tendencies */
+
+.paragraph--tendencies__cards--title {
+  font-size: 40px;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+  padding-top: 30px;
+}
+
+.paragraph--tendecies__title {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  color: #000;
+  font-family: "AdihausDIN-Regular";
+}
+
+.paragraph--tendecies__paragraph {
+  height: 50px;
+  font-size: 13px;
+  color: #000;
+  font-family: "AdihausDIN-Regular";
+}
+
+.paragraph--tendecies__url {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "AdihausDIN-Regular";
+  letter-spacing: 2px;
+  margin-top: 20px;
+  color: #000;
+  transform: translateY(10px);
+  text-decoration: underline #000;
+  cursor: pointer;
+}
+.paragraph--tendecies__url:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.container--popular__grid--title {
+  width: 80%;
+  margin: 0 auto;
+}
+.container--popular__item {
+  border-bottom: solid 1px #000;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.container--popular__item:hover {
+  border-bottom: solid 5px #000;
+}
+.paragraph--popular__grid--title {
+  font-size: 32px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+}
+
+.paragraph--popular__item{
+  font-size: 40px;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+  padding-top: 60px;
+  line-height: 40px;
+}
+
+.paragraph--history__title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+  line-height: 1;
+  max-width: 420px;
+  padding-bottom: 20px;
+}
+
+.paragraph--history__paragraph {
+  font-size: 16px;
+  font-family: "AdihausDIN-Regular";
+  padding-bottom: 50px;
+}
+
+
+/* @media screen and (max-width: 1024px) {
+
+  .wrapper--home__slider--title-one,
+  .container--popular__grid--title,
+  .container--tendencies__cards--title {
+    width: 98%;
+  }
+
+ } */

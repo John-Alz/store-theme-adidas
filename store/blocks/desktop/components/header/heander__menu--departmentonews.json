@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:submenu#department__news": {
+    "title": "department news",
     "children": [
       "flex-layout.col#header__menu--container-news"
     ],
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.col#header__menu--container-news": {
+    "title": "headerr menu container news",
     "children": [
       "flex-layout.row#menu__department--news",
       "flex-layout.row#menu__bottom"
@@ -18,6 +20,7 @@
     }
   },
   "flex-layout.row#menu__department--news": {
+    "title": "menu department news",
     "children": [
       "flex-layout.col#news__category--new-men",
       "flex-layout.col#news__category--new-women",

@@ -1,0 +1,36 @@
+
+.productImage {
+  transform: translateY(20px);
+  margin-left: 24px;
+  width: 90px;
+  height: 90px;
+}
+
+.productBrandName  {
+  font-family: "AdihausDIN-Regular";
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.productName {
+  font-family: "AdihausDIN-Regular";
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.price {
+  font-family: "AdihausDIN-Regular";
+  font-size: 14px;
+  width: 0 !important;
+}
+
+.productPrice {
+  text-align: center;
+}
+
+/* .unitPriceMeasurementUnit {
+  display: none;
+} */
+
+
+

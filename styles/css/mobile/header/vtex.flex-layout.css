@@ -1,0 +1,44 @@
+
+.flexCol--icon__mobile--profile {
+  padding: 0;
+  transform: translateY(4px);
+}
+
+.flexCol--icon__desktop--favorites {
+  transform: translateY(10px);
+  padding-right: 15px;
+}
+
+
+
+.flexColChild--icon__mobile--search {
+  transform: translateY(10px);
+}
+
+.flexCol--icon__mobile--cart {
+  transform: translateY(2px);
+}
+
+.flexRowContent--header__mobile--section-one {
+  display: flex;
+  transform: translateY(5px);
+}
+
+.flexRowContent--header__bottom--user {
+  display: flex;
+  transform: translateY(3px);
+}
+
+.flexRow--header__mobile--section-one {
+  padding-left: 10px;
+}
+
+.flexCol--mobile__menu--items {
+  transform: translateX(15px);
+  width: 80%;
+  margin-top: 10px;
+}
+
+.flexColChild--mobile__menu--items {
+  width: 250px;
+}

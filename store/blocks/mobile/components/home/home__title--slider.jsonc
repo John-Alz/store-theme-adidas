@@ -1,0 +1,30 @@
+{
+
+  // "flex-layout.row#mobile__interesting--title": {
+  //   "title": "mobile interesting title container",
+  //   "children": [
+  //     "rich-text#mobile__thebest--title"
+  //   ]
+  // },
+
+  // "flex-layout.row#mobile__thebest--title": {
+  //   "title": "mobile the best title container",
+  //   "children": [
+  //     "rich-text#mobile__interesting--title"
+  //   ]
+  // },
+
+
+  // "rich-text#mobile__thebest--title": {
+  //   "props": {
+  //     "text": "¿Aún estás interesado?",
+  //     "blockClass": "mobile__titles"
+  //   }
+  // },
+  // "rich-text#mobile__interesting--title": {
+  //   "props": {
+  //     "text": "LO MEJOR DE ADIDAS",
+  //     "blockClass": "mobile__titles"
+  //   }
+  // }
+}

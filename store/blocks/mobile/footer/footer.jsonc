@@ -1,0 +1,311 @@
+{
+
+  // "footer": {
+  //   "blocks": ["footer-layout.mobile"]
+  // },
+  "footer-layout.mobile": {
+    "title": "footer mobile",
+    "children": ["flex-layout.row#mobile__footer", "flex-layout.row#mobile__footer--newsletter", "flex-layout.row#mobile__footer--two", "flex-layout.row#mobile__footer--three-main"],
+    "props": {
+      "blockClass": "mobile__footer--container"
+    }
+  },
+
+  "flex-layout.row#mobile__footer": {
+    "title": "mobile footer",
+    "children": [
+      "rich-text#mobile__footer--one",
+      "rich-text#mobile__footer--two"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "around",
+      "blockClass": "mobile__footer"
+    }
+  },
+
+  "rich-text#mobile__footer--one": {
+    "title": "mobile footer one",
+    "props": {
+      "text": "INICIAR SESIÓN",
+      "blockClass": "mobile__footer--one"
+    }
+  },
+  "rich-text#mobile__footer--two": {
+    "title": "mobile footer two",
+    "props": {
+      "text": "TU CARRITO (0)",
+      "blockClass": "mobile__footer--one"
+    }
+  },
+
+  //news letter
+
+
+    "flex-layout.row#mobile__footer--newsletter": {
+      "title": "mobile footer news letter container",
+      "children": [
+        "rich-text#footer__section--one-mobile",
+        "link#footer__newsletter--button-mobile"
+      ],
+      "props": {
+        "colSizing": "auto",
+        "horizontalAlign": "center",
+        "blockClass": "mobile__footer--newsletter"
+      }
+    },
+
+    "rich-text#footer__section--one-mobile": {
+      "title": "footer news letter paragraph",
+      "props": {
+        "text": "ÚNETE AL CLUB Y AHORRA UN 15%",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "footer__section--one-mobile"
+      }
+    },
+
+    "link#footer__newsletter--button-mobile": {
+      "title": "mobile footer news letter button",
+      "props": {
+        "href" : "#",
+        "displayMode" : "button",
+        "label": "REGISTRATE GARTIS",
+        "blockClass": "footer__newsletter--button-mobile"
+      }
+    },
+
+    //next section
+
+    "flex-layout.row#mobile__footer--two": {
+      "title": "mobile footer two",
+      "children": [
+        "flex-layout.col#mobile___section--left",
+        "flex-layout.col#mobile___section--right"
+      ],
+      "props": {
+        "blockClass": "mobile__footer--two",
+        "colSizing": "auto",
+        "horizontalAlign": "around"
+      }
+    },
+
+    "flex-layout.col#mobile___section--left": {
+      "title": "mobile footer left",
+      "children": [
+        "rich-text#mobile__footer--locator",
+        "rich-text#mobile__footer--asked",
+        "rich-text#mobile__footer--refund",
+        "rich-text#mobile__footer--pay"
+      ]
+    },
+    "flex-layout.col#mobile___section--right": {
+      "title": "mobile footer right",
+      "children": [
+        "rich-text#mobile__footer--returns",
+        "rich-text#mobile__footer--guide",
+        "rich-text#mobile__footer--map",
+        "rich-text#mobile__footer--shipment"
+      ]
+    },
+
+    "rich-text#mobile__footer--locator": {
+      "title": "mobile footer locator",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Buscador de Tiendas"
+      }
+    },
+    "rich-text#mobile__footer--asked": {
+      "title": "mobile footer asked",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Dudas Frecuentes"
+      }
+    },
+    "rich-text#mobile__footer--refund": {
+      "title": "mobile footer refund",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Solicitar mi Develoción"
+      }
+    },
+    "rich-text#mobile__footer--pay": {
+      "title": "mobile footer pay",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Pago"
+      }
+    },
+
+
+    "rich-text#mobile__footer--returns": {
+      "title": "mobile footer returns",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Devolicones"
+      }
+    },
+    "rich-text#mobile__footer--guide": {
+      "title": "mobile footer guida",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Guia de Tallas"
+      }
+    },
+    "rich-text#mobile__footer--map": {
+      "title": "mobile footer map",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Mapa del sitio"
+      }
+    },
+    "rich-text#mobile__footer--shipment": {
+      "title": "mobile footer shipment",
+      "props": {
+        "blockClass": "mobile__footer--item",
+        "text": "Envio"
+      }
+    },
+
+
+    //next section
+
+    "flex-layout.row#mobile__footer--three-main": {
+      "title": "mobile footer three main",
+      "children": [
+        "flex-layout.col#mobile__footer--three-conatiner"
+      ],
+      "props": {
+        "blockClass": "mobile__footer--three-main"
+      }
+    },
+
+    "flex-layout.col#mobile__footer--three-conatiner": {
+      "title": "mobile footer three container",
+      "children": [
+        "flex-layout.row#mobile__footer--three",
+        "flex-layout.col#footer___menu--bottom"
+      ]
+    },
+
+
+    "flex-layout.row#mobile__footer--three": {
+      "title": "mobile footer two",
+      "children": [
+        "flex-layout.col#footer___menu--left",
+        "flex-layout.col#footer___menu--right"
+      ],
+      "props": {
+        "blockClass": "mobile__footer--three",
+        "colSizing": "auto",
+        "horizontalAlign": "around"
+      }
+    },
+
+    "flex-layout.col#footer___menu--left": {
+      "title": "mobile footer left",
+      "children": [
+        "rich-text#footer__menu--one",
+        "rich-text#footer__menu--two",
+        "rich-text#footer__menu--three",
+        "rich-text#footer__menu--four"
+      ]
+    },
+    "flex-layout.col#footer___menu--right": {
+      "title": "mobile footer right",
+      "children": [
+        "rich-text#footer__menu--five",
+        "rich-text#footer__menu--six",
+        "rich-text#footer__menu--seven",
+        "rich-text#footer__menu--eight"
+      ]
+    },
+
+    "flex-layout.col#footer___menu--bottom": {
+      "title": "mobile footer bottom",
+      "children": [
+        "rich-text#footer__menu--nine",
+        "rich-text#footer__menu--ten"
+      ],
+      "props": {
+        "blockClass": "footer___menu--bottom"
+      }
+    },
+
+    "rich-text#footer__menu--one": {
+      "title": "mobile footer one",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Configuración de las cookies"
+      }
+    },
+    "rich-text#footer__menu--two": {
+      "title": "mobile footer two",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Términos y Condiciones"
+      }
+    },
+    "rich-text#footer__menu--three": {
+      "title": "mobile footer three",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Términos #YESadidas"
+      }
+    },
+    "rich-text#footer__menu--four": {
+      "title": "mobile footer four",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Aviso de Privacidad"
+      }
+    },
+
+
+    "rich-text#footer__menu--five": {
+      "title": "mobile footer five",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Nuestros Datos"
+      }
+    },
+    "rich-text#footer__menu--six": {
+      "title": "mobile footer six",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Política de Privacidad"
+      }
+    },
+    "rich-text#footer__menu--seven": {
+      "title": "mobile footer seven",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Seleccionar País"
+      }
+    },
+    "rich-text#footer__menu--eight": {
+      "title": "mobile footer eight",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "Uso del Sitio"
+      }
+    },
+
+    "rich-text#footer__menu--nine": {
+      "title": "mobile footer nine",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "SIC"
+      }
+    },
+
+    "rich-text#footer__menu--ten": {
+      "title": "mobile footer ten",
+      "props": {
+        "blockClass": "footer__menu--item",
+        "text": "© 2023 adidas, adidas Colombia Ltda."
+      }
+    }
+
+}

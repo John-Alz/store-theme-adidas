@@ -1,0 +1,50 @@
+.link--footer__newsletter--button {
+  border: none;
+}
+
+.label--footer__newsletter--button {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "AdihusDIN-Bold";
+  position: relative;
+  border-radius: 0;
+  height: max-content;
+  background-color: #fff;
+  border: none;
+  align-self: center;
+  padding: 20px;
+  /* width: 35%; */
+}
+
+.label--footer__newsletter--button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  height: 100%;
+  right: -5px;
+  top: 4px;
+  width: 3px;
+}
+
+.label--footer__newsletter--button::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
+
+/* .label--footer__newsletter--button::after {
+  content: url("../assets/img/home/darrow__newsletter.svg");
+  display: block;
+  position: absolute;
+} */
+
+

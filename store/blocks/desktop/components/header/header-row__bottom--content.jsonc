@@ -1,13 +1,13 @@
 {
   "image#home__user--login" : {
-    "title" : "header user-section cart logo",
+    "title" : "header use -section login logo",
     "props" : {
       "src" : "assets/img/header/userProfile.svg",
       "blockClass" : "home__user--logo",
       "maxWidth" : 20
     }
   },
-  "image#home__user--favourites" : {
+  "image#home__user--favorites" : {
     "title" : "header user section favorites logo",
     "props" : {
       "src" : "assets/img/header/userWishlist.svg",
@@ -16,7 +16,7 @@
       "maxHeight": 28
     }
   },
-  "image#Header__user--favourites" : {
+  "image#Header__user--favorites" : {
     "title" : "header user section favorites logo",
     "props" : {
       "src" : "assets/img/header/userWishlist.svg",
@@ -26,7 +26,7 @@
     }
   },
   "icon#home__user--favorites" : {
-    "title" : "header user section cart logo",
+    "title" : "header user section favorites icon",
     "props" : {
       "id": "icon-favorites",
       "size": 19,
@@ -40,7 +40,7 @@
     }
   },
   "icon#home__user--search" : {
-    "title" : "header user section cart logo",
+    "title" : "header user section search icon",
     "props" : {
       "id": "icon-search",
       "blockClass": "home__user--search",
@@ -48,7 +48,7 @@
     }
   },
   "icon-cart#minicart__empty--cart" : {
-    "title" : "minicart cart logo",
+    "title" : "minicart cart icon",
     "props" : {
       "id": "icon-bag",
       "blockClass": "minicart__empty--cart",
@@ -56,7 +56,7 @@
     }
   },
   "icon#home__user--login": {
-    "title" : "header user section login logo",
+    "title" : "header user section login icon",
     "props" : {
       "id": "hpa-profile",
       "blockClass": "home__user--login",

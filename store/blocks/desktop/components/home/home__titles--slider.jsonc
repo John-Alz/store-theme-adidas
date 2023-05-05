@@ -1,0 +1,30 @@
+{
+
+  "flex-layout.row#desktop__interesting--title": {
+    "title": "desktop interesting title container",
+    "children": [
+      "rich-text#home__slider--title-one"
+    ]
+  },
+
+  "flex-layout.row#desktop__thebest--title": {
+    "title": "desktop the best title container",
+    "children": [
+      "rich-text#home__slider--title-two"
+    ]
+  },
+
+
+  "rich-text#home__slider--title-one": {
+    "props": {
+      "text": "¿Aún estás interesado?",
+      "blockClass": "home__slider--title-one"
+    }
+  },
+  "rich-text#home__slider--title-two": {
+    "props": {
+      "text": "LO MEJOR DE ADIDAS",
+      "blockClass": "home__slider--title-one"
+    }
+  }
+}

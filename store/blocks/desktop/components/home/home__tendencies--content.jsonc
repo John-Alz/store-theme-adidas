@@ -1,0 +1,281 @@
+{
+  "flex-layout.col#cards__tendencies--one": {
+    "title": "tendencies container card",
+    "children": [
+      "image#tendecies__image--one",
+      "flex-layout.col#cards__tendencies--detail"
+    ],
+    "props": {
+      "blockClass": "card__tendencies"
+    }
+  },
+  "flex-layout.col#cards__tendencies--two": {
+    "title": "tendencies container card",
+    "children": [
+      "image#tendecies__image--two",
+      "flex-layout.col#cards__tendencies--detail--two"
+    ],
+    "props": {
+      "blockClass": "card__tendencies"
+    }
+  },
+  "flex-layout.col#cards__tendencies--three": {
+    "title": "tendencies container card",
+    "children": [
+      "image#tendecies__image--three",
+      "flex-layout.col#cards__tendencies--detail--three"
+    ],
+    "props": {
+      "blockClass": "card__tendencies"
+    }
+  },
+  "flex-layout.col#cards__tendencies--four": {
+    "title": "tendencies container card",
+    "children": [
+      "image#tendecies__image--four",
+      "flex-layout.col#cards__tendencies--detail--four"
+    ],
+    "props": {
+      "blockClass": "card__tendencies"
+    }
+  },
+
+  "flex-layout.col#cards__tendencies--five": {
+    "title": "tendencies container card",
+    "children": [
+      "video#tendecies__image--five",
+      "flex-layout.col#cards__tendencies--detail--five"
+    ],
+    "props": {
+      "blockClass": "card__tendencies"
+    }
+  },
+  "flex-layout.col#cards__tendencies--six": {
+    "title": "tendencies container card",
+    "children": [
+      "video#tendecies__image--six",
+      "flex-layout.col#cards__tendencies--detail--six"
+    ],
+    "props": {
+      "blockClass": "card__tendencies"
+    }
+  },
+
+
+  "image#tendecies__image--one": {
+    "props": {
+      "src": "assets/img/home/tendencies__card--one.jpg"
+      // "maxHeight": 24
+    }
+  },
+
+  "image#tendecies__image--two": {
+    "props": {
+      "src": "assets/img/home/tendencies__card--two.jpg"
+      // "maxHeight": 24
+    }
+  },
+
+  "image#tendecies__image--three": {
+    "props": {
+      "src": "assets/img/home/tendencies__card--three.jpg"
+      // "maxHeight": 24
+    }
+  },
+
+  "image#tendecies__image--four": {
+    "props": {
+      "src": "assets/img/home/tendencies__card--four.jpg"
+      // "maxHeight": 24
+    }
+  },
+
+
+  "video#tendecies__image--five": {
+    "props": {
+      // "height": "382px",
+      "src": "assets/img/home/tendencies__card--five.mp4",
+      "loop": true,
+      "autoPlay": true
+    }
+  },
+  "video#tendecies__image--six": {
+    "props": {
+      // "height": "382px",
+      "src": "assets/img/home/tendencies__card--six.mp4",
+      "loop": true,
+      "autoPlay": true
+    }
+  },
+
+  "flex-layout.col#cards__tendencies--detail": {
+    "title": "",
+    "children": [
+      "rich-text#card__tendencies--title--one",
+      "rich-text#card__tendencies--paragraph--one",
+      "rich-text#card__tendencies--url"
+    ]
+  },
+
+  "rich-text#card__tendencies--title--one": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "Adizero: Roas to Records 2023",
+      "blockClass": "tendecies__title"
+    }
+  },
+  "rich-text#card__tendencies--paragraph--one":{
+    "title": "card tendencies title",
+    "props": {
+      "text": "Prepárate para un evento que rompe récords",
+      "blockClass": "tendecies__paragraph"
+    }
+  },
+  "rich-text#card__tendencies--url": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "COMPRA AHORA",
+      "blockClass": "tendecies__url"
+    }
+  },
+
+
+  "flex-layout.col#cards__tendencies--detail--two": {
+    "title": "",
+    "children": [
+      "rich-text#card__tendencies--title--two",
+      "rich-text#card__tendencies--paragraph--two",
+      "rich-text#card__tendencies--url--two"
+    ]
+  },
+
+  "rich-text#card__tendencies--title--two": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "DÍA DE LAS MADRES",
+      "blockClass": "tendecies__title"
+    }
+  },
+  "rich-text#card__tendencies--paragraph--two":{
+    "title": "card tendencies title",
+    "props": {
+      "text": "Por todos los momentos compartidos y que atesorará por siempre. Haz que su dia sea inolvidable con adidas",
+      "blockClass": "tendecies__paragraph"
+    }
+  },
+  "rich-text#card__tendencies--url--two": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "COMPRA REGALOS",
+      "blockClass": "tendecies__url"
+    }
+  },
+
+
+
+  "flex-layout.col#cards__tendencies--detail--three": {
+    "title": "",
+    "children": [
+      "rich-text#card__tendencies--title--three",
+      "rich-text#card__tendencies--paragraph--three",
+      "rich-text#card__tendencies--url"
+    ]
+  },
+
+  "rich-text#card__tendencies--title--three": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "NUNCA FALLA",
+      "blockClass": "tendecies__title"
+    }
+  },
+  "rich-text#card__tendencies--paragraph--three":{
+    "title": "card tendencies title",
+    "props": {
+      "text": "Libera toda tu precisión con los Predator Accuracy y sus nuevos colores. Esto es Heatspawn.",
+      "blockClass": "tendecies__paragraph"
+    }
+  },
+
+
+  "flex-layout.col#cards__tendencies--detail--four": {
+    "title": "",
+    "children": [
+      "rich-text#card__tendencies--title--four",
+      "rich-text#card__tendencies--paragraph--four",
+      "rich-text#card__tendencies--url"
+    ]
+  },
+
+  "rich-text#card__tendencies--title--four": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "UNA ERA DE ORIGINALIDAD",
+      "blockClass": "tendecies__title"
+    }
+  },
+  "rich-text#card__tendencies--paragraph--four":{
+    "title": "card tendencies title",
+    "props": {
+      "text": "Presentamos la nueva colección Indigo Herz, inspirada en el personaje NFT de adidas. Acceso anticipado solo para miembros adiClub.",
+      "blockClass": "tendecies__paragraph"
+    }
+  },
+
+
+  "flex-layout.col#cards__tendencies--detail--five": {
+    "title": "",
+    "children": [
+      "rich-text#card__tendencies--title--five",
+      "rich-text#card__tendencies--paragraph--five",
+      "rich-text#card__tendencies--url"
+    ]
+  },
+
+  "rich-text#card__tendencies--title--five": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "HOME OFF CLASSICS",
+      "blockClass": "tendecies__title"
+    }
+  },
+  "rich-text#card__tendencies--paragraph--five":{
+    "title": "card tendencies title",
+    "props": {
+      "text": "Clásicos atemporales por una buena razón.",
+      "blockClass": "tendecies__paragraph"
+    }
+  },
+
+  "flex-layout.col#cards__tendencies--detail--six": {
+    "title": "",
+    "children": [
+      "rich-text#card__tendencies--title--six",
+      "rich-text#card__tendencies--paragraph--six",
+      "rich-text#card__tendencies--url--six"
+    ]
+  },
+
+  "rich-text#card__tendencies--title--six": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "Nueva camiseta Selección Femenina",
+      "blockClass": "tendecies__title"
+    }
+  },
+  "rich-text#card__tendencies--paragraph--six":{
+    "title": "card tendencies title",
+    "props": {
+      "text": "¡La nueva camiseta de la Selección Colombia Femenina inspirada en caño cristales para todes ya está aquí!",
+      "blockClass": "tendecies__paragraph"
+    }
+  },
+
+  "rich-text#card__tendencies--url--six": {
+    "title": "card tendencies title",
+    "props": {
+      "text": "¡CONSÍGUELA ACÁ!",
+      "blockClass": "tendecies__url"
+    }
+  }
+}

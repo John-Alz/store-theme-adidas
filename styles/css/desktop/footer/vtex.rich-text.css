@@ -1,21 +1,29 @@
-.container--footer__section--one {
+/* .container--footer__section--one {
   background: #ede734;
   padding: 50px;
-}
+} */
 
 .paragraph--footer__section--one {
   font-weight: 700;
   font-size: 30px;
+  letter-spacing: 1.5px;
+  font-family: "adineuePRO-Bold";
   color: #000;
 }
 
 .paragraph--footer__section--titles {
+  font-family: "adineuePRO-Bold";
+  letter-spacing: 1px;
+  color: #000;
   font-size: 18px;
   font-weight: 700;
 }
 
 .paragraph--footer__text--item {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  font-family: "AdihausDIN-Regular";
 }
 .paragraph--footer__text--item--select {
   font-size: 13px;
@@ -27,7 +35,25 @@
 }
 
 .paragraph--footer-li-three {
-  color: #fff;
+  color: #d3d7da;
+  font-family: "AdihausDIN-Regular";
+  font-size: 12px;
+  margin-top: 30px;
+  padding: 0 15px;
+  border-right: solid 1px;
+}
+
+.paragraph--footer-li-three--other {
+  color: #d3d7da;
+  font-family: "AdihausDIN-Regular";
+  font-size: 12px;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.paragraph--footer-copyright {
+  padding-bottom: 20px;
+  color: #d3d7da;
   font-family: "AdihausDIN-Regular";
   font-size: 12px;
   padding-top: 30px;

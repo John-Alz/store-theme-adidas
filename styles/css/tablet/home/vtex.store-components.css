@@ -1,0 +1,65 @@
+.infoCardTextContainer--tablet__infocards {
+  width: 100% !important;
+  margin-left: 10px !important;
+}
+
+.infoCardContainer--tablet__infocards {
+  height: 700px;
+  border: none;
+}
+
+
+.infoCardTextContainer--tablet__infocards {
+  transform: translateY(220px);
+}
+
+.infoCardHeadline--tablet__infocards {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "adineuePRO-Bold";
+}
+
+.infoCardSubhead--tablet__infocards {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "AdihausDIN-Regular";
+}
+
+.infoCardTextContainer--tablet__infocards :global(.vtex-button) {
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "AdihausDIN-Regular";
+  font-size: 18px;
+  height: 25px;
+  border: none;
+  border-radius: 0;
+}
+
+.infoCardTextContainer--tablet__infocards :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.infoCardTextContainer--tablet__infocards :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
+
