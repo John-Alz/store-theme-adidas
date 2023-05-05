@@ -20,9 +20,8 @@
 
   "flex-layout.col#home__phone": {
     "children": [
-      "info-card#phone__one--bunny",
-      "info-card#phone__two--classics",
-      "rich-text#home__slider--title-one",
+      "flex-layout.col#phone__home--infocards",
+      // "flex-layout.row#phone__interesting--title",
       "flex-layout.row#home__shelf",
       "flex-layout.row#mobile__menu--home",
       "flex-layout.col#home__cards--tendencies",

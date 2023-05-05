@@ -10,7 +10,7 @@
   position: relative;
   border-radius: 0;
   height: max-content;
-  background-color: black;
+  background-color: #fff;
   border: none;
   align-self: center;
   padding: 20px;
@@ -40,4 +40,11 @@
     bottom: -5px;
     left: 5px;
 }
+
+/* .label--footer__newsletter--button::after {
+  content: url("../assets/img/home/darrow__newsletter.svg");
+  display: block;
+  position: absolute;
+} */
+
 

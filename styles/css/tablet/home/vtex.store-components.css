@@ -1,42 +1,45 @@
-.infoCardTextContainer--info-card-example {
-  margin-left: 150px;
+.infoCardTextContainer--tablet__infocards {
+  width: 100% !important;
+  margin-left: 10px !important;
 }
 
-.infoCardContainer--info-card-example {
-  height: 670px;
-  max-width: 100%;
-  border: 0;
-
-
+.infoCardContainer--tablet__infocards {
+  height: 700px;
+  border: none;
 }
 
-.infoCardHeadline--info-card-example {
+
+.infoCardTextContainer--tablet__infocards {
+  transform: translateY(220px);
+}
+
+.infoCardHeadline--tablet__infocards {
   color: #fff;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   font-family: "adineuePRO-Bold";
 }
-.infoCardSubhead--info-card-example {
+
+.infoCardSubhead--tablet__infocards {
   color: #fff;
   font-weight: 400;
   font-size: 18px;
   font-family: "AdihausDIN-Regular";
 }
 
-
-
-.infoCardTextContainer--info-card-example :global(.vtex-button) {
+.infoCardTextContainer--tablet__infocards :global(.vtex-button) {
   background: #fff;
   color: #000;
   font-weight: 700;
   letter-spacing: 2px;
   font-family: "AdihausDIN-Regular";
-  height: 50px;
+  font-size: 18px;
+  height: 25px;
   border: none;
   border-radius: 0;
 }
 
-.infoCardTextContainer--info-card-example :global(.vtex-button)::after {
+.infoCardTextContainer--tablet__infocards :global(.vtex-button)::after {
   content: "";
     display: block;
     position: absolute;
@@ -48,7 +51,7 @@
     width: 3px;
 }
 
-.infoCardTextContainer--info-card-example :global(.vtex-button)::before {
+.infoCardTextContainer--tablet__infocards :global(.vtex-button)::before {
   content: "";
     display: block;
     position: absolute;

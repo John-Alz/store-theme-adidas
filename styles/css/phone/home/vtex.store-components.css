@@ -1,23 +1,23 @@
 .infoCardContainer--phone__infocards {
-  height: 370px;
+  height: 680px;
   border: none;
 }
 
 .infoCardTextContainer--phone__infocards {
-  transform: translateY(50px);
+  transform: translateY(230px);
 }
 
 .infoCardHeadline--phone__infocards {
   color: #fff;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "adineuePRO-Bold";
 }
 
 .infoCardSubhead--phone__infocards {
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "AdihausDIN-Regular";
 }
 
@@ -27,7 +27,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   font-family: "AdihausDIN-Regular";
-  font-size: 15px;
+  font-size: 14px;
   height: 25px;
   border: none;
   border-radius: 0;

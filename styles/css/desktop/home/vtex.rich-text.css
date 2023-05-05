@@ -118,13 +118,12 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
 
   .wrapper--home__slider--title-one,
   .container--popular__grid--title,
   .container--tendencies__cards--title {
     width: 98%;
-    /* margin: 0 auto; */
   }
 
- }
+ } */

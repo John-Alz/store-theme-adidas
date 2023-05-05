@@ -11,7 +11,7 @@
 
   "list-context.product-list": {
     "title": "home products list",
-        "blocks": ["product-summary.shelf"],
+        "blocks": ["product-summary.shelf#home__shelf--products"],
         "children": [
           "slider-layout#desktop__slider--products"
         ]
@@ -32,7 +32,7 @@
       }
     },
 
-    "product-summary.shelf": {
+    "product-summary.shelf#home__shelf--products": {
       "title": "home product summary shelf",
           "children": [
             "product-summary-image#product__image",
