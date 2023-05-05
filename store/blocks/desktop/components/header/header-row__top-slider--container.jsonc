@@ -1,6 +1,6 @@
 {
   "slider-layout#header__slider-top": {
-    "title": "Slider con hijos declarados",
+    "title": "Slider header section top",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

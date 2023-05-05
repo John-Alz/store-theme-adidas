@@ -1,0 +1,53 @@
+{
+  "flex-layout.col#tablet__home--infocards": {
+    "title": "tablet home infocards",
+    "children": [
+      "flex-layout.row#tablet__mothers--card",
+      "flex-layout.row#tablet__bunny--card"
+    ]
+  },
+
+  "flex-layout.row#tablet__mothers--card": {
+    "title": "mothers card desk",
+    "children": [
+      "info-card#tablet__card--mothers"
+    ]
+  },
+  "flex-layout.row#tablet__bunny--card": {
+    "title": "bunny card desk",
+    "children": [
+      "info-card#tablet__card--bunny"
+    ]
+  },
+
+  "info-card#tablet__card--mothers": {
+    "title": "infocard number two home",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/tablet__madres--card.jpg",
+      "headline": "SORPRENDE A MAMÁ",
+      "subhead": "Porque mamá se merece lo mejor, te <br/> presentamos nuestros últimos <br/>  lanzamientos",
+      "callToActionText": "Comprar ahora",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "tablet__infocards",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tablet__card--bunny": {
+    "title": "infocard number one home",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home/home__image--desktop.jpg",
+      "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
+      "subhead": "Experimenta la primavera.",
+      "callToActionText": "VER AHORA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "tablet__infocards",
+      "textAlignment": "center"
+    }
+  }
+}

@@ -5,10 +5,11 @@
 
 .logoImage--container__logo--mobile {
   transform: translateY(5px);
+  /* transform: translateX(100px); */
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group ){
-  width: 180px;
+  width: 200px;
   height: 32px;
   border-radius: 0;
 }
@@ -36,13 +37,27 @@
   margin-left: 15px;
 }
 
-.searchBarInnerContainer :global(.vtex-styleguide-9-x-input) {
-  background-attachment: red;
-}
+
 
 .imageElement--home__user--logo  {
   transform: translateY(-1px);
 }
+
+.autoCompleteOuterContainer--mobile__header--menu :first-child {
+  border          : none;
+  background-color: blue;
+}
+.autoCompleteOuterContainer--mobile__header--menu :nth-child(2n) {
+  background-color: #eceff1;
+}
+.autoCompleteOuterContainer--mobile__header--menu :nth-child(1n) {
+  background-color: #eceff1;
+}
+
+.searchIcon {
+  transform: translateX(15px);
+}
+
 
 @media screen and (max-width: 640px) {
 

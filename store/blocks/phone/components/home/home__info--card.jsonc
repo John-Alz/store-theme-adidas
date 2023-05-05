@@ -1,0 +1,86 @@
+{
+
+    "flex-layout.col#phone__home--infocards": {
+      "title": "phone home infocards",
+      "children": [
+        "flex-layout.row#phone__mothers--card",
+        "flex-layout.row#phone__bunny--card"
+      ]
+    },
+
+    "flex-layout.row#phone__mothers--card": {
+      "title": "mothers card desk",
+      "children": [
+        "info-card#phone__card--mothers"
+      ]
+    },
+    "flex-layout.row#phone__bunny--card": {
+      "title": "bunny card desk",
+      "children": [
+        "info-card#phone__card--bunny"
+      ]
+    },
+
+    "info-card#phone__card--mothers": {
+      "title": "infocard number two home",
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/home/phone__madres--card.jpg",
+        "headline": "SORPRENDE A MAMÁ",
+        "subhead": "Porque mamá se merece lo mejor, te presentamos <br/> nuestros últimos lanzamientos",
+        "callToActionText": "Comprar ahora",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "phone__infocards",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#phone__card--bunny": {
+      "title": "infocard number one home",
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/home/home__image--desktop.jpg",
+        "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
+        "subhead": "Experimenta la primavera.",
+        "callToActionText": "VER AHORA",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "phone__infocards",
+        "textAlignment": "center"
+      }
+    }
+  }
+
+  // "info-card#phone__one--bunny": {
+  //   "title": "infocard number one home",
+  //   "props": {
+  //     "id": "info-card-example",
+  //     "isFullModeStyle": true,
+  //     "textPosition": "left",
+  //     "imageUrl": "assets/img/home/home__image--mobile.jpg",
+  //     "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
+  //     "subhead": "Experimenta la primavera.",
+  //     "callToActionText": "VER AHORA",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "phone__infocards",
+  //     "textAlignment": "center"
+  //   }
+  // },
+  // "info-card#phone__two--classics": {
+  //   "title": "infocard number two home",
+  //   "props": {
+  //     "id": "info-card-example",
+  //     "isFullModeStyle": true,
+  //     "textPosition": "left",
+  //     "imageUrl": "assets/img/home/home__image2--desktop.jpg",
+  //     "headline": "HOME OFF CLASSICS",
+  //     "subhead": "Clásicos atemporales por una buena razon",
+  //     "callToActionText": "Comprar ahora",
+  //     "callToActionUrl": "/sale/d",
+  //     "blockClass": "phone__infocards",
+  //     "textAlignment": "center"
+  //   }
+  // }
+

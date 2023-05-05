@@ -1,0 +1,40 @@
+{
+  "responsive-layout.desktop": {
+    "title": "Home Section one Desktop",
+    "children": [
+      "flex-layout.row#home__container"
+    ],
+    "props": {
+      "blockClass": "container__desktop"
+    }
+  },
+
+  "flex-layout.row#home__container": {
+    "children": [
+      "flex-layout.col#home"
+    ],
+    "props": {
+      "blockClass": "container__desktop--row"
+    }
+  },
+
+  "flex-layout.col#home": {
+    "children": [
+      "flex-layout.col#desktop__home--infocards",
+      "flex-layout.row#desktop__interesting--title",
+      "flex-layout.row#home__shelf",
+      "flex-layout.col#home__cards--tendencies",
+      "flex-layout.col#desktop__shields--container",
+      // "search-result-layout.customQuery#home__search",
+      "flex-layout.row#desktop__thebest--title",
+      "flex-layout.row#home__shelf",
+      "flex-layout.col#home__grid--popular",
+      "flex-layout.row#desktop__thebest--title",
+      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__section--history"
+    ],
+    "props": {
+      "blockClass": "container__desktop--col"
+    }
+  }
+}

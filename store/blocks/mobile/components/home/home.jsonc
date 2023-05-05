@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#mobile__menu--home": {
+    "title": "menu mobile home",
+    "children": [
+      "mega-menu#mobile"
+    ]
+  }
+}

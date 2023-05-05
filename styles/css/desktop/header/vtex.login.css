@@ -2,3 +2,162 @@
   width: 20px;
   height: 20px;
 }
+
+.content--emailVerification,
+.content--emailAndPassword {
+  display: flex;
+  flex-direction: column;
+  /* height: 30rem; */
+}
+
+.emailAndPasswordForm {
+  transform: translateX(30px);
+}
+
+/* .optionsSticky {
+  background: rebeccapurple;
+  font-size: 40px;
+} */
+
+
+.formTitle {
+  font-size: 18px;
+  font-family: "adineuePRO-Bold";
+}
+
+.loginOptionsContainer :global(.vtex-button) {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: "AdihausDIN-Regular";
+  font-weight: 700;
+}
+
+.loginOptionsContainer :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.loginOptionsContainer :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
+
+
+.emailForm  :global(.vtex-button) {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 9px;
+  font-family: "AdihausDIN-Regular";
+  font-weight: 700;
+}
+
+.emailForm  :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.emailForm  :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
+
+
+
+
+.emailAndPasswordForm  :global(.vtex-button) {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 9px;
+  font-family: "AdihausDIN-Regular";
+  font-weight: 700;
+}
+
+.emailAndPasswordForm  :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.emailAndPasswordForm  :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
+
+.inputContainerEmail {
+  border: solid 1px #000;
+  border-radius: 0;
+}
+
+.inputContainerEmail :global(.vtex-input-prefix__group) {
+  border: none;
+}
+
+
+
+.inputContainerPassword :global(.vtex-input-prefix__group) {
+  border: solid 1px #000;
+  border-radius: 0;
+}
+
+.forgotPasswordLink,
+.dontHaveAccount {
+  font-family: "AdihausDIN-Regular";
+  font-size: 14px;
+  color: #0081c7;
+}
+
+
+@media screen and (max-width: 640px) {
+
+  .emailAndPasswordForm {
+    transform: translateX(0px);
+  }
+
+}
