@@ -1,0 +1,128 @@
+.wrapper--mobile__titles {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.paragraph--mobile__titles {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    font-family: "adineuePRO-Bold";
+    line-height: 1;
+    letter-spacing: .02em;
+}
+
+.container--mobile__titles{
+  margin-top: 50px;
+}
+
+.wrapper--mobile__titles--two {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.paragraph--mobile__titles--two {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  font-family: "adineuePRO-Bold";
+  line-height: 1;
+  letter-spacing: .02em;
+}
+
+.container--mobile__titles--two{
+margin-top: 50px;
+}
+
+/* grid popular */
+
+
+
+.container--mobile__grid--title {
+  width: 95%;
+  margin: 0 auto;
+}
+.container--popular__mobile {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.container--popular__mobile:hover {
+  border-bottom: solid 5px #000000;
+}
+.paragraph--mobile__grid--title {
+  line-height: 1;
+  font-size: 22px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+}
+
+.paragraph--popular__mobile{
+  letter-spacing: .02em;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+  padding-top: 30px;
+  line-height: 40px;
+}
+
+/* end grid popular */
+
+.paragraph--mobile__history--title {
+  text-transform: unset;
+  letter-spacing: .02em;
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-family: "adineuePRO-Bold";
+  color: #000;
+  line-height: 1;
+  max-width: 420px;
+  padding-bottom: 20px;
+}
+
+.paragraph--mobile__history--paragraph {
+  font-size: 16px;
+  font-family: "AdihausDIN-Regular";
+  padding-bottom: 50px;
+}
+
+
+.container--mobile__text--shields {
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  background-color: rgb(235, 237, 238);
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+
+
+
+
+@media screen and (max-width: 599px) {
+
+  /* .paragraph--mobile__titles, */
+  .paragraph--mobile__titles--two {
+    font-size: 30px;
+}
+
+}
+
+@media screen and (max-width: 462px) {
+
+  .wrapper--mobile__titles {
+    width: 80%;
+}
+
+
+}

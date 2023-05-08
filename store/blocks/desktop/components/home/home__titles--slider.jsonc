@@ -26,5 +26,25 @@
       "text": "LO MEJOR DE ADIDAS",
       "blockClass": "home__slider--title-one"
     }
+  },
+
+  "flex-layout.row#home__cardstendencies--title": {
+    "title": "home slider tendencies title contianes",
+    "children": [
+      "rich-text#home__cardtendencies--title"
+    ],
+    "props": {
+      "blockClass": "home__cardstendencies--title"
+    }
+  },
+
+
+  "rich-text#home__cardtendencies--title": {
+    "title": "home section slider tendencies title",
+    "props": {
+      "text": "TENDENCIAS",
+      "blockClass": "tendencies__cards--title"
+    }
   }
+
 }

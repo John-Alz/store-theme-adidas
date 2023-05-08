@@ -42,3 +42,24 @@
 .flexColChild--mobile__menu--items {
   width: 250px;
 }
+
+.flexRow--mobile__menu--location{
+  transform: translateX(15px);
+  width: 80%;
+  margin-top: 700px;
+}
+
+.flexRowContent--mobile__menu--location{
+  width: 250px;
+}
+
+.flexRowContent--mobile__menu--location :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 20% !important;
+}
+
+@media screen and (max-width: 640px) {
+  .flexRowContent--mobile__menu--location {
+    display: flex;
+  }
+
+}

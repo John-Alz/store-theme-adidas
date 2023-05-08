@@ -1,3 +1,7 @@
+.BackButtonText {
+  display: none;
+}
+
 .styledLinkText {
   color: #000;
   font-family: "AdihausDIN-Regular";

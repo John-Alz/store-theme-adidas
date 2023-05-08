@@ -1,0 +1,74 @@
+{
+  "flex-layout.col#mobile__grid--popular": {
+    "title": "mobile grid popular",
+    "children": [
+      "flex-layout.row#mobile__populartitle--container",
+      "flex-layout.row#mobile__grid--popular"
+    ],
+    "props": {
+      "blockClass": "mobile__grid--popular"
+    }
+  },
+
+
+  "flex-layout.row#mobile__grid--popular": {
+    "title": "mobile grid popular container",
+    "children": [
+      "rich-text#mobile__popular--one",
+      "rich-text#mobile__popular--two",
+      "rich-text#mobile__popular--three",
+      "rich-text#mobile__popular--four",
+      "rich-text#mobile__popular--five",
+      "rich-text#mobile__popular--six"
+    ],
+    "props": {
+      "blockClass": "popular__grid--mobile",
+      "rowGap" : 3
+    }
+  },
+
+
+  "rich-text#mobile__popular--one": {
+    "title": "mobile section grid popular mobile one",
+    "props": {
+      "text": "Materiales Reciclados",
+      "blockClass": "popular__mobile"
+    }
+  },
+  "rich-text#mobile__popular--two": {
+    "title": "mobile section grid popular mobile two",
+    "props": {
+      "url": "#",
+      "text": "Guayos",
+      "blockClass": "popular__mobile"
+    }
+  },
+  "rich-text#mobile__popular--three":{
+    "title": "mobile section grid popular mobile three",
+    "props": {
+      "text": "Superstar",
+      "blockClass": "popular__mobile"
+    }
+  },
+  "rich-text#mobile__popular--four":{
+    "title": "mobile section grid popular mobile four",
+    "props": {
+      "text": "Forum",
+      "blockClass": "popular__mobile"
+    }
+  },
+  "rich-text#mobile__popular--five":{
+    "title": "mobile section grid popular mobile five",
+    "props": {
+      "text": "Lego",
+      "blockClass": "popular__mobile"
+    }
+  },
+  "rich-text#mobile__popular--six":{
+    "title": "mobile section grid popular mobile six",
+    "props": {
+      "text": "Samba",
+      "blockClass": "popular__mobile"
+    }
+  }
+}

@@ -1,30 +1,70 @@
 {
 
-  // "flex-layout.row#mobile__interesting--title": {
-  //   "title": "mobile interesting title container",
-  //   "children": [
-  //     "rich-text#mobile__thebest--title"
-  //   ]
-  // },
+  "flex-layout.row#mobile__interesting--title": {
+    "title": "mobile interesting title container",
+    "children": [
+      "rich-text#mobile__thebest--title"
+    ]
+  },
 
-  // "flex-layout.row#mobile__thebest--title": {
-  //   "title": "mobile the best title container",
-  //   "children": [
-  //     "rich-text#mobile__interesting--title"
-  //   ]
-  // },
+  "flex-layout.row#mobile__thebest--title": {
+    "title": "mobile the best title container",
+    "children": [
+      "rich-text#mobile__interesting--title"
+    ]
+  },
 
 
-  // "rich-text#mobile__thebest--title": {
-  //   "props": {
-  //     "text": "¿Aún estás interesado?",
-  //     "blockClass": "mobile__titles"
-  //   }
-  // },
-  // "rich-text#mobile__interesting--title": {
-  //   "props": {
-  //     "text": "LO MEJOR DE ADIDAS",
-  //     "blockClass": "mobile__titles"
-  //   }
-  // }
+  "rich-text#mobile__thebest--title": {
+    "props": {
+      "text": "¿Aún estás interesado?",
+      "blockClass": "mobile__titles"
+    }
+  },
+  "rich-text#mobile__interesting--title": {
+    "props": {
+      "text": "LO MEJOR DE ADIDAS",
+      "blockClass": "mobile__titles--two"
+    }
+  },
+
+  "flex-layout.row#mobile__cardstendencies--title": {
+    "title": "home slider tendencies title contianes",
+    "children": [
+      "rich-text#mobile__cardtendencies--title"
+    ],
+    "props": {
+      "blockClass": "mobile__cardstendencies--title"
+    }
+  },
+
+
+  "rich-text#mobile__cardtendencies--title": {
+    "title": "home section slider tendencies title",
+    "props": {
+      "text": "TENDENCIAS",
+      "blockClass": "mobile__titles"
+    }
+  },
+
+  "flex-layout.row#mobile__populartitle--container": {
+    "title": "mobile grid popular container",
+    "children": [
+      "rich-text#mobile__popular--title"
+    ],
+    "props": {
+      "blockClass": "mobile__populartitle--container"
+    }
+  },
+
+
+
+  "rich-text#mobile__popular--title": {
+    "title": "mobile section grid popular title",
+    "props": {
+      "text": "POPULAR AHORA",
+      "blockClass": "mobile__grid--title"
+    }
+  }
+
 }

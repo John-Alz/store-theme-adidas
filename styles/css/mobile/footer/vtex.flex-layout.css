@@ -1,3 +1,12 @@
+.flexRow--mobile__opinion--container {
+  background: #eceff1;
+}
+
+.flexCol--mobile__footer--opinion {
+  background: #eceff1;
+  padding: 20px;
+}
+
 .flexRow--mobile__footer {
   background: #000;
 }
@@ -8,7 +17,7 @@
 
 .flexRow--mobile__footer--newsletter {
   background: #ede734;
-  padding: 40px;
+  padding: 40px 5px 40px 5px;
 }
 
 .flexRowContent--mobile__footer--newsletter {

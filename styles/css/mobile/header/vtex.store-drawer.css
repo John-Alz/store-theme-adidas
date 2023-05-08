@@ -1,4 +1,6 @@
-.drawer--mobile__mega--menu {
+.drawer--mobile__mega--menu,
+.drawer--drawer__search {
   width: 100% !important;
   max-width: 100% !important;
 }
+

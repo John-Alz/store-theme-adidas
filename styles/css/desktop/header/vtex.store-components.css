@@ -3,10 +3,6 @@
   flex: 1;
 }
 
-.logoImage--container__logo--mobile {
-  transform: translateY(5px);
-  /* transform: translateX(100px); */
-}
 
 .searchBarContainer :global(.vtex-input-prefix__group ){
   width: 200px;

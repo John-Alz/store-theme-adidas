@@ -24,10 +24,12 @@
   font-weight: 400;
   color: #000;
   font-family: "AdihausDIN-Regular";
+  cursor: pointer;
 }
 .paragraph--footer__text--item--select {
   font-size: 13px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 
 .container--footer__section--titles {
@@ -41,6 +43,7 @@
   margin-top: 30px;
   padding: 0 15px;
   border-right: solid 1px;
+  cursor: pointer;
 }
 
 .paragraph--footer-li-three--other {
@@ -49,6 +52,7 @@
   font-size: 12px;
   margin-top: 30px;
   padding: 0 15px;
+  cursor: pointer;
 }
 
 .paragraph--footer-copyright {
@@ -57,4 +61,13 @@
   font-family: "AdihausDIN-Regular";
   font-size: 12px;
   padding-top: 30px;
+  cursor: pointer;
 }
+
+@media screen and (max-width: 1028px) {
+  .paragraph--footer-li-three {
+    font-size: 11px;
+  }
+
+}
+

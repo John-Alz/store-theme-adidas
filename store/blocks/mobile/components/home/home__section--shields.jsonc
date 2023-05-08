@@ -1,0 +1,203 @@
+{
+
+  "flex-layout.col#mobile__shields--container": {
+    "title": "mobile shields container",
+    "children": [
+      "flex-layout.row#mobile__shields--title",
+      "flex-layout.row#mobile__shields--images"
+    ]
+  },
+
+  "flex-layout.row#mobile__shields--title":{
+    "title": "mobile shields title",
+    "children": [
+      "rich-text#mobile__text--shields"
+    ]
+  },
+  "flex-layout.row#mobile__shields--images":{
+    "title": "mobile shields images",
+    "children": [
+      "flex-layout.row#mobile__shields"
+    ]
+  },
+
+
+  "rich-text#mobile__text--shields": {
+    "title": "rich text section one shields",
+    "props": {
+      "text": "Encuentra a tu equipo",
+      "blockClass": "mobile__text--shields"
+    }
+  },
+
+
+  "flex-layout.row#mobile__shields": {
+    "title": "section shields",
+    "children": [
+      "flex-layout.col#shield__colombia--one-mobile",
+      "flex-layout.col#shield__millonarios--one-mobile",
+      "flex-layout.col#shield__medellin--one-mobile",
+      "flex-layout.col#shield__junior--one-mobile",
+      "flex-layout.col#shield__arsenal--one-mobile",
+      "flex-layout.col#shield__madrid--one-mobile",
+      "flex-layout.col#shield__manchester--one-mobile",
+      "flex-layout.col#shield__juventus--one-mobile",
+      "flex-layout.col#shield__bayern--one-mobile"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "colJustify": "start",
+      "blockClass": "mobile__shields"
+    }
+  },
+
+  "flex-layout.col#shield__colombia--one-mobile": {
+    "title": "shield item",
+    "children": [
+      "image#shield__colombia--img-mobile"
+    ]
+  },
+  "flex-layout.col#shield__millonarios--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__millonarios--img-mobile"
+    ]
+  },
+  "flex-layout.col#shield__medellin--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__medellin--img-mobile"
+    ]
+  },
+  "flex-layout.col#shield__junior--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__junior--img-mobile"
+    ]
+  },
+  "flex-layout.col#shield__arsenal--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__arsenal--img-mobile"
+    ]
+  },
+  "flex-layout.col#shield__madrid--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__madrid--img-mobile"
+    ],
+    "props": {
+      "blockClass" : "mobiel__shield--three"
+    }
+  },
+  "flex-layout.col#shield__manchester--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__manchester--img-mobile"
+    ],
+    "props": {
+      "blockClass" : "mobiel__shield"
+    }
+  },
+  "flex-layout.col#shield__juventus--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__juventus--img-mobile"
+    ],
+    "props": {
+      "blockClass" : "mobiel__shield"
+    }
+  },
+  "flex-layout.col#shield__bayern--one-mobile":{
+    "title": "shield item",
+    "children": [
+      "image#shield__bayern--img-mobile"
+    ],
+    "props": {
+      "blockClass" : "mobiel__shield"
+    }
+  },
+
+  "image#shield__colombia--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/colombia__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__millonarios--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/millonarios__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__medellin--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/medellin__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__junior--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/junior__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__arsenal--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/arsenal__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__madrid--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/madrid__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__manchester--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/manchester__shield.jpg",
+      // "blockClass" : "home__favorite--logo",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__juventus--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/juventus__shield.jpg",
+      // "blockClass" : "mobiel__shield",
+      "maxWidth" : 51,
+      "maxHeight": 51
+    }
+  },
+  "image#shield__bayern--img-mobile": {
+    "title": "shield item image",
+    "props" : {
+      "src" : "assets/img/home/bayern__shield.jpg",
+      // "blockClass" : "mobiel__shield",
+      "maxWidth" : 51,
+      "maxHeight": 51
+      }
+    }
+
+}

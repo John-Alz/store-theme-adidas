@@ -1,3 +1,18 @@
+.container--footer__opinion--title,
+.container--footer__paragraph--title {
+  padding-bottom: 10px;
+}
+
+.paragraph--footer__opinion--title {
+  font-size: 18px;
+  font-family: "adineuePRO-Bold";
+}
+
+.paragraph--footer__paragraph--title {
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+}
+
 .paragraph--mobile__footer--one  {
   font-family: "AdihausDIN-Regular";
   font-size: 14px;
@@ -19,16 +34,26 @@
   font-weight: 400;
   font-family: "AdihausDIN-Regular";
   padding: 10px 15px 10px 15px;
+  cursor: pointer;
 }
 
 .paragraph--footer__menu--item {
-  color: #fff;
+  color: #d3d7da;
   font-size: 12px;
   font-weight: 400;
   font-family: "AdihausDIN-Regular";
   padding: 20px 15px 10px 15px;
+  cursor: pointer;
 }
 
+.container--mobile__footer--item,
 .container--footer__menu--item {
   justify-content: center;
+}
+
+@media screen and (max-width: 321px) {
+  .paragraph--footer__menu--item {
+    font-size: 11px;
+  }
+
 }

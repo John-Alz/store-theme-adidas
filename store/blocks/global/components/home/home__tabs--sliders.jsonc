@@ -1,0 +1,276 @@
+{
+  "flex-layout.row#home__shelf--tab1": {
+    "title": "home shelf products tab1",
+    "children": [
+      "list-context.product-list#home__tab1--shelf"
+    ],
+    "props": {
+      "blockClass": "home__shelf"
+    }
+  },
+
+  "list-context.product-list#home__tab1--shelf": {
+    "title": "home products list tab1",
+        "blocks": ["product-summary.shelf#home__shelf--products-tab1"],
+        "children": [
+          "slider-layout#home__slider--products-tab1"
+        ]
+    },
+
+    "slider-layout#home__slider--products-tab1": {
+      "title": "home slider shelf products",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 6,
+          "phone": 6
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "never",
+        "blockClass": "carousel_home"
+      }
+    },
+
+    "product-summary.shelf#home__shelf--products-tab1": {
+      "title": "home product summary shelf",
+          "children": [
+            "rich-text#home__tab1--title",
+            "product-summary-image#product__image-tab1",
+            "product-summary-name#product__name-tab1",
+            // "product-rating-inline#product__rating",
+            "product-summary-space#product__space-tab1",
+            "product-summary-price#product__price-tab1",
+            "add-to-cart-button#product__button-tab1"
+          ]
+    },
+
+    "rich-text#home__tab1--title": {
+      "title": "home tab1 title",
+      "props": {
+        "blockClass": "home__tab1--title",
+        "text": "PESTAÑA UNO"
+      }
+    },
+
+    "product-summary-image#product__image-tab1": {
+      "title": "home product summary image",
+      "props": {
+        "blockClass": "product__image"
+      }
+    },
+    "product-summary-name#product__name-tab1": {
+      "title": "home product summary name",
+      "props": {
+        "blockClass":"product__name"
+      }
+    },
+    // "product-rating-inline#product__rating": {
+    //   "props": {
+    //     "blockClass":"product__rating"
+    //   }
+    // },
+    "product-summary-space#product__space-tab1": {
+      "title": "home product summary space",
+      "props": {
+        "blockClass":"product__space"
+      }
+    },
+    "product-summary-price#product__price-tab1":{
+      "title": "home product summary price",
+      "props": {
+        "blockClass":"product__price"
+      }
+    },
+    "add-to-cart-button#product__button-tab1": {
+      "title": "home product summary add to cart button",
+      "props": {
+        "blockClass":"product__button"
+      }
+    },
+
+    //tab two
+
+    "flex-layout.row#home__shelf--tab2": {
+      "title": "home shelf products tab1",
+      "children": [
+        "list-context.product-list#home__shelf--tab2"
+      ],
+      "props": {
+        "blockClass": "home__shelf"
+      }
+    },
+
+    "list-context.product-list#home__shelf--tab2": {
+      "title": "home products list tab2",
+          "blocks": ["product-summary.shelf#home__shelf--products-tab2"],
+          "children": [
+            "slider-layout#home__slider--products-tab2"
+          ]
+      },
+
+      "slider-layout#home__slider--products-tab2": {
+        "title": "home slider shelf products tab2",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 6,
+            "phone": 6
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "never",
+          "blockClass": "carousel_home"
+        }
+      },
+
+      "product-summary.shelf#home__shelf--products-tab2": {
+        "title": "home product summary shelf",
+            "children": [
+              "rich-text#home__tab2--title",
+              "product-summary-image#product__image-tab2",
+              "product-summary-name#product__name-tab2",
+              // "product-rating-inline#product__rating",
+              "product-summary-space#product__space-tab2",
+              "product-summary-price#product__price-tab2",
+              "add-to-cart-button#product__button-tab2"
+            ]
+      },
+
+      "rich-text#home__tab2--title": {
+        "title": "home tab2 title",
+        "props": {
+          "blockClass": "home__tab1--title",
+          "text": "PESTAÑA DOS"
+        }
+      },
+
+      "product-summary-image#product__image-tab2": {
+        "title": "home product summary image",
+        "props": {
+          "blockClass": "product__image"
+        }
+      },
+      "product-summary-name#product__name-tab2": {
+        "title": "home product summary name",
+        "props": {
+          "blockClass":"product__name"
+        }
+      },
+      // "product-rating-inline#product__rating": {
+      //   "props": {
+      //     "blockClass":"product__rating"
+      //   }
+      // },
+      "product-summary-space#product__space-tab2": {
+        "title": "home product summary space",
+        "props": {
+          "blockClass":"product__space"
+        }
+      },
+      "product-summary-price#product__price-tab2":{
+        "title": "home product summary price",
+        "props": {
+          "blockClass":"product__price"
+        }
+      },
+      "add-to-cart-button#product__button-tab2": {
+        "title": "home product summary add to cart button",
+        "props": {
+          "blockClass":"product__button"
+        }
+      },
+
+      //tab three
+
+    "flex-layout.row#home__shelf--tab3": {
+      "title": "home shelf products tab3",
+      "children": [
+        "list-context.product-list#home__shelf--tab3"
+      ],
+      "props": {
+        "blockClass": "home__shelf"
+      }
+    },
+
+    "list-context.product-list#home__shelf--tab3": {
+      "title": "home products list tab3",
+          "blocks": ["product-summary.shelf#home__shelf--products-tab3"],
+          "children": [
+            "slider-layout#home__slider--products-tab3"
+          ]
+      },
+
+      "slider-layout#home__slider--products-tab3": {
+        "title": "home slider shelf products tab3",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 6,
+            "phone": 6
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "never",
+          "blockClass": "carousel_home"
+        }
+      },
+
+      "product-summary.shelf#home__shelf--products-tab3": {
+        "title": "home product summary shelf",
+            "children": [
+              "rich-text#home__tab3--title",
+              "product-summary-image#product__image-tab3",
+              "product-summary-name#product__name-tab3",
+              // "product-rating-inline#product__rating",
+              "product-summary-space#product__space-tab3",
+              "product-summary-price#product__price-tab3",
+              "add-to-cart-button#product__button-tab3"
+            ]
+      },
+
+      "rich-text#home__tab3--title": {
+        "title": "home tab2 title",
+        "props": {
+          "blockClass": "home__tab1--title",
+          "text": "PESTAÑA TRES"
+        }
+      },
+
+      "product-summary-image#product__image-tab3": {
+        "title": "home product summary image",
+        "props": {
+          "blockClass": "product__image"
+        }
+      },
+      "product-summary-name#product__name-tab3": {
+        "title": "home product summary name",
+        "props": {
+          "blockClass":"product__name"
+        }
+      },
+      // "product-rating-inline#product__rating": {
+      //   "props": {
+      //     "blockClass":"product__rating"
+      //   }
+      // },
+      "product-summary-space#product__space-tab3": {
+        "title": "home product summary space",
+        "props": {
+          "blockClass":"product__space"
+        }
+      },
+      "product-summary-price#product__price-tab3":{
+        "title": "home product summary price",
+        "props": {
+          "blockClass":"product__price"
+        }
+      },
+      "add-to-cart-button#product__button-tab3": {
+        "title": "home product summary add to cart button",
+        "props": {
+          "blockClass":"product__button"
+        }
+      }
+
+}
