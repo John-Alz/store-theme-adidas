@@ -3,10 +3,14 @@
   height: 20px;
 }
 
+
+
 .content--emailVerification,
 .content--emailAndPassword {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  overflow: hidden;
   /* height: 30rem; */
 }
 
@@ -153,6 +157,40 @@
   color: #0081c7;
 }
 
+
+.formFooter  :global(.vtex-button) {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 9px;
+  font-family: "AdihausDIN-Regular";
+  font-weight: 700;
+}
+
+.formFooter  :global(.vtex-button)::after {
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -5px;
+    top: 4px;
+    width: 3px;
+}
+
+.formFooter  :global(.vtex-button)::before {
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 5px;
+}
 
 @media screen and (max-width: 640px) {
 

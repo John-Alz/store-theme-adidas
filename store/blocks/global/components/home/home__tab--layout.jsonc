@@ -1,0 +1,107 @@
+{
+  "tab-layout#home__tabs--container": {
+    "title": "home tab layout container",
+    "children": [
+      "tab-list#home__tabs--list",
+      "tab-content#home__tabs--content"
+    ],
+    "props": {
+      "defaultActiveTabId": "tab1",
+      "blockClass": "home__tabs--container"
+    }
+  },
+  "tab-list#home__tabs--list": {
+    "title": "home tab list",
+    "children": [
+      "slider-layout#home__tabs--list"
+    ],
+    "props": {
+      "blockClass": "home__tabs--list"
+    }
+  },
+
+
+  "slider-layout#home__tabs--list" : {
+    "title" : "home tabs list slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop" : 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "home__slider--tabs"
+    },
+    "children" : [
+      "tab-list.item#tabs__list--one",
+      "tab-list.item#tabs__list--two",
+      "tab-list.item#tabs__list--three"
+    ]
+  },
+
+  "tab-list.item#tabs__list--one": {
+    "title": "home tab list item one",
+    "props": {
+      "label": "NOVEDADES",
+      "tabId": "tab1",
+      "blockClass": "tab__list--item"
+    }
+  },
+  "tab-list.item#tabs__list--two": {
+    "title": "home tab list item two",
+    "props": {
+      "label": "EXCLUSIVO MIEMBROS ADICLUB",
+      "tabId": "tab2",
+      "blockClass": "tab__list--item"
+    }
+  },
+  "tab-list.item#tabs__list--three": {
+    "title": "home tab list item three",
+    "props": {
+      "label": "COLECCIONES",
+      "tabId": "tab3",
+      "blockClass": "tab__list--item"
+    }
+  },
+
+
+  "tab-content#home__tabs--content": {
+    "title": "home tabs content container",
+    "children": [
+      "tab-content.item#tab__content--one",
+      "tab-content.item#tab__content--two",
+      "tab-content.item#tab__content--three"
+    ]
+  },
+
+  "tab-content.item#tab__content--one": {
+    "title": "home tab content item one",
+    "children": [
+      "flex-layout.row#home__shelf--tab1"
+    ],
+    "props": {
+      "tabId": "tab1"
+    }
+  },
+  "tab-content.item#tab__content--two": {
+    "title": "home tab content item two",
+    "children": [
+      "flex-layout.row#home__shelf--tab2"
+    ],
+    "props": {
+      "tabId": "tab2"
+    }
+  },
+  "tab-content.item#tab__content--three": {
+    "title": "home tab content item three",
+    "children": [
+      "flex-layout.row#home__shelf--tab3"
+    ],
+    "props": {
+      "tabId": "tab3"
+    }
+  }
+
+}

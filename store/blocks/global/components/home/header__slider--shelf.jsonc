@@ -35,6 +35,7 @@
     "product-summary.shelf#home__shelf--products": {
       "title": "home product summary shelf",
           "children": [
+            // "rich-text#home__tab1--title",
             "product-summary-image#product__image",
             "product-summary-name#product__name",
             // "product-rating-inline#product__rating",
@@ -43,6 +44,14 @@
             "add-to-cart-button#product__button"
           ]
     },
+
+    // "rich-text#home__tab1--title": {
+    //   "title": "home tab1 title",
+    //   "props": {
+    //     "blockClass": "home__tab1--title",
+    //     "text": "PESTAÑA UNO"
+    //   }
+    // },
 
     "product-summary-image#product__image": {
       "title": "home product summary image",

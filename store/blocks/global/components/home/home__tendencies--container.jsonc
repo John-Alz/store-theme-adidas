@@ -2,25 +2,19 @@
   "flex-layout.col#home__cards--tendencies": {
     "title": "home tendencies cards",
     "children": [
-      "rich-text#home__cardtendencies--title",
       "slider-layout#home__slider--children"
     ]
   },
-  "rich-text#home__cardtendencies--title": {
-    "title": "home section cards tendencies title",
-    "props": {
-      "text": "TENDENCIAS",
-      "blockClass": "tendencies__cards--title"
-    }
-  },
+
   "slider-layout#home__slider--children": {
     "title": "Slider con hijos declarados",
     "props": {
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "mobile": 2
+        "mobile": 1
       },
+      "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "never",
       "blockClass": "home__tendencies--slider"

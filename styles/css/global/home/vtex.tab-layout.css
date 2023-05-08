@@ -1,0 +1,53 @@
+.listContainer--home__tabs--list {
+  /* width: 88% !important;
+  margin: 0 auto;
+  justify-content:flex-start; */
+  margin-top: 50px !important;
+}
+
+
+.listItem--tab__list--item :global(.vtex-button) {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.listItem--tab__list--item :global(.vtex-button__label) {
+  color: #d3d7da;
+  font-size: 28px;
+  font-family: "AdihusDIN-Bold";
+  margin-left: 30px;
+}
+
+.listItemActive--tab__list--item :global(.vtex-button__label) {
+  color: #000;
+}
+
+.listItemActive--tab__list--item :global(.vtex-button)::after {
+  content: url("assets/img/home/arrow__tab.png");
+  font-weight: 60px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1280px) {
+
+  .listItem--tab__list--item :global(.vtex-button__label) {
+    font-size: 18px;
+  }
+
+  /* .listItem--tab__list--item {
+    width: 30%;
+    white-space: nowrap;
+  } */
+
+ }
+
+
+
+
+
+
