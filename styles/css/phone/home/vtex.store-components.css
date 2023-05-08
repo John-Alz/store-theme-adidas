@@ -57,3 +57,26 @@
     left: 5px;
 }
 
+@media screen and (max-width: 426px) {
+
+  .infoCardContainer--phone__infocards {
+    height: 580px;
+  }
+
+  .infoCardTextContainer--phone__infocards {
+    transform: translateY(180px);
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+
+  .infoCardContainer--phone__infocards {
+    height: 480px;
+  }
+
+  .infoCardTextContainer--phone__infocards {
+    transform: translateY(120px);
+  }
+
+}

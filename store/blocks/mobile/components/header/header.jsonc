@@ -84,7 +84,8 @@
         "drawer-trigger#mobile__icon--search"
     ],
     "props": {
-      "slideDirection": "rightToLeft"
+      "slideDirection": "rightToLeft",
+      "blockClass": "drawer__search"
     },
     "children": [
         "search-bar#mobile__header--search"
@@ -95,7 +96,7 @@
 "search-bar#mobile__header--search": {
   "title" : "mobile header search",
     "blocks": [
-      "autocomplete-result-list.v2"
+      "autocomplete-result-list.v2#desktop__auto--result"
     ],
     "props": {
       "blockClass": "mobile__header--search",
@@ -150,7 +151,8 @@
     "title": "mobile menu container",
     "children": [
       "mega-menu#mobile",
-      "flex-layout.col#mobile__menu--items"
+      "flex-layout.col#mobile__menu--items",
+      "flex-layout.row#mobile__menu--location"
     ],
     "props": {
       "blockClass": "mobile__menu--container"
@@ -169,6 +171,17 @@
     ],
     "props": {
       "blockClass": "mobile__menu--items"
+    }
+  },
+
+  "flex-layout.row#mobile__menu--location": {
+    "title": "mobile menu location colombia",
+    "children": [
+      "image#mobile__menu--location",
+      "rich-text#mobile__menu--seven"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--location"
     }
   },
 
@@ -217,6 +230,25 @@
     "props": {
       "text": "Adidas APP",
       "blockClass": "mobile__menu"
+    }
+  },
+
+  //
+
+  "image#mobile__menu--location": {
+    "title": "section image location",
+    "props": {
+      "src": "assets/img/header/mobile__location--colombia.svg",
+      "maxHeight": 24,
+      "maxWidth": 24
+    }
+  },
+
+  "rich-text#mobile__menu--seven": {
+    "title": "section muenu text",
+    "props": {
+      "text": "Colombia",
+      "blockClass": "mobile__menu--colombia"
     }
   },
 

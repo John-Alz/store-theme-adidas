@@ -5,13 +5,89 @@
   // },
   "footer-layout.mobile": {
     "title": "footer mobile",
-    "children": ["flex-layout.row#mobile__footer", "flex-layout.row#mobile__footer--newsletter", "flex-layout.row#mobile__footer--two", "flex-layout.row#mobile__footer--three-main"],
+    "children": [ "flex-layout.row#mobile__opinion--container",  "flex-layout.row#mobile__footer--user", "flex-layout.row#mobile__footer--newsletter", "flex-layout.row#mobile__footer--two", "flex-layout.row#mobile__footer--three-main"],
     "props": {
       "blockClass": "mobile__footer--container"
     }
   },
 
-  "flex-layout.row#mobile__footer": {
+  "flex-layout.row#mobile__opinion--container": {
+    "title": "opinion mobile conteiner",
+    "children": [
+      "flex-layout.col#mobile__footer--opinion"
+    ],
+    "props": {
+      "blockClass": "mobile__opinion--container"
+    }
+  },
+
+  "flex-layout.col#mobile__footer--opinion": {
+    "title": "mobile footer opinon section",
+    "children": [
+      "flex-layout.row#footer__opinion--title",
+      "flex-layout.row#footer__opinion--paragraph"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--opinion"
+    }
+  },
+
+  "flex-layout.row#footer__opinion--title": {
+    "title": "mobile footer opinion title container",
+    "children": [
+      "rich-text#footer__opinion--title"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--opinion"
+    }
+  },
+  "flex-layout.row#footer__opinion--paragraph": {
+    "title": "mobile footer opinion paragraph container",
+    "children":[
+      "rich-text#footer__paragraph--title"
+    ],
+    "props": {
+      "blockClass": "mobile__footer--paragraph"
+    }
+  },
+
+  "rich-text#footer__opinion--title": {
+    "title": "mobile footer opinion title",
+    "props": {
+      "text": "¡TU OPINIÓN CUENTA!",
+      "blockClass": "footer__opinion--title"
+    }
+  },
+
+  "rich-text#footer__paragraph--title": {
+    "title": "mobile footer opinion paragraph",
+    "props": {
+      "text": "Nuestro objetivo es mejorar y valoramos mucho tus comentarios.",
+      "blockClass": "footer__paragraph--title"
+    }
+  },
+
+  "flex-layout.row#mobile__back--container": {
+    "title": "mobile footer back button",
+    "children": [
+      "flex-layout.col#mobile__footer--back"
+    ]
+  },
+
+  "flex-layout.col#mobile__footer--back": {
+    "title": "mobile footer back button",
+    "children": [
+      "back-to-top-button"
+    ]
+  },
+
+  "back-to-top-button":{
+        "props":{
+        "displayThreshold": 800
+    }
+ },
+
+  "flex-layout.row#mobile__footer--user": {
     "title": "mobile footer",
     "children": [
       "rich-text#mobile__footer--one",

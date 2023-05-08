@@ -4,6 +4,11 @@
     max-width: 1200px;
 } */
 
+.flexCol--icon__desktop--favorites,
+.flexCol--icon__desktop--profile {
+  cursor: pointer;
+}
+
 .flexRowContent--home__shelf {
   padding-left: 150px;
 }
@@ -14,11 +19,18 @@
     right: 40px;
     justify-content: right;
 }
+
 .flexRowContent--home__shelf :global(.vtex-slider-layout-0-x-sliderRightArrow) {
   position: absolute;
     top: 0;
     left: 100px;
     justify-content: right;
+}
+
+
+.flexRowContent--home__cardstendencies--title {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .flexRow--desktop__shields {
@@ -44,7 +56,7 @@
 }
 
 .flexCol--home__grid--popular {
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -88,7 +100,7 @@
 
  }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
 
   .flexRowContent--desktop__shields {
     gap: 1px;
@@ -118,6 +130,6 @@
     width: 100%!important;
   }
 
- }
+ } */
 
 

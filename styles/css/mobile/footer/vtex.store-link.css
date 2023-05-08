@@ -1,7 +1,7 @@
 .link--footer__newsletter--button-mobile  {
   border: none;
   background: transparent;
-  width: 24.5vw !important;
+  width: 27.5vw !important;
 }
 
 
@@ -46,3 +46,10 @@
     left: 5px;
 }
 
+@media screen and (max-width: 426px) {
+  .link--footer__newsletter--button-mobile  {
+    transform: translateX(-10px);
+  }
+
+
+}

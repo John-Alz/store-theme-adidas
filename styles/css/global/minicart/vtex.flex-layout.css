@@ -56,10 +56,20 @@
 
 .flexRow--productlist__container {
   margin-bottom: 20px;
+  float: right;
 }
 
 .flexColChild--main-container__container {
   transform: translateY(20px);
+}
+
+.flexCol--icon__desktop--cart :first-child {
+  background: transparent;
+}
+
+.flexCol--icon__desktop--favorites,
+.flexCol--icon__desktop--profile {
+  cursor: pointer;
 }
 
 .flexColChild--remove__button--minicart {
@@ -87,3 +97,9 @@
   }
 
  }
+
+ /* @media screen and (max-width: 480px) {
+  .flexRow--productlist__container {
+    float: right;
+  }
+ } */
