@@ -23,7 +23,7 @@
       "flex-layout.col#tablet__home--infocards",
       "flex-layout.row#mobile__interesting--title",
       "flex-layout.row#home__shelf",
-      "flex-layout.col#mobile__menu--home",
+      "flex-layout.col#mobile__home--menu",
       "flex-layout.row#mobile__cardstendencies--title",
       "flex-layout.col#home__cards--tendencies",
       "flex-layout.col#mobile__shields--container",

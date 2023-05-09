@@ -119,7 +119,7 @@
   "flex-layout.row#header__mobile--section-one": {
     "title": "header mobile section one drawer and favorites",
     "children": [
-      "drawer",
+      "drawer#mobile__header--menu",
       "image#Header__user--favorites"
     ],
     "props": {
@@ -127,7 +127,7 @@
     }
   },
 
-  "drawer": {
+  "drawer#mobile__header--menu": {
     "title": "Mega menu mobile",
     "children": [
       "flex-layout.col#mobile__menu--container"
@@ -137,15 +137,7 @@
     },
     "blocks": ["drawer-header#my-drawer"]
   },
-  "mega-menu#mobile": {
-    "title": "header mobile section mega menu",
-    "props": {
-      "title": " ",
-      "defaultDepartmentActive": "...",
-      "orientation": "vertical",
-      "openOnly": "vertical"
-    }
-  },
+
 
   "flex-layout.col#mobile__menu--container": {
     "title": "mobile menu container",
@@ -156,6 +148,16 @@
     ],
     "props": {
       "blockClass": "mobile__menu--container"
+    }
+  },
+
+  "mega-menu#mobile": {
+    "title": "header mobile section mega menu",
+    "props": {
+      "title": " ",
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
     }
   },
 
