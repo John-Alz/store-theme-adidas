@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#header__plp": {
+    "title": "header plp",
+    "children": [
+      "breadcrumb.search",
+      "modal-trigger#header__plp--filters"
+    ],
+    "props": {
+      "blockClass": "header__plp"
+    }
+  },
+  "modal-trigger#header__plp--filters": {
+    "title": "header plp filters",
+    "children": [
+      "rich-text#plp__filters--btn",
+      "modal-layout#plp__filters--modal"
+    ],
+    "props": {
+      "blockClass": "header__plp--filters"
+    }
+  },
+  "rich-text#plp__filters--btn": {
+    "title": "plp filters btn",
+    "props": {
+      "text": "Filtrar y Ordenar",
+      "blockClass": "plp__filters--btn"
+    }
+  },
+  "modal-layout#plp__filters--modal": {
+    "title": "plp filters modal",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "plp__filters--modal"
+    }
+  }
+}

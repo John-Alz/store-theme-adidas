@@ -1,0 +1,9 @@
+.filters--layout {
+  width: 500px;
+  height: 100vh;
+}
+
+.filtersWrapper {
+  width: 90%;
+  margin-left: 20px;
+}

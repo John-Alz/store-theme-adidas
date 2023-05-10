@@ -1,0 +1,4 @@
+.paperScrollContent {
+  transform: translateX(500px);
+  border-radius: 0;
+}
