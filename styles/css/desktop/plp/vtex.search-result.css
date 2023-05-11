@@ -1,3 +1,7 @@
+.searchResultContainer--search-results__global--container {
+  padding-bottom: 40px;
+}
+
 .filters--layout {
   width: 500px;
   height: 100vh;
@@ -6,4 +10,17 @@
 .filtersWrapper {
   width: 90%;
   margin-left: 20px;
+}
+
+.galleryLayoutSwitcher {
+  transform: translateY(15px);
+}
+
+.galleryItem--grid {
+  max-width: 40% !important;
+  flex-basis: 25% !important;
+}
+
+.gallery--general-grid {
+  padding-left: 0 !important;
 }

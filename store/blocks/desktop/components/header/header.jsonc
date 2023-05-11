@@ -4,12 +4,12 @@
     "children": [
       "slider-layout#header__slider-top",
       "flex-layout.row#header__section--subheader",
-      "flex-layout.row#desktop",
+      "header-row#desktop",
       "rich-text#section-one"
     ]
   },
 
-  "flex-layout.row#desktop": {
+  "header-row#desktop": {
     "title": "header desktop",
     "props": {
       "horizontalAlign": "center",
@@ -20,15 +20,33 @@
       "blockClass": "header__bottom"
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "logo#desktop__logo-adidas",
       // "image#header__logo",
       // "flex-layout.row#spacer",
-      "flex-layout.col#spacer__desktop-one",
+      // "flex-layout.col#spacer__desktop-one",
+      "header-spacer",
       "flex-layout.row#header__bottom--menu",
       // "flex-layout.col#spacer__desktop-two",
       "search-bar#desktop__header--menu",
       "flex-layout.row#header__bottom--user"
     ]
+  },
+
+  // "flex-layout.col#logo-desktop": {
+  //   "title": "logo adidas",
+  //   "props": {
+  //     "verticalAlign": "middle"
+  //   },
+  //   "children": ["logo"]
+  // },
+  "logo#desktop__logo-adidas": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/header/Adidas_logo_two.svg",
+      "width": "93",
+      "blockClass": "container-logo"
+    }
   },
 
   "search-bar#desktop__header--menu": {
@@ -40,8 +58,8 @@
       "blockClass": "mobile__header--menu",
       "hasIconLeft": false,
       "openAutocompleteOnFocus": true,
-      "containerMode": "overlay",
-      "maxWidth": 900
+      "containerMode": "overlay"
+      // "maxWidth": 900
     }
   },
 

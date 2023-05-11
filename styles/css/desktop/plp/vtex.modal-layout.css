@@ -1,4 +1,8 @@
-.paperScrollContent {
+.paper--plp__filters--modal {
   transform: translateX(500px);
+}
+
+.paperScrollContent {
+  /* transform: translateX(500px); */
   border-radius: 0;
 }

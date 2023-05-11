@@ -2,3 +2,36 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.flexRow--search__results--plp {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.flexCol--plp__modal--filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.flexCol--product__list--image {
+  background: #EBEEF0;
+}
+
+.flexRow--plp__products--list-container {
+  border: solid 1px #000;
+}
+
+.flexRow--plp__products--list-container:hover {
+  border: solid 2px #000;
+}
+
+.flexRowContent--search__results--plp {
+  padding-top: 30px;
+}
+
+
+.flexRow--plp__products--list-container :global(.vtex-button){
+  position: absolute;
+    transform: translateX(-140px);
+}

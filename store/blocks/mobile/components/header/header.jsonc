@@ -102,9 +102,7 @@
       "blockClass": "mobile__header--search",
       "hasIconLeft": false,
       "openAutocompleteOnFocus": true,
-      // "containerMode": "overlay",
-      "maxWidth": 900,
-      "height": 900
+      "autocompleteAlignment": "right"
 
     }
 },

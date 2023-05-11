@@ -1,14 +1,47 @@
 {
-  "flex-layout.row#header__plp": {
+
+  // "flex-layout.row#header__plp--container": {
+  //   "children": [
+  //     "flex-layout.col#header__plp"
+  //   ]
+  // },
+
+  "flex-layout.row#header__plp--container": {
     "title": "header plp",
     "children": [
-      "breadcrumb.search",
-      "modal-trigger#header__plp--filters"
+      "flex-layout.col#plp__breadcrumb",
+      // "flex-layout.col#plp__gallery--switcher",
+      "flex-layout.col#plp__modal--filter"
     ],
     "props": {
       "blockClass": "header__plp"
     }
   },
+
+  "flex-layout.col#plp__breadcrumb": {
+    "title": "plp breadcrumb",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  // "flex-layout.col#plp__gallery--switcher": {
+  //   "title": "plp switcher",
+  //   "children": [
+  //     "gallery-layout-switcher"
+  //   ]
+  // },
+
+  "flex-layout.col#plp__modal--filter": {
+    "title": "plp switcher",
+    "children": [
+      "gallery-layout-switcher",
+      "modal-trigger#header__plp--filters"
+    ],
+    "props": {
+      "blockClass": "plp__modal--filter"
+    }
+  },
+
   "modal-trigger#header__plp--filters": {
     "title": "header plp filters",
     "children": [

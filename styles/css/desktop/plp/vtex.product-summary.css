@@ -1,3 +1,18 @@
+
+
+.container--plp__shelf--products {
+  border: 1px solid #000;
+  border-radius: 0;
+}
+.container--plp__shelf--products:hover {
+  border: 2px solid #000;
+}
+
+.element--plp__shelf--products {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .imageWrapper--plp__product--image {
   background: #EBEEF0;
   padding-bottom: 60px;
@@ -29,5 +44,42 @@
 .priceContainer--product__price  {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+}
+
+.container--plp__products--list {
+  float: left;
+  max-width: 500px !important;
+}
+
+.imageContainer--plp__list--image {
+  width: 150px;
+  height: 200px;
+}
+
+.image--plp__list--image {
+  width: 200px;
+  height: 150px;
+  transform: translateY(25px);
+}
+
+.productBrand--plp__list--name {
+  color: #000;
+  font-size: 18px;
+  font-family: "AdihausDIN-Regular";
+}
+.productBrandName--plp__list--brand,
+.installmentContainer--plp__product--price {
+  color: #000;
+  font-size: 16px;
+  font-family: "AdihausDIN-Regular";
+}
+
+.element--plp__shelf--products :global(.vtex-button){
+  position: absolute;
+  transform: translateX(80px);
+}
+
+.element--plp__shelf--products :global(.vtex-button):hover{
+  background-color: transparent;
 }
 
