@@ -1,19 +1,15 @@
 {
-  "flex-layout.row#phone__home__section-1": {
-    "title": "PHONE Row with text",
-    "children": [
-      "rich-text#phone__section-1"
-    ]
+  "flex-layout.col#phone__home--menu": {
+    "children": ["flex-layout.row#mega__menu"]
   },
 
-  "rich-text#phone__section-1": {
-    "title": "Text Favorites",
+  "flex-layout.row#mega__menu": {
+    "children": ["mega-menu#phone"]
+  },
+  "mega-menu#phone": {
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en PHONE",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "title": " ",
+      "openOnly": "horizontal"
     }
   }
 }

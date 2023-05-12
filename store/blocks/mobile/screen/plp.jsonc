@@ -1,0 +1,12 @@
+{
+  "search-result-layout.mobile#global" : {
+    "title" : "search result mobile",
+    "children" : [
+      "flex-layout.row#mobile__headerplp--container",
+      "flex-layout.row#search__results--plp"
+    ],
+    "props" : {
+      "blockClass" : "search-results__global--container"
+    }
+  }
+}

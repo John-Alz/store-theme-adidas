@@ -4,3 +4,7 @@
   max-width: 100% !important;
 }
 
+.closeIconButton--drawer__search,
+.closeIconContainer--drawer__search {
+  background: #eceff1;
+}

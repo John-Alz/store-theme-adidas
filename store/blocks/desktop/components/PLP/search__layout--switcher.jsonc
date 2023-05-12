@@ -1,0 +1,57 @@
+{
+  "gallery-layout-switcher": {
+  "title": "gallery layout switcher",
+  "children": [
+    "gallery-layout-option#grid",
+    "gallery-layout-option#list"
+  ]
+},
+"gallery-layout-option#grid": {
+  "title": "gallery layout switcher grid",
+  "props": {
+    "name": "general-grid"
+  },
+  "children": [
+    "icon-grid",
+    "responsive-layout.desktop#textOptionGrid"
+  ]
+},
+"gallery-layout-option#list": {
+  "title": "gallery layout switcher list",
+  "props": {
+    "name": "general-list"
+  },
+  "children": [
+    "icon-inline-grid",
+    "responsive-layout.desktop#textOptionList"
+  ]
+},
+"responsive-layout.desktop#textOptionGrid": {
+  "title": "gallery layout switcher option grid",
+  "children": [
+    "rich-text#option-grid"
+  ]
+},
+"responsive-layout.desktop#textOptionList": {
+  "title": "gallery layout switcher option list",
+  "children": [
+    "rich-text#option-list"
+  ]
+},
+"rich-text#option-grid": {
+  "title": "gallery layout switcher option grid text",
+  "props": {
+    "text": "Grid",
+    "textColor": "c-auto",
+    "blockClass": "layout-option"
+  }
+},
+"rich-text#option-list": {
+  "title": "gallery layout switcher option list text",
+  "props": {
+    "text": "List",
+    "textColor": "c-auto",
+    "blockClass": "layout-option"
+  }
+}
+}

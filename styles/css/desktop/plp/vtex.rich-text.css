@@ -1,0 +1,14 @@
+.container--plp__filters--btn {
+  float: right;
+  border: 1px solid #000;
+  padding: 8px 10px 3px 10px;
+  font-size: 14px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+  cursor: pointer;
+}
+
+.container--plp__filters--btn::after{
+  content: url("assets/img/home/plp__filter--logo-5.png");
+  margin-left: 10px;
+}
