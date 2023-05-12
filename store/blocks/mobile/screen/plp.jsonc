@@ -2,7 +2,7 @@
   "search-result-layout.mobile#global" : {
     "title" : "search result mobile",
     "children" : [
-      "flex-layout.row#header__plp--container",
+      "flex-layout.row#mobile__headerplp--container",
       "flex-layout.row#search__results--plp"
     ],
     "props" : {

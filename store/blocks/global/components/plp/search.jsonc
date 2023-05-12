@@ -1,6 +1,7 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout#prueba"],
+    "title": "store search default",
+    "blocks": ["search-result-layout#global"],
     "props": {
       "context": {
         "skuFilter": "ALL",
@@ -10,7 +11,8 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout#prueba"],
+    "title": "store search department",
+    "blocks": ["search-result-layout#global"],
     "props": {
       "context": {
         "skuFilter": "ALL",
@@ -20,7 +22,8 @@
   },
 
   "store.search#category": {
-    "blocks": ["search-result-layout#prueba"],
+    "title": "store search category",
+    "blocks": ["search-result-layout#global"],
     "props": {
       "context": {
         "skuFilter": "ALL",
@@ -30,7 +33,8 @@
   },
 
   "store.search#subcategory": {
-    "blocks": ["search-result-layout#prueba"],
+    "title": "store search subcategory",
+    "blocks": ["search-result-layout#global"],
     "props": {
       "context": {
         "skuFilter": "ALL",
@@ -40,7 +44,8 @@
   },
 
   "store.search#brand": {
-    "blocks": ["search-result-layout#prueba"],
+    "title": "store search brand",
+    "blocks": ["search-result-layout#global"],
     "props": {
       "context": {
         "skuFilter": "ALL",
@@ -49,16 +54,13 @@
     }
   },
 
-  "search-result-layout#prueba": {
+  "search-result-layout#global": {
+    "title": "store search layout global",
     "blocks": [
       "search-result-layout.desktop#global",
       "search-result-layout.mobile#global",
       "search-not-found-layout"
     ]
   }
-
-  // "search-result-layout#pruebaa": {
-
-  // }
 
 }

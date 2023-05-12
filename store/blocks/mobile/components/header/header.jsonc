@@ -82,6 +82,7 @@
   "drawer#search": {
     "blocks": [
         "drawer-trigger#mobile__icon--search"
+        // "drawer-header#header--menu"
     ],
     "props": {
       "slideDirection": "rightToLeft",

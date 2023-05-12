@@ -83,3 +83,20 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 721px) {
+  .element--plp__shelf--products :global(.vtex-button){
+    transform: translateX(65px);
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .element--plp__shelf--products :global(.vtex-button){
+    transform: translateX(75px);
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .element--plp__shelf--products :global(.vtex-button){
+    transform: translateX(65px);
+  }
+}

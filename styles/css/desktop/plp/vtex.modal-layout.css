@@ -1,6 +1,13 @@
-.paper--plp__filters--modal {
-  transform: translateX(500px);
+.container--plp__filters--modal {
+  display: flex;
+  justify-content: flex-end;
 }
+
+.paper--plp__filters--modal {
+  margin: 0 !important;
+}
+
+
 
 .paperScrollContent {
   /* transform: translateX(500px); */
