@@ -2,15 +2,11 @@
   padding: 5px;
 }
 
-
 .submenuWrapper--subemnu--department__gender {
+  z-index: 20;
     padding-top: 0;
     padding-bottom: 0;
 }
-
-/* .submenuWrapper--subemnu--department__gender--isOpen {
-  z-index: 20;
-} */
 
 .styledLinkContainer--menu__department--name-one,
 .styledLinkContainer--menu__department--name {

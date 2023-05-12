@@ -67,7 +67,10 @@
   background: transparent;
 }
 
-
+.flexCol--icon__desktop--favorites,
+.flexCol--icon__desktop--profile {
+  cursor: pointer;
+}
 
 .flexColChild--remove__button--minicart {
   width: 20px;

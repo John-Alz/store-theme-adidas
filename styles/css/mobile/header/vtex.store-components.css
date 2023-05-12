@@ -1,5 +1,5 @@
 .logoImage--container__logo--mobile {
-  transform   : translateY(5px);
+  transform: translateY(5px);
   /* transform: translateX(100px); */
 }
 
@@ -12,20 +12,13 @@
 }
 
 .searchBarInnerContainer--mobile__header--search :global(.vtex-input-prefix__group) {
-  width         : 100% !important;
+  width: 100% !important;
   /* margin-left: 45px; */
-  border        : none;
+  border: none;
 }
 
 /* .searchBarInnerContainer--mobile__header--search  {
   transform: translateY(-60px);
-} */
-
-/* .autoCompleteOuterContainer--mobile__header--search {
-    width: 90vw;
-    position: absolute;
-    top: 10px;
-    margin-left: 40px;
 } */
 
 .searchBarInnerContainer--mobile__header--search :global(.vtex-styleguide-9-x-input) {
@@ -37,8 +30,7 @@
 }
 
 .searchBarInnerContainer--mobile__header--search :global(.vtex-search-1-x-biggy-autocomplete-wrapper) {
-  width: 50vw;
-  /* margin: 100px; */
+  width: 100vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -46,28 +38,9 @@
   .logoLink--container__logo--mobile {
     transform: translateX(-80px);
   }
-
   .logoImage--mobile__logo--drawer {
     transform: translateX(120px);
   }
-
-  /* .autoCompleteOuterContainer--mobile__header--search {
-    width: 90vw;
-    position: absolute;
-    top: -55px;
-    margin-left: 50px;
-} */
-
-}
-
-@media screen and (max-width: 1024px) {
-
-  .autoCompleteOuterContainer--mobile__header--search {
-    width: 90vw;
-    position: absolute;
-    top: -55px;
-    margin-left: 50px;
-}
 }
 
 @media screen and (max-width: 900px) {
@@ -82,12 +55,6 @@
   .logoImage--mobile__logo--drawer {
     transform: translateX(80px);
   }
-  .autoCompleteOuterContainer--mobile__header--search {
-    width: 90vw;
-    position: absolute;
-    top: -55px;
-    margin-left: 40px;
-}
 }
 
 
@@ -96,16 +63,6 @@
   .logoLink--container__logo--mobile {
     transform: translateX(-30px);
   }
-}
-
-@media screen and (max-width: 641px) {
-
-  .autoCompleteOuterContainer--mobile__header--search {
-    width: 90vw;
-    position: absolute;
-    top: 10px;
-    margin-left: 40px;
-}
 }
 
 @media screen and (max-width: 600px) {
@@ -128,3 +85,4 @@
     transform: translateX(10px);
   }
 }
+

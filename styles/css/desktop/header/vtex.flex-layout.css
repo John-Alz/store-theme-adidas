@@ -154,15 +154,6 @@
   }
 }
 
-/* @media screen and (max-width: 1077px) {
-
-  .flexRowContent--header__section--subheader {
-    margin-right: 60px;
-  }
-
-} */
-
-
 @media screen and (max-width: 640px) {
   .flexRowContent--drawer-header  {
     display: flex;
