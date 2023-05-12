@@ -1,6 +1,6 @@
 {
   "flex-layout.row#search__results--plp": {
-    "title": "search result plp",
+    "title": "search result plp global",
     "children": [
       "flex-layout.col#search__results--plp"
     ],

@@ -1,6 +1,6 @@
 {
   "gallery-layout-switcher": {
-  "title": "gallery layout switcher",
+  "title": "gallery layout switcher desktop",
   "children": [
     "gallery-layout-option#grid",
     "gallery-layout-option#list"

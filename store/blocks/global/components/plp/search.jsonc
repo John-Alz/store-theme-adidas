@@ -55,7 +55,7 @@
   },
 
   "search-result-layout#global": {
-    "title": "store search layout global",
+    "title": "store search layout global ",
     "blocks": [
       "search-result-layout.desktop#global",
       "search-result-layout.mobile#global",

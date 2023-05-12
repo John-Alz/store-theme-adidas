@@ -1,6 +1,6 @@
 {
   "search-result-layout.desktop#global" : {
-    "title" : "search result desktop",
+    "title" : "search result desktop ",
     "children" : [
       "flex-layout.row#header__plp--container",
       "flex-layout.row#search__results--plp"

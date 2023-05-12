@@ -7,7 +7,7 @@
   // },
 
   "flex-layout.row#header__plp--container": {
-    "title": "header plp",
+    "title": "header plp desktop",
     "children": [
       "flex-layout.col#plp__breadcrumb",
       // "flex-layout.col#plp__gallery--switcher",

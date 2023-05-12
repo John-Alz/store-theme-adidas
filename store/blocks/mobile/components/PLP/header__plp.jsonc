@@ -12,7 +12,7 @@
   },
 
   "flex-layout.col#mobile__plp--breadcrumb": {
-    "title": "plp breadcrumb",
+    "title": "plp breadcrumb mobile",
     "children": [
       "breadcrumb.search#mobile__header--breadcrumb"
     ]
