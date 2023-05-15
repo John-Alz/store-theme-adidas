@@ -3,3 +3,49 @@
 .link {
   color: #000;
 }
+
+.homeIcon {
+  display: none;
+}
+
+.homeLink::after {
+  content: "ATRÁS";
+  letter-spacing: 1px;
+  text-decoration: underline;
+  margin-left: 30px;
+  font-family: "AdihausDIN-Regular";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.homeLink::before {
+  content: url("assets/img/plp/arrow__back--2.png");
+  position: absolute;
+  transform: translateY(5px);
+}
+
+/* .caretIcon {
+  width: 18px;
+  height: 18px;
+  transform: translateY(4px);
+} */
+
+.link--header__breadcrumb--desktop{
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0 !important;
+}
+
+.arrow--header__breadcrumb--desktop {
+  padding: 0 !important;
+}
+
+.caretIcon--header__breadcrumb--desktop {
+  display: none;
+}
+
+.arrow--header__breadcrumb--desktop::before {
+  content: url("assets/img/plp/plp__slash--filters4.svg");
+  transform: translateY(4px);
+}

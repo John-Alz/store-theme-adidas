@@ -1,0 +1,43 @@
+{
+  "responsive-layout.desktop#desktop__pdp": {
+    "title": "responsive layout desktop pdp",
+    "children": [
+      "flex-layout.row#desktop__pdp--container"
+    ]
+  },
+  "flex-layout.row#desktop__pdp--container": {
+    "title": "desktop pdp container",
+    "children": [
+      "flex-layout.col#desktop__pdp--left",
+      "flex-layout.col#desktop__pdp--rigth"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--container"
+    }
+  },
+
+
+  //Esta section va a ir en global rigth y left
+
+  "flex-layout.col#desktop__pdp--left": {
+    "title": "desktop pdp left container",
+    "children": [
+      "flex-layout.col#desktop__pdp--images"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--left",
+      "width": "70%"
+    }
+  },
+  "flex-layout.col#desktop__pdp--images": {
+    "title": "desktop pdp section left image",
+    "children": [
+      "breadcrumb",
+      "product-images"
+    ]
+  }
+  //rigth
+
+
+
+}

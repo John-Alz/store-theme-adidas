@@ -1,1 +1,9 @@
+.wishlistIcon--plp__product--favorites {
+  background: url("assets/img/header/userWishlist.svg") ;
+  background-repeat: no-repeat !important;
+}
 
+.wishlistIcon--plp__list--favorites {
+  background: url("assets/img/header/userWishlist.svg") ;
+  background-repeat: no-repeat !important;
+}

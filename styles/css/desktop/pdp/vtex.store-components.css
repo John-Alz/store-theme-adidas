@@ -1,0 +1,66 @@
+.productNameContainer--pdp__product--name {
+  margin-top: 5px;
+}
+
+.productBrand--pdp__product--name {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+  text-transform: uppercase;
+}
+
+.price_sellingPriceContainer--pdp__product--price {
+  margin: 15px 0 20px 0;
+}
+
+.price_sellingPrice--pdp__product--price,
+.price_installment--pdp__product--price {
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.price_installmentContainer--pdp__product--price {
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  color: #000;
+}
+
+.skuSelectorName {
+  display: none;
+}
+
+.skuSelectorOptionsList {
+  margin: 0 !important;
+}
+
+.frameAround--pdp__product--sku {
+  display: none;
+}
+
+.skuSelectorItem--pdp__product--sku {
+  margin: 0 !important;
+}
+
+.skuSelectorInternalBox--pdp__product--sku {
+  border-radius: 0px;
+}
+
+.skuSelectorInternalBox--pdp__product--sku:hover {
+  background: #000;
+  color: #fff;
+}
+.valueWrapper--pdp__product--sku:hover {
+  background: #000;
+  color: #fff;
+}
+
+.valueWrapper--pdp__product--sku {
+  padding: 30px;
+}
+
+.imageElement--pdp__product--returns-image {
+  transform: translateY(15px);
+}

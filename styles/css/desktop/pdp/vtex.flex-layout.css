@@ -1,0 +1,57 @@
+.flexCol--desktop__pdp--rigth {
+  padding: 20px;
+}
+
+.flexColChild--desktop__pdp--rigth {
+  height: max-content !important;
+}
+
+.flexColChild--pdp__iamgeruler--container,
+.flexColChild--pdp__link--container {
+  height: max-content !important;
+}
+
+.flexCol--pdp__buybutton--container :global(.vtex-button) {
+  border-radius: 0px;
+  padding      : 10px;
+}
+
+.flexCol--pdp__buybutton--container :global(.vtex-button)::after {
+  content     : "";
+  display     : block;
+  position    : absolute;
+  border-right: 1px solid #000;
+  border-top  : 1px solid #000;
+  height      : 100%;
+  right       : -5px;
+  top         : 4px;
+  width       : 3px;
+}
+
+.flexCol--pdp__buybutton--container :global(.vtex-button)::before {
+  content      : "";
+  display      : block;
+  position     : absolute;
+  border-left  : 1px solid #000;
+  border-bottom: 1px solid #000;
+  height       : 3px;
+  width        : 100%;
+  bottom       : -5px;
+  left         : 5px;
+}
+
+.flexCol--pdp__addlist--container :global(.vtex-button){
+  border: solid 1px #000;
+  border-radius: 0px;
+  padding: 5px 13px 5px 13px!important;
+  transform: translateY(6px);
+}
+
+.flexRow--pdp__product--benefits-main {
+  margin-top: 50px;
+}
+
+.flexRowContent--pdp__product--shipment,
+.flexRowContent--pdp__product--payment{
+  margin-bottom: 10px;
+}
