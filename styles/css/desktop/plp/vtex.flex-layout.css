@@ -12,11 +12,12 @@
   display        : flex;
   flex-direction : row;
   justify-content: end;
+  transform: translateY(60px);
 }
 
 .flexRow--plp__filters--desktop {
-  transform: translateY(8px);
-  margin-left:10px;
+  transform  : translateY(8px);
+  margin-left: 10px;
 }
 
 .flexCol--product__list--image {
@@ -56,6 +57,7 @@
     transform: translateX(-245px);
   }
 }
+
 @media screen and (max-width: 547px) {
   .flexRow--plp__products--list-container :global(.vtex-button) {
     transform: translateX(-225px);

@@ -14,28 +14,12 @@
     "props": {
       "blockClass": "desktop__pdp--container"
     }
-  },
+  }
 
 
   //Esta section va a ir en global rigth y left
 
-  "flex-layout.col#desktop__pdp--left": {
-    "title": "desktop pdp left container",
-    "children": [
-      "flex-layout.col#desktop__pdp--images"
-    ],
-    "props": {
-      "blockClass": "desktop__pdp--left",
-      "width": "70%"
-    }
-  },
-  "flex-layout.col#desktop__pdp--images": {
-    "title": "desktop pdp section left image",
-    "children": [
-      "breadcrumb",
-      "product-images"
-    ]
-  }
+
   //rigth
 
 

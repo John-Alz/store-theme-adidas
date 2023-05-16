@@ -21,7 +21,8 @@
   "flex-layout.col#plp__breadcrumb": {
     "title": "plp breadcrumb",
     "children": [
-      "breadcrumb.search#desktop__header--breadcrumb"
+      "breadcrumb.search#desktop__header--breadcrumb",
+      "search-title.v2#pdp__search--title"
     ]
   },
   "breadcrumb.search#desktop__header--breadcrumb": {
@@ -29,6 +30,13 @@
     "props": {
       "blockClass": "header__breadcrumb--desktop"
     }
+  },
+
+  "search-title.v2#pdp__search--title": {
+    "title": "pdp search title",
+    "props": {
+      "blockClass": "pdp__search--title"
+  }
   },
 
   "flex-layout.col#plp__modal--filter": {

@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#pdp__interesting--title": {
+    "title": "desktop interesting title container",
+    "children": [
+      "rich-text#pdp__slider--title-one"
+    ],
+    "props": {
+      "blockClass": "pdp__interesting--title"
+    }
+  },
+  "rich-text#pdp__slider--title-one": {
+    "title": "desktop slider title one",
+    "props": {
+      "text": "TAMBIÉN PODRÍA INTERESARTE",
+      "blockClass": "pdp__slider--title-one"
+    }
+  },
+
+  "flex-layout.row#pdp__other--title": {
+    "title": "desktop interesting title container",
+    "children": [
+      "rich-text#pdp__slider--title-two"
+    ],
+    "props": {
+      "blockClass": "pdp__interesting--title"
+    }
+  },
+  "rich-text#pdp__slider--title-two": {
+    "title": "desktop slider title one",
+    "props": {
+      "text": "OTROS TAMBIÉN COMPRARON",
+      "blockClass": "pdp__slider--title-one"
+    }
+  }
+
+}

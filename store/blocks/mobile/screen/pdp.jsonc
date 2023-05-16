@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#mobile__pdp": {
+    "title": "responsive layout desktop pdp",
+    "children": [
+      "flex-layout.row#mobile__pdp--container"
+    ]
+  }
+}

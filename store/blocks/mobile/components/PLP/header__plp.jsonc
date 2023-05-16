@@ -14,17 +14,17 @@
   "flex-layout.col#mobile__plp--breadcrumb": {
     "title": "plp breadcrumb mobile",
     "children": [
-      // "breadcrumb.search#mobile__header--breadcrumb"
+      "search-title.v2#pdp__search--title"
     ]
   },
 
-  "breadcrumb.search#mobile__header--breadcrumb": {
-    "title": "desktop header breadcrumb",
-    "props": {
-      "blockClass": "mobile__header--breadcrumb",
-      "showOnMobile": true
-    }
-  },
+  // "breadcrumb.search#mobile__header--breadcrumb": {
+  //   "title": "desktop header breadcrumb",
+  //   "props": {
+  //     "blockClass": "mobile__header--breadcrumb",
+  //     "showOnMobile": true
+  //   }
+  // },
 
   "flex-layout.col#mobile__plp--filter": {
     "title": "plp switcher",
