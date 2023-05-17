@@ -26,6 +26,7 @@
 .flexRowContent--header__bottom--user {
   display  : flex;
   transform: translateY(3px);
+  padding-right: 0 !important;
 }
 
 .flexRow--header__mobile--section-one {

@@ -25,8 +25,18 @@
     "title": "desktop pdp section left image",
     "children": [
       "breadcrumb",
-      "product-images"
+      "product-images#pdp__grid--images"
     ]
+  },
+
+  "product-images#pdp__grid--images": {
+    "title": "product images",
+    "props": {
+      "blockClass": "pdp__grid--images",
+      "displayMode": "list",
+      "aspectRatio": "1:1",
+      "maxHeight": "200"
+    }
   },
 
   "flex-layout.row#pdp__disclosure--main": {
@@ -169,7 +179,7 @@
   "rich-text#pdp__title--details": {
     "title": "pdp section disclosure details title",
     "props": {
-      "blockClass": "pdp__title--details",
+      "blockClass": "pdp__title--description",
       "text": "Detalles"
     }
   },
@@ -262,7 +272,7 @@
   "rich-text#pdp__title--ratings": {
     "title": "pdp title ratings",
     "props": {
-      "blockClass": "pdp__title--ratings",
+      "blockClass": "pdp__title--description",
       "text": "Valoraciones"
     }
   }

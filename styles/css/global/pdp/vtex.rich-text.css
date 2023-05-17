@@ -68,6 +68,13 @@
   color           : #fff;
 }
 
+.paragraph--pdp__title--description {
+  font-family    : "AdihausDIN-Regular";
+  font-size      : 16px;
+  color          : #000;
+  font-weight: 700;
+}
+
 .paragraph--pdp__slider--title-one {
   font-size     : 30px;
   font-weight   : 700;
@@ -75,3 +82,4 @@
   font-family   : "adineuePRO-Bold";
   letter-spacing: 1.5px;
 }
+
