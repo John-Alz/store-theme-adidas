@@ -4,6 +4,7 @@
   border: none;
   /* border-bottom: solid 1px; */
   border-top: solid 1px #d3d7da;
+  cursor: pointer;
 }
 
 .trigger--pdp__disclosuretrgr--details  {
@@ -12,6 +13,7 @@
   border: none;
   border-bottom: solid 1px #d3d7da;
   border-top: solid 1px #d3d7da;
+  cursor: pointer;
 }
 
 .trigger--pdp__disclosuretrgr--ratings  {
@@ -20,4 +22,5 @@
   border: none;
   border-bottom: solid 1px #d3d7da;
   border-top: solid 1px #d3d7da;
+  cursor: pointer;
 }

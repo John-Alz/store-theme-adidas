@@ -1,9 +1,9 @@
-
-.flexRow--desktop__pdp--container :global(.vtex-store-components-3-x-container){
+.flexRow--desktop__pdp--container :global(.vtex-store-components-3-x-container) {
   max-width: 100% !important;
 }
+
 .flexCol--desktop__pdp--rigth {
-  padding: 20px;
+  padding: 30px 35px 0 40px;
 }
 
 .flexColChild--desktop__pdp--rigth {
@@ -41,6 +41,14 @@
 
 .flexRowContent--pdp__product--buttons {
   display: flex;
+}
+
+.flexRowContent--pdp__product--buttons :global(.vtex-add-to-cart-button-0-x-buttonText--pdp__product--buy) {
+  font-family   : "AdihausDIN-Regular";
+  font-size     : 14px;
+  color         : #fff;
+  font-weight   : 700;
+  letter-spacing: 2px;
 }
 
 .flexRowContent--pdp__product--buttons :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
@@ -84,6 +92,8 @@
   left         : 5px;
 }
 
+
+
 .flexCol--pdp__addlist--container :global(.vtex-button) {
   border       : solid 1px #000;
   border-radius: 0px;
@@ -126,7 +136,12 @@
 }
 
 .flexRow--pdp__disclosure--main {
-  margin-top: 65px;
+  margin-top   : 65px;
+  margin-bottom: 50px;
+}
+
+.flexRow--pdp__disclosure--final {
+  margin-bottom: 50px;
 }
 
 .flexRowContent--pdp__disclosure--main,
@@ -134,6 +149,13 @@
   width : 80%;
   margin: 0 auto;
 }
+
+.flexCol--pdp__state--ratings {
+  flex-direction: row;
+  gap           : 30px;
+  align-items: baseline;
+}
+
 
 .flexRowContent--pdp__trigger--description {
   width  : 55vw;
@@ -152,10 +174,16 @@
 
 .flexCol--desktop__pdp--rigth {
   position   : sticky;
-  height : 100vh;
+  height     : 100vh;
   top        : 0;
   background : #fff;
   border-left: solid 1px #d3d7da;
+}
+
+@media screen and (max-width: 1280px) {
+  .flexRowContent--pdp__product--buttons :global(.vtex-add-to-cart-button-0-x-buttonText--pdp__product--buy) {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 1186px) {
@@ -192,7 +220,7 @@
 
   .flexRowContent--pdp__disclosure--main,
   .flexRowContent--pdp__disclosure--final {
-    width       : 0%;
+    /* width       : 0%; */
     margin      : 0;
     padding-left: 10px;
   }
@@ -289,6 +317,11 @@
 
 @media screen and (max-width: 500px) {
 
+  .flexRowContent--pdp__trigger--description {
+    width        : 93vw;
+    padding-right: 20px;
+  }
+
   .flexRowContent--pdp__product--buttons :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 80% !important;
   }
@@ -354,4 +387,9 @@
   .buyButtonText--pdp__product--bu {
     font-size: 10px;
   }
+
+  .flexRowContent--pdp__product--buttons :global(.vtex-add-to-cart-button-0-x-buttonText--pdp__product--buy) {
+    font-size: 10px;
+  }
+
 }

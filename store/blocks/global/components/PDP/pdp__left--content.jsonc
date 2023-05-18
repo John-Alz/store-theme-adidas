@@ -1,0 +1,151 @@
+{
+  "product-images#pdp__grid--images": {
+    "title": "product images",
+    "props": {
+      "blockClass": "pdp__grid--images",
+      "displayMode": "list",
+      "aspectRatio": "1:1",
+      "maxHeight": "200"
+    }
+  },
+
+  "disclosure-layout-group#pdp__disclosure--group": {
+    "title": "desktop pdp section disclosure group",
+    "children": [
+      "disclosure-layout#pdp__disclosure--description",
+      "disclosure-layout#pdp__disclosure--details"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosure--group"
+    }
+  },
+
+  "disclosure-layout#pdp__disclosure--description": {
+    "title": "pdp section disclosure description",
+    "children": [
+      "disclosure-trigger#pdp__disclosuretrgr--description",
+      "disclosure-content#pdp__disclosurecont--description"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosure--description"
+    }
+  },
+
+  "disclosure-trigger#pdp__disclosuretrgr--description": {
+    "title": "pdp section disclosure description trigger",
+    "children": [
+      "flex-layout.row#pdp__trigger--description"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosuretrgr--description"
+    }
+  },
+
+  "disclosure-content#pdp__disclosurecont--description": {
+    "title": "pdp section disclosure description content",
+    "children": [
+      "product-description"
+    ]
+  },
+
+  "disclosure-layout#pdp__disclosure--details": {
+    "title": "pdp section disclosure details",
+    "children": [
+      "disclosure-trigger#pdp__disclosuretrgr--details",
+      "disclosure-content#pdp__disclosurecont--details"
+    ]
+  },
+
+  "disclosure-trigger#pdp__disclosuretrgr--details": {
+    "title": "pdp section disclosure details trigger",
+    "children": [
+      "flex-layout.row#pdp__trigger--details"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosuretrgr--details"
+    }
+  },
+
+  "disclosure-content#pdp__disclosurecont--details": {
+    "title": "pdp section disclosure details content",
+    "children": [
+      "product-specifications"
+    ]
+  },
+
+  "rich-text#pdp__title--description": {
+    "title": "pdp section disclosure description title",
+    "props": {
+      "blockClass": "pdp__title--description",
+      "text": "Descripción"
+    }
+  },
+
+  "rich-text#pdp__title--details": {
+    "title": "pdp section disclosure details title",
+    "props": {
+      "blockClass": "pdp__title--description",
+      "text": "Detalles"
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "title": "pdp section disclosure state indicator",
+    "props": {
+      "Show": "icon#disclosure__icon--show",
+      "Hide": "icon#disclosure__icon--hide"
+    }
+  },
+  "icon#disclosure__icon--show" : {
+    "title": "pdp section disclosure state indicator show",
+    "props" : {
+      "id" : "nav-caret--down"
+    }
+  },
+  "icon#disclosure__icon--hide" : {
+    "title": "pdp section disclosure state indicator hide",
+    "props" : {
+      "id" : "nav-caret--up"
+    }
+  },
+
+  "disclosure-layout#pdp__disclosure--ratings": {
+    "title": "pdp section disclosure ratings",
+    "children": [
+      "disclosure-trigger#pdp__disclosuretrgr--ratings",
+      "disclosure-content#pdp__disclosurecont--ratings"
+    ]
+  },
+  "disclosure-trigger#pdp__disclosuretrgr--ratings": {
+    "title": "pdp section disclosure ratings trigger",
+    "children": [
+      "flex-layout.row#pdp__trigger--ratings"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosuretrgr--ratings"
+    }
+  },
+
+  "disclosure-state-indicator#pdp__stateindicator--ratings" : {
+    "title": "pdp state indicator ratings disclosure",
+    "props": {
+      "blockClass": "pdp__stateindicator--ratings"
+    }
+  },
+
+  "disclosure-content#pdp__disclosurecont--ratings":{
+    "title": "pdp section disclosure ratings content",
+    "children": [
+      "product-reviews"
+    ]
+  },
+
+  "rich-text#pdp__title--ratings": {
+    "title": "pdp title ratings",
+    "props": {
+      "blockClass": "pdp__title--description",
+      "text": "Valoraciones"
+    }
+  }
+
+}

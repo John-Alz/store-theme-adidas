@@ -11,7 +11,7 @@
   "flex-layout.col#pdp__content--mobile": {
     "title": "pdp content mobile",
     "children": [
-      "flex-layout.row#mobile__pdp-section1",
+      "flex-layout.row#pdp__breadrating--container",
       "flex-layout.row#pdp__product--name",
       "flex-layout.row#pdp__product--price",
       "flex-layout.row#pdp__product--modal",

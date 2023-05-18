@@ -68,7 +68,7 @@
     }
   },
 
-  "buy-button#pdp__product--buy": {
+  "add-to-cart-button##pdp__product--buy": {
     "title": "pdp product buy button",
     "props": {
       "blockClass": "pdp__product--buy"

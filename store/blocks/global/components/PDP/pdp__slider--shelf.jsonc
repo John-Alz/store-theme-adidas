@@ -21,14 +21,18 @@
       "title": "pdp slider shelf products",
       "props": {
         "itemsPerPage": {
-          "desktop": 5,
+          "desktop": 6,
           "tablet": 6,
           "phone": 6
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
         "showPaginationDots": "never",
-        "blockClass": "carousel_home"
+        "blockClass": [
+          "carousel_home",
+          "carousel_pdp",
+          "carousel_pdp--two"
+      ]
       }
     }
 

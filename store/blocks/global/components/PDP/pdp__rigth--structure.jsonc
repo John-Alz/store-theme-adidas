@@ -191,7 +191,7 @@
   "flex-layout.col#pdp__buybutton--container": {
     "title": "pdp product buy button container",
     "children": [
-      "buy-button#pdp__product--buy"
+      "add-to-cart-button##pdp__product--buy"
     ],
     "props": {
       "blockClass": "pdp__buybutton--container"
