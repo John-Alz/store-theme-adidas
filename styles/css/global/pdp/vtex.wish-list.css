@@ -1,0 +1,9 @@
+.wishlistIcon--pdp__product--favorites {
+  background: url("assets/img/header/userWishlist.svg") ;
+  background-repeat: no-repeat !important;
+}
+
+.wishlistIconContainer--pdp__product--favorites{
+  display: flex !important;
+  justify-content: center !important;
+}

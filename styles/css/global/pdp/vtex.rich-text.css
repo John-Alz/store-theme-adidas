@@ -1,0 +1,90 @@
+.paragraph--pdp__section--category {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+.paragraph--pdp__modal--activator {
+  font-family    : "AdihausDIN-Regular";
+  font-size      : 16px;
+  color          : #000;
+  cursor         : pointer;
+  text-decoration: underline;
+}
+
+.paragraph--pdp__modal--activator:hover {
+  background-color: #000;
+  color           : #fff;
+}
+
+.paragraph--pdp__modal--content1 {
+  font-size     : 30px;
+  font-weight   : 700;
+  color         : #000;
+  font-family   : "adineuePRO-Bold";
+  letter-spacing: 1.5px;
+}
+
+.paragraph--pdp__modal--content2 {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+.paragraph--pdp__sku--size {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+  font-weight: 700;
+}
+
+.container--pdp__sku--size {
+  margin-top: 40px;
+}
+
+.paragraph--pdp__sku--link {
+  transform      : translateY(-6px);
+  text-decoration: underline;
+  font-family    : "AdihausDIN-Regular";
+  font-size      : 16px;
+  color          : #000;
+  margin-left    : 3px;
+}
+
+.paragraph--pdp__product--shipment-text,
+.paragraph--pdp__product--benefits-text {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+.paragraph--pdp__product--benefits-text {
+  text-decoration: underline;
+  cursor         : pointer;
+}
+
+.paragraph--pdp__product--benefits-text:hover {
+  background-color: #000;
+  color           : #fff;
+}
+
+.paragraph--pdp__title--description {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+  font-weight: 700;
+}
+
+.paragraph--pdp__slider--title-one {
+  font-size     : 30px;
+  font-weight   : 700;
+  color         : #000;
+  font-family   : "adineuePRO-Bold";
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 375px) {
+  .paragraph--pdp__slider--title-one {
+    font-size     : 24px;
+  }
+}

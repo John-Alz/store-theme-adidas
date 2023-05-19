@@ -1,0 +1,26 @@
+.trigger--pdp__disclosuretrgr--description {
+  background: transparent !important;
+  padding: 40px 0 40px 0 !important;
+  border: none;
+  /* border-bottom: solid 1px; */
+  border-top: solid 1px #d3d7da;
+  cursor: pointer;
+}
+
+.trigger--pdp__disclosuretrgr--details  {
+  background: transparent !important;
+  padding: 40px 0 40px 0 !important;
+  border: none;
+  border-bottom: solid 1px #d3d7da;
+  border-top: solid 1px #d3d7da;
+  cursor: pointer;
+}
+
+.trigger--pdp__disclosuretrgr--ratings  {
+  background: transparent !important;
+  padding: 40px 0 40px 0 !important;
+  border: none;
+  border-bottom: solid 1px #d3d7da;
+  border-top: solid 1px #d3d7da;
+  cursor: pointer;
+}

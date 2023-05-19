@@ -1,0 +1,142 @@
+{
+  "flex-layout.col#desktop__pdp--left": {
+    "title": "desktop pdp left container",
+    "children": [
+      "flex-layout.row#pdp__images--main",
+      "flex-layout.row#pdp__disclosure--main",
+      "flex-layout.row#pdp__interesting--title",
+      "flex-layout.row#pdp__shelf",
+      "flex-layout.row#pdp__disclosure--final",
+      "flex-layout.row#pdp__other--title",
+      "flex-layout.row#pdp__shelf"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--left",
+      "width": "70%"
+    }
+  },
+  "flex-layout.row#pdp__images--main": {
+    "title": "desktop pdp images main row",
+    "children": [
+      "flex-layout.col#pdp__images--cotainer"
+    ]
+  },
+  "flex-layout.col#pdp__images--cotainer": {
+    "title": "desktop pdp section left image",
+    "children": [
+      "breadcrumb",
+      "product-images#pdp__grid--images"
+    ]
+  },
+
+  "flex-layout.row#pdp__disclosure--main": {
+    "title": "desktop pdp section disclousure main",
+    "children": [
+      "flex-layout.col#pdp__disclousure--container"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosure--main"
+    }
+  },
+
+  "flex-layout.col#pdp__disclousure--container": {
+    "title": "desktop pdp section disclosure container",
+    "children": [
+      "disclosure-layout-group#pdp__disclosure--group"
+    ],
+    "props": {
+      "blockClass": "pdp__disclousure--container"
+    }
+  },
+
+  "flex-layout.row#pdp__trigger--description": {
+    "title": "pdp section disclosure description trigger",
+    "children": [
+      "flex-layout.col#pdp__titledesc--container",
+      "flex-layout.col#pdp__statedesc--container"
+    ],
+    "props": {
+      "blockClass": "pdp__trigger--description",
+      "colSizing" : "auto"
+    }
+  },
+
+  "flex-layout.col#pdp__titledesc--container": {
+    "children": [
+      "rich-text#pdp__title--description"
+    ]
+  },
+  "flex-layout.col#pdp__statedesc--container": {
+    "children": [
+      "disclosure-state-indicator"
+    ]
+  },
+
+  "flex-layout.row#pdp__trigger--details": {
+    "title": "pdp section disclosure details trigger",
+    "children": [
+      "flex-layout.col#pdp__titledetail--container",
+      "flex-layout.col#pdp__statedetail--container"
+    ],
+    "props": {
+      "blockClass": "pdp__trigger--description",
+      "colSizing" : "auto"
+    }
+  },
+  "flex-layout.col#pdp__titledetail--container": {
+    "children": [
+      "rich-text#pdp__title--details"
+    ]
+  },
+  "flex-layout.col#pdp__statedetail--container":{
+    "children": [
+      "disclosure-state-indicator"
+    ]
+  },
+
+  "flex-layout.row#pdp__disclosure--final": {
+    "title": "pdp section disclosure final",
+    "children": [
+      "flex-layout.col#pdp__disclousure--final-container"
+    ],
+    "props": {
+      "blockClass": "pdp__disclosure--final"
+    }
+  },
+  "flex-layout.col#pdp__disclousure--final-container": {
+    "title": "pdp section disclosure final container",
+    "children": [
+      "disclosure-layout#pdp__disclosure--ratings"
+    ]
+  },
+
+  "flex-layout.row#pdp__trigger--ratings": {
+    "title": "pdp section disclosure description trigger",
+    "children": [
+      "flex-layout.col#pdp__titlerat--container",
+      "flex-layout.col#pdp__staterat--container"
+    ],
+    "props": {
+      "blockClass": "pdp__trigger--description",
+      "colSizing" : "auto"
+    }
+  },
+
+  "flex-layout.col#pdp__titlerat--container": {
+    "title": "pdp title rating",
+    "children": [
+      "rich-text#pdp__title--ratings"
+    ]
+  },
+  "flex-layout.col#pdp__staterat--container": {
+    "title": "pdp title rating state",
+    "children": [
+      "product-rating-summary",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "pdp__state--ratings"
+    }
+  }
+
+}

@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#mobile__pdp--container": {
+    "title": "mobile pdp container",
+    "children": [
+      "flex-layout.col#pdp__content--mobile"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--container"
+    }
+  },
+  "flex-layout.col#pdp__content--mobile": {
+    "title": "pdp content mobile",
+    "children": [
+      "flex-layout.row#pdp__breadrating--container",
+      "flex-layout.row#pdp__product--name",
+      "flex-layout.row#pdp__product--price",
+      "flex-layout.row#pdp__product--modal",
+      "flex-layout.row#pdp__images--main",
+      "flex-layout.row#pdp__product--skuselector",
+      "flex-layout.row#pdp__skuselector--link",
+      "flex-layout.row#pdp__product--buttons",
+      "flex-layout.row#pdp__product--benefits-main",
+      "flex-layout.row#pdp__disclosure--main",
+      "flex-layout.row#pdp__interesting--title",
+      "flex-layout.row#pdp__shelf",
+      "flex-layout.row#pdp__disclosure--final",
+      "flex-layout.row#pdp__other--title",
+      "flex-layout.row#pdp__shelf"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+.flexRowContent--search__results--plp {
+  padding-top: 30px;
+}
+
+.flexRow--plp__products--list-container :global(.vtex-button) {
+  position : absolute;
+  transform: translateX(-140px);
+}
+
+@media screen and (max-width: 641px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-265px);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-245px);
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-225px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-205px);
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-175px);
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-155px);
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .flexRow--plp__products--list-container :global(.vtex-button) {
+    transform: translateX(-135px);
+  }
+}

@@ -24,7 +24,7 @@
       "blockClass": "menu__department--name-one",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "MUJER",
         "text": "MUJER"
@@ -43,7 +43,7 @@
       "blockClass": "menu__department--name-one",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "HOMBRE",
         "text": "HOMBRE"
@@ -62,7 +62,7 @@
       "blockClass": "menu__department--name-one",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso",
         "noFollow": false,
         "tagTitle": "NIÑOS",
         "text": "NIÑOS"
@@ -81,7 +81,7 @@
       "blockClass": "menu__department--name",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/celulares",
         "noFollow": false,
         "tagTitle": "NOVEDADES",
         "text": "NOVEDADES"
@@ -101,7 +101,7 @@
       "blockClass": "menu__department--name",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "DEPORTES",
         "text": "DEPORTES"
@@ -120,7 +120,7 @@
       "blockClass": "menu__department--name",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso",
         "noFollow": false,
         "tagTitle": "MUNDO ADIDAS",
         "text": "MUNDO ADIDAS"
@@ -139,7 +139,7 @@
       "blockClass": "menu__department--week",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "MEMBERS WEEK",
         "text": "MEMBERS WEEK"

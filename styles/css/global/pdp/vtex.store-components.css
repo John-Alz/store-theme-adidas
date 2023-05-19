@@ -1,0 +1,148 @@
+.productNameContainer--pdp__product--name {
+  margin-top: 5px;
+}
+
+.productImagesContainer--pdp__grid--images--list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productImageTag {
+  width: 380px !important;
+}
+
+.productBrand--pdp__product--name {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+  text-transform: uppercase;
+}
+
+.price_sellingPriceContainer--pdp__product--price {
+  margin: 10px 0 20px 0;
+}
+
+.price_sellingPrice--pdp__product--price,
+.price_installment--pdp__product--price {
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.price_installmentContainer--pdp__product--price {
+  font-family: "AdihausDIN-Regular";
+  font-size: 16px;
+  color: #000;
+}
+
+.skuSelectorName {
+  display: none;
+}
+
+.skuSelectorOptionsList {
+  margin: 0 !important;
+}
+
+.frameAround--pdp__product--sku {
+  display: none;
+}
+
+.skuSelectorItem--pdp__product--sku {
+  margin: 0 !important;
+}
+
+.skuSelectorInternalBox--pdp__product--sku {
+  border-radius: 0px;
+}
+
+.skuSelectorInternalBox--pdp__product--sku:hover {
+  background: #000;
+  color: #fff;
+}
+.valueWrapper--pdp__product--sku:hover {
+  background: #000;
+  color: #fff;
+}
+
+.valueWrapper--pdp__product--sku {
+  padding: 30px;
+}
+
+/* .skuSelectorItem--selected{
+  background: #000;
+  color: #fff;
+} */
+
+.imageElement--pdp__product--returns-image {
+  transform: translateY(15px);
+}
+
+.productDescriptionText,
+.specificationsTableRow  {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+.productDescriptionTitle {
+  font-size     : 30px;
+  font-weight   : 700;
+  color         : #000;
+  font-family   : "adineuePRO-Bold";
+  letter-spacing: 1.5px;
+}
+
+.specificationsTitle,
+.specificationsTableHead  {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 2500px) {
+  .productImageTag {
+    width: 500px !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .productImageTag {
+    width: 380px !important;
+  }
+}
+
+@media screen and (max-width: 1118px) {
+  .productImageTag {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .productBrand--pdp__product--name {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .imageElement--pdp__product--returns-image {
+    transform: translateY(1px);
+  }
+
+  .productImageTag {
+    width: 500px !important;
+  }
+
+  .productDescriptionTitle {
+    font-size     : 24px;
+  }
+
+
+}
+
+@media screen and (max-width: 617px) {
+  .imageElement--pdp__product--returns-image {
+    transform: translateY(15px);
+  }
+}

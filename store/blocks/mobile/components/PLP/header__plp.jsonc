@@ -3,7 +3,6 @@
     "title": "header plp mobile",
     "children": [
       "flex-layout.col#mobile__plp--breadcrumb",
-      // "flex-layout.col#plp__gallery--switcher",
       "flex-layout.col#mobile__plp--filter"
     ],
     "props": {
@@ -14,17 +13,10 @@
   "flex-layout.col#mobile__plp--breadcrumb": {
     "title": "plp breadcrumb mobile",
     "children": [
-      "breadcrumb.search#mobile__header--breadcrumb"
+      "search-title.v2#pdp__search--title"
     ]
   },
 
-  "breadcrumb.search#mobile__header--breadcrumb": {
-    "title": "desktop header breadcrumb",
-    "props": {
-      "blockClass": "mobile__header--breadcrumb",
-      "showOnMobile": true
-    }
-  },
 
   "flex-layout.col#mobile__plp--filter": {
     "title": "plp switcher",
@@ -38,6 +30,9 @@
   },
   "filter-navigator.v3#mobile__plp--filters": {
     "title": "filter navigator mobile",
+    "blocks": [
+      "sidebar-close-button"
+    ],
     "props": {
       "blockClass": "mobile__filter--navigator"
     }

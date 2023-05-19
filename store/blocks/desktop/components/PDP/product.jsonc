@@ -1,0 +1,21 @@
+{
+  "responsive-layout.desktop#desktop__pdp": {
+    "title": "responsive layout desktop pdp",
+    "children": [
+      "flex-layout.row#desktop__pdp--container"
+    ]
+  },
+  "flex-layout.row#desktop__pdp--container": {
+    "title": "desktop pdp container",
+    "children": [
+      "flex-layout.col#desktop__pdp--left",
+      "flex-layout.col#desktop__pdp--rigth"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--container"
+    }
+  }
+
+
+
+}
