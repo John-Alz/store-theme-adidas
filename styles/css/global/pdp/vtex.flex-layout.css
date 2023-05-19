@@ -215,7 +215,7 @@
 
   .flexRowContent--pdp__trigger--description {
     width        : 95vw;
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
   .flexRowContent--pdp__disclosure--main,
@@ -319,7 +319,7 @@
 
   .flexRowContent--pdp__trigger--description {
     width        : 93vw;
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
   .flexRowContent--pdp__product--buttons :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {

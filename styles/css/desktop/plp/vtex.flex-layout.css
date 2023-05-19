@@ -19,3 +19,21 @@
   transform  : translateY(8px);
   margin-left: 10px;
 }
+
+.flexCol--product__list--image {
+  background: #EBEEF0;
+}
+
+.flexRow--plp__products--list-container {
+  border: solid 1px #000;
+}
+
+.flexRow--plp__products--list-container:hover {
+  border: solid 2px #000;
+}
+
+
+
+.flexRowContent--mobile__headerplp--container {
+  display: flex;
+}

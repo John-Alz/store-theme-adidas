@@ -44,9 +44,9 @@
 
 /* .sliderTrackContainer--carousel_pdp {
   overflow-x: scroll;
-}
+} */
 
-.sliderTrackContainer--carousel_pdp::-webkit-scrollbar-thumb {
+/* .sliderTrackContainer--carousel_pdp::-webkit-scrollbar-thumb {
   background-attachment: red;
 } */
 .sliderTrack--carousel_pdp{
@@ -56,3 +56,7 @@
 .sliderLayoutContainer--carousel_pdp {
   margin-bottom: 100px;
 }
+
+/* .slide--carousel_pdp--hidden {
+  display: none;
+} */

@@ -87,6 +87,7 @@
   },
 
   "drawer-trigger#mobile__text--filters": {
+    "title": "mobile text filters",
     "children":[
       "rich-text#plp__filters--btn"
     ]
