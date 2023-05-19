@@ -1,0 +1,32 @@
+.paper--pdp__modal--content {
+  width: 48%;
+}
+
+.triggerContainer--pdp__modal--price {
+  padding-left: 0 !important;
+}
+
+.closeButton--pdp__modal--close {
+  /* width        : 25%; */
+  position     : absolute;
+  right        : 0;
+  border       : solid 1px #000;
+  border-radius: 0px;
+  background   : #fff;
+}
+
+.closeButton--pdp__modal--close:hover {
+  color: #000;
+}
+
+.closeButtonLabel--pdp__modal--close {
+  font-size: 23px;
+  color: #000;
+  padding: 0 15px 0 15px !important;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .closeButton--pdp__modal--close {
+    display: none;
+  }
+} */

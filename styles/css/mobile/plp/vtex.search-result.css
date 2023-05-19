@@ -1,0 +1,139 @@
+.filterPopupButton {
+  transform: translateY(2px);
+}
+.filtersWrapperMobile--mobile__filter--navigator {
+  justify-content: flex-end;
+}
+
+.filterPopupTitle--mobile__filter--navigator {
+  font-size: 14px;
+  color: #000;
+  font-family: "AdihusDIN-Bold";
+  cursor: pointer;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button){
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "AdihausDIN-Regular";
+  height: 50px;
+  border: none;
+  border-radius: 0;
+}
+
+.filterClearButtonWrapper--mobile__filter--navigator :global(.vtex-button):hover{
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "AdihausDIN-Regular";
+  height: 50px;
+  border: none;
+  border-radius: 0;
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button){
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "AdihausDIN-Regular";
+  height: 50px;
+  border: none;
+  border-radius: 0;
+}
+
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button)::after{
+  content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -4px;
+    top: 4px;
+    width: 3px;
+}
+.filterApplyButtonWrapper--mobile__filter--navigator :global(.vtex-button)::before{
+  content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 3px;
+    width: 100%;
+    bottom: -4px;
+    left: 5px;
+}
+
+
+.sidebar {
+  width: 100% !important;
+}
+
+.filterBreadcrumbsText--mobile__filter--navigator,
+.filterBreadcrumbsItemName--mobile__filter--navigator {
+  color      : #000;
+  font-family: "AdihusDIN-Light";
+  font-style : normal;
+  font-weight: 500;
+  font-size  : 26px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.caretIcon--mobile__filter--navigator {
+  color: #000;
+  margin-left: 10px;
+}
+
+.accordionFilterItemTitle--mobile__filter--navigator {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 14px;
+  color      : #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.accordionFilterOpen--mobile__filter--navigator :global(.vtex-checkbox__label),
+.filterTitleSpan--mobile__filter--navigator {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.filter__container--mobile__filter--navigator :global(.vtex-slider__left-value),
+.filter__container--mobile__filter--navigator :global(.vtex-slider__right-value) {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+.accordionFilter {
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .filtersWrapperMobile--mobile__filter--navigator{
+    transform: translateY(10px);
+  }
+
+  .galleryTitle--layout {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .filtersWrapperMobile--mobile__filter--navigator{
+    transform: translateY(5px);
+  }
+
+  .galleryTitle--layout {
+    font-size: 24px;
+  }
+
+}

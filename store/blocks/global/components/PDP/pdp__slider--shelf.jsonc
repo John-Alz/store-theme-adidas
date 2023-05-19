@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#pdp__shelf": {
+    "title": "home shelf products",
+    "children": [
+      "list-context.product-list#pdp"
+    ],
+    "props": {
+      "blockClass": "pdp__shelf"
+    }
+  },
+
+  "list-context.product-list#pdp": {
+    "title": "home products list",
+        "blocks": ["product-summary.shelf#home__shelf--products"],
+        "children": [
+          "slider-layout#pdp__slider--products"
+        ]
+    },
+
+    "slider-layout#pdp__slider--products": {
+      "title": "pdp slider shelf products",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 6,
+          "phone": 6
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "never",
+        "blockClass": [
+          "carousel_home",
+          "carousel_pdp",
+          "carousel_pdp--two"
+      ]
+      }
+    }
+
+    // "product-summary.shelf#home__shelf--products": {
+    //   "title": "home product summary shelf",
+    //       "children": [
+    //         // "rich-text#home__tab1--title",
+    //         "product-summary-image#product__image",
+    //         "product-summary-name#product__name",
+    //         // "product-rating-inline#product__rating",
+    //         "product-summary-space#product__space",
+    //         "product-summary-price#product__price",
+    //         "add-to-cart-button#product__button"
+    //       ]
+    // },
+
+    // // "rich-text#home__tab1--title": {
+    // //   "title": "home tab1 title",
+    // //   "props": {
+    // //     "blockClass": "home__tab1--title",
+    // //     "text": "PESTAÑA UNO"
+    // //   }
+    // // },
+
+    // "product-summary-image#product__image": {
+    //   "title": "home product summary image",
+    //   "props": {
+    //     "blockClass": "product__image"
+    //   }
+    // },
+    // "product-summary-name#product__name": {
+    //   "title": "home product summary name",
+    //   "props": {
+    //     "blockClass":"product__name"
+    //   }
+    // },
+    // // "product-rating-inline#product__rating": {
+    // //   "props": {
+    // //     "blockClass":"product__rating"
+    // //   }
+    // // },
+    // "product-summary-space#product__space": {
+    //   "title": "home product summary space",
+    //   "props": {
+    //     "blockClass":"product__space"
+    //   }
+    // },
+    // "product-summary-price#product__price":{
+    //   "title": "home product summary price",
+    //   "props": {
+    //     "blockClass":"product__price"
+    //   }
+    // },
+    // "add-to-cart-button#product__button": {
+    //   "title": "home product summary add to cart button",
+    //   "props": {
+    //     "blockClass":"product__button"
+    //   }
+    // }
+}

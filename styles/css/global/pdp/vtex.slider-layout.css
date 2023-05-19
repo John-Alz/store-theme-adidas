@@ -1,0 +1,62 @@
+.caretIcon--carousel_pdp {
+  display: none;
+}
+
+.sliderRightArrow--carousel_pdp {
+  /* background: url("assets/img/header/userWishlist.svg") !important; */
+  background-color: #fff !important;
+  height          : 50px;
+  width           : 50px;
+  border          : solid 1px #000;
+}
+
+
+.sliderRightArrow--carousel_pdp::after {
+  content: url("assets/img/pdp/arrow_right--2.png") !important;
+
+  /* background-color: #fff !important;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat !important;
+  background-size: 50% !important;
+  background-position: center; */
+
+}
+
+.sliderLeftArrow--carousel_pdp {
+  /* background: url("assets/img/header/userWishlist.svg") !important; */
+  background-color: #fff !important;
+  height          : 50px;
+  width           : 50px;
+  border          : solid 1px #000;
+}
+
+
+.sliderLeftArrow--carousel_pdp::after {
+  content: url("assets/img/pdp/arrow__left.png") !important;
+}
+
+/* .sliderTrack--carousel_pdp {
+  gap: 1px;
+  overflow-x: scroll;
+  background: #eceff1;
+} */
+
+/* .sliderTrackContainer--carousel_pdp {
+  overflow-x: scroll;
+} */
+
+/* .sliderTrackContainer--carousel_pdp::-webkit-scrollbar-thumb {
+  background-attachment: red;
+} */
+.sliderTrack--carousel_pdp{
+  margin: 0;
+}
+
+.sliderLayoutContainer--carousel_pdp {
+  margin-bottom: 100px;
+}
+
+/* .slide--carousel_pdp--hidden {
+  display: none;
+} */

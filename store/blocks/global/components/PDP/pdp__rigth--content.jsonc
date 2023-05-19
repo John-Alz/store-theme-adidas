@@ -1,0 +1,129 @@
+{
+  "rich-text#pdp__section--category": {
+    "title": "desktop pdp section category",
+    "props": {
+      "blockClass": "pdp__section--category",
+      "text": "Mujer ● Originals"
+    }
+  },
+
+  "product-price#pdp__product--price": {
+    "props" : {
+      "blockClass": "pdp__product--price",
+      "showInstallments": true
+    }
+  },
+
+  "rich-text#pdp__modal--activator": {
+    "title": "pdp product modal activator",
+    "props": {
+      "blockClass": "pdp__modal--activator",
+      "text": "Ver más"
+    }
+  },
+
+  "rich-text#pdp__modal--content1": {
+    "title": "pdp product modal content 1",
+    "props": {
+      "blockClass": "pdp__modal--content1",
+      "text": "OPCIONES DE FINANCIACIÓN"
+    }
+  },
+  "rich-text#pdp__modal--content2": {
+    "title": "pdp product modal content 2",
+    "props": {
+      "blockClass": "pdp__modal--content2",
+      "text": "Hasta 12 x $39.995,84 más interés bancario. <br/> Pagá en hasta 12 cuotas sin interés con tu tarjeta de crédito Visa, Mastercard, American Express y otras más.* Toda Compra con Tarjeta de Credito financiada a cuotas, estan sujeta a tasa de Interés según banco emisor."
+    }
+  },
+
+  "rich-text#pdp__sku--size": {
+    "title": "pdp product sku size text",
+    "props": {
+      "blockClass": "pdp__sku--size",
+      "text": "Tallas"
+    }
+  },
+
+  "sku-selector#pdp__product--sku":{
+    "title": "pdp product sku size selector",
+    "props": {
+      "blockClass": "pdp__product--sku"
+    }
+  },
+
+  "image#pdp__sku--ruler": {
+    "title": "pdp product sku ruler image",
+    "props": {
+      "blockClass": "pdp__sku--ruler",
+      "src": "assets/img/pdp/pdp-size-guide.svg"
+    }
+  },
+
+  "rich-text#pdp__sku--link": {
+    "title": "pdp product sku size text",
+    "props": {
+      "blockClass": "pdp__sku--link",
+      "text": "Guía de tallas"
+    }
+  },
+
+  "add-to-cart-button##pdp__product--buy": {
+    "title": "pdp product buy button",
+    "props": {
+      "blockClass": "pdp__product--buy"
+    }
+  },
+  "add-to-list-btn#pdp__product--favorites": {
+    "title": "pdp product favorites button",
+    "props": {
+      "blockClass": "pdp__product--favorites"
+    }
+  },
+
+  "image#pdp__product--shipment-img": {
+    "title": "pdp product shipment image",
+    "props": {
+      "blockClass": "pdp__product--shipment-image",
+      "src": "assets/img/pdp/pdp-shipment.svg"
+    }
+  },
+  "rich-text#pdp__product--shipment-text": {
+    "title": "pdp product shipment text",
+    "props": {
+      "blockClass": "pdp__product--shipment-text",
+      "text": "ENVÍO GRATIS A PARTIR DE $249.900"
+    }
+  },
+
+  "image#pdp__product--payment-img": {
+    "title": "pdp product payment image",
+    "props": {
+      "blockClass": "pdp__product--payment-image",
+      "src": "assets/img/pdp/pdp__payment.svg"
+    }
+  },
+  "rich-text#pdp__product--payment-text": {
+    "title": "pdp product payment text",
+    "props": {
+      "blockClass": "pdp__product--benefits-text",
+      "text": "PAGA SEGURO PUEDES PAGAR EN LÍNEA"
+    }
+  },
+
+  "image#pdp__product--returns-img": {
+    "title": "pdp product shipment image",
+    "props": {
+      "blockClass": "pdp__product--returns-image",
+      "src": "assets/img/pdp/pdp-free-returns.svg"
+    }
+  },
+  "rich-text#pdp__product--returns-text": {
+    "title": "pdp product shipment text",
+    "props": {
+      "blockClass": "pdp__product--benefits-text",
+      "text": "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS"
+    }
+  }
+
+}

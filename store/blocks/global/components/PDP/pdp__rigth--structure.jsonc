@@ -1,0 +1,322 @@
+{
+  "flex-layout.col#desktop__pdp--rigth": {
+    "title": "desktop pdp rigth container",
+    "children": [
+      "flex-layout.row#pdp__product--review",
+      "flex-layout.row#pdp__product--name",
+      "flex-layout.row#pdp__product--price",
+      "flex-layout.row#pdp__product--modal",
+      "flex-layout.row#pdp__product--skuselector",
+      "flex-layout.row#pdp__skuselector--link",
+      "flex-layout.row#pdp__product--buttons",
+      "flex-layout.row#pdp__product--benefits-main"
+      // "vtex.store-components:product-price"
+    ],
+    "props": {
+      "blockClass": "desktop__pdp--rigth",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#pdp__product--review": {
+    "title": "pdp section rigth review",
+    "children": [
+      "flex-layout.col#pdp__category--container",
+      "flex-layout.col#pdp__rating--container"
+
+    ],
+    "props": {
+      "blockClass": "pdp__product--review",
+      "horizontalAlign": "between"
+    }
+  },
+
+  "flex-layout.col#pdp__category--container": {
+    "title": "pdp category container",
+    "children": [
+      "rich-text#pdp__section--category"
+    ],
+    "props": {
+      "blockClass": "pdp__category--container"
+    }
+  },
+  "flex-layout.col#pdp__rating--container": {
+    "title": "pdp category container",
+    "children": [
+      "product-rating-summary"
+    ],
+    "props": {
+      "blockClass": "pdp__rating--container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--name": {
+    "title": "pdp product name",
+    "children": [
+      "vtex.store-components:product-name"
+    ],
+    "props": {
+      "blockClass": "pdp__product--name"
+    }
+  },
+
+  "vtex.store-components:product-name": {
+    "title": "pdp product name",
+    "props": {
+      "blockClass": "pdp__product--name"
+    }
+  },
+
+  "flex-layout.row#pdp__product--price": {
+    "title": "pdp product price",
+    "children": [
+      "product-price#pdp__product--price"
+    ],
+    "props": {
+      "blockClass": "pdp__product--price"
+    }
+  },
+
+  "flex-layout.row#pdp__product--modal": {
+    "title": "pdp product modal",
+    "children": [
+      "modal-trigger#pdp__modal--price"
+    ],
+    "props": {
+      "blockClass": "pdp__product--modal"
+    }
+  },
+  "modal-trigger#pdp__modal--price": {
+    "title": "pdp product modal price",
+    "children": [
+      "rich-text#pdp__modal--activator",
+      "modal-layout#pdp__modal--content"
+    ],
+    "props": {
+      "blockClass": "pdp__modal--price"
+    }
+  },
+
+  "modal-layout#pdp__modal--content": {
+    "title": "pdp product modal content",
+    "children": [
+      "modal-actions.close",
+      "flex-layout.col#pdp__modal--container"
+    ],
+    "props": {
+      "blockClass": "pdp__modal--content"
+    }
+  },
+
+  "modal-actions.close": {
+    "title": "pdp product modal close",
+    "props": {
+      "blockClass": "pdp__modal--close",
+      "label": "X"
+    }
+  },
+
+  "flex-layout.col#pdp__modal--container": {
+    "title": "pdp product modal content layout col",
+    "children": [
+      "rich-text#pdp__modal--content1",
+      "rich-text#pdp__modal--content2"
+    ],
+    "props": {
+      "blockClass": "pdp__modal--container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--skuselector": {
+    "title": "pdp product sku selector",
+    "children": [
+      "flex-layout.col#pdp__skuselector--container"
+    ],
+    "props": {
+      "blockClass": "pdp__product--skuselector"
+    }
+  },
+  "flex-layout.col#pdp__skuselector--container": {
+    "title": "pdp product sku selector container",
+    "children": [
+      "rich-text#pdp__sku--size",
+      "sku-selector#pdp__product--sku"
+    ],
+    "props": {
+      "blockClass": "pdp__skuselector--container"
+    }
+  },
+
+  "flex-layout.row#pdp__skuselector--link": {
+    "title": "pdp product sku selector link",
+    "children": [
+      "flex-layout.col#pdp__iamgeruler--container",
+      "flex-layout.col#pdp__link--container"
+    ],
+    "props": {
+      "blockClass": "pdp__skuselector--link"
+    }
+  },
+
+  "flex-layout.col#pdp__iamgeruler--container": {
+    "title": "pdp product sku selector iamge ruler container",
+    "children": [
+      "image#pdp__sku--ruler"
+    ],
+    "props": {
+      "blockClass": "pdp__iamgeruler--container"
+    }
+  },
+  "flex-layout.col#pdp__link--container": {
+    "title": "pdp product sku selector iamge ruler container",
+    "children": [
+      "rich-text#pdp__sku--link"
+    ],
+    "props": {
+      "blockClass": "pdp__link--container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--buttons": {
+    "title": "pdp product buttons",
+    "children": [
+      "flex-layout.col#pdp__buybutton--container",
+      "flex-layout.col#pdp__addlist--container"
+    ],
+    "props": {
+      "blockClass": "pdp__product--buttons"
+    }
+  },
+
+  "flex-layout.col#pdp__buybutton--container": {
+    "title": "pdp product buy button container",
+    "children": [
+      "add-to-cart-button##pdp__product--buy"
+    ],
+    "props": {
+      "blockClass": "pdp__buybutton--container"
+    }
+  },
+  "flex-layout.col#pdp__addlist--container": {
+    "title": "pdp product buy button container",
+    "children": [
+      "add-to-list-btn#pdp__product--favorites"
+    ],
+    "props": {
+      "blockClass": "pdp__addlist--container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--benefits-main": {
+    "title": "pdp product benefits main",
+    "children": [
+      "flex-layout.col#pdp__product--benefits-container"
+    ],
+    "props": {
+      "blockClass": "pdp__product--benefits-main"
+    }
+  },
+
+  "flex-layout.col#pdp__product--benefits-container": {
+    "title": "pdp product benefits container",
+    "children": [
+      "flex-layout.row#pdp__product--shipment",
+      "flex-layout.row#pdp__product--payment",
+      "flex-layout.row#pdp__product--returns"
+    ],
+    "props": {
+      "blockClass": "pdp__product--benefits-container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--shipment": {
+    "title": "pdp product shipment",
+    "children": [
+      "flex-layout.col#pdp__shipmentimg--container",
+      "flex-layout.col#pdp__shipmenttxt--container"
+    ],
+    "props": {
+      "blockClass": "pdp__product--shipment"
+    }
+  },
+
+  "flex-layout.col#pdp__shipmentimg--container": {
+    "title": "pdp product shipment img container",
+    "children": [
+      "image#pdp__product--shipment-img"
+    ],
+    "props": {
+      "blockClass": "pdp__shipmentimg--container"
+    }
+  },
+  "flex-layout.col#pdp__shipmenttxt--container":{
+    "title": "pdp product shipment text container",
+    "children": [
+      "rich-text#pdp__product--shipment-text"
+    ],
+    "props": {
+      "blockClass": "pdp__shipmentitxt--container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--payment": {
+    "title": "pdp product payment",
+    "children": [
+      "flex-layout.col#pdp__paymentimg--container",
+      "flex-layout.col#pdp__paymenttxt--container"
+    ],
+    "props": {
+      "blockClass": "pdp__product--payment"
+    }
+  },
+
+  "flex-layout.col#pdp__paymentimg--container": {
+    "title": "pdp product payment img container",
+    "children": [
+      "image#pdp__product--payment-img"
+    ],
+    "props": {
+      "blockClass": "pdp__paymentimg--container"
+    }
+  },
+  "flex-layout.col#pdp__paymenttxt--container": {
+    "title": "pdp product payment text container",
+    "children": [
+      "rich-text#pdp__product--payment-text"
+    ],
+    "props": {
+      "blockClass": "pdp__paymenttxt--container"
+    }
+  },
+
+  "flex-layout.row#pdp__product--returns": {
+    "title": "pdp product returns",
+    "children": [
+      "flex-layout.col#pdp__returnsimg--container",
+      "flex-layout.col#pdp__returnstxt--container"
+    ],
+    "props": {
+      "blockClass": "pdp__product--returns"
+    }
+  },
+
+  "flex-layout.col#pdp__returnsimg--container": {
+    "title": "pdp product returns img container",
+    "children": [
+      "image#pdp__product--returns-img"
+    ],
+    "props": {
+      "blockClass": "pdp__returnsimg--container"
+    }
+  },
+  "flex-layout.col#pdp__returnstxt--container": {
+    "title": "pdp product returns text container",
+    "children": [
+      "rich-text#pdp__product--returns-text"
+    ],
+    "props": {
+      "blockClass": "pdp__returnstxt--container"
+    }
+  }
+
+}

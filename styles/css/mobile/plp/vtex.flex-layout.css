@@ -1,0 +1,16 @@
+.flexRowContent--pdp__breadrating--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+.flexCol--mobile__pdp--ratings {
+  height   : max-content;
+  transform: translateY(7px);
+}
+
+.flexRowContent--pdp__breadrating--container {
+  display: flex;
+}
+
+.flexRowContent--mobile__headerplp--container {
+  display: flex;
+}

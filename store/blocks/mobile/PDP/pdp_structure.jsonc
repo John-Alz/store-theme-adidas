@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#pdp__breadrating--container": {
+    "title": "mobile pdp section one",
+    "children": [
+      "flex-layout.col#mobile__pdp--breadcrumb",
+      "flex-layout.col#mobile__pdp--ratings"
+    ],
+    "props": {
+      "blockClass": "pdp__breadrating--container",
+      "horizontalAlign": "between"
+    }
+  },
+
+  "flex-layout.col#mobile__pdp--breadcrumb": {
+    "title": "mobile pdp breadcrumb",
+    "children": [
+      "breadcrumb#mobile__pdp--breadcrumb"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--breadcrumb"
+    }
+  },
+  "flex-layout.col#mobile__pdp--ratings": {
+    "title": "mobile pdp section ratings",
+    "children": [
+      "product-rating-summary"
+    ],
+    "props": {
+      "blockClass": "mobile__pdp--ratings"
+    }
+  },
+  "breadcrumb#mobile__pdp--breadcrumb": {
+    "title": "mobile pdp breadcrumb",
+    "props": {
+      "showOnMobile" : true,
+      "blockClass": "mobile__pdp--breadcrumb"
+    }
+  }
+}
