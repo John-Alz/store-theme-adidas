@@ -873,7 +873,7 @@
   "flex-layout.col#footer__item--information--one": {
     "title": "footer middle items information",
     "children": [
-      "rich-text#footer__item--information--one"
+      "link#footer__item--information--one"
     ]
   },
   "flex-layout.col#footer__item--information--two": {
@@ -888,13 +888,20 @@
       "rich-text#footer__item--information--three"
     ]
   },
-  "rich-text#footer__item--information--one": {
-    "title": "footer middle text information",
+  "link#footer__item--information--one": {
     "props": {
-      "text": "Acerca de adidas",
+      "href": "/sobre-adidas",
+      "label": "Acerca de adidas",
       "blockClass": "footer__text--item"
     }
   },
+  // "rich-text#footer__item--information--one": {
+  //   "title": "footer middle text information",
+  //   "props": {
+  //     "text": "Acerca de adidas",
+  //     "blockClass": "footer__text--item"
+  //   }
+  // },
   "rich-text#footer__item--information--two": {
     "title": "footer middle text information",
     "props": {

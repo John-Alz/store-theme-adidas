@@ -2,6 +2,7 @@
   "minicart.v2#desktop__minicart--icon": {
     "props": {
       "variation": "drawer",
+      // "variation": "link",
       "itemcountMode": "total",
       "blockClass": "desktop__minicart--icon"
     },

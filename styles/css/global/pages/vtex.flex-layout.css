@@ -1,0 +1,150 @@
+.flexRowContent--about__us--main  {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexCol--about__us--container {
+  padding: 45px 90px;
+}
+
+.flexCol--about__slash--container {
+  margin: 0 5px;
+}
+
+.flexRowContent--about__us--rute :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+
+.flexRow--about__us--title {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.flexRow--about__adidas--group {
+  margin-bottom: 50px;
+}
+
+.flexRow--about__us--spacer {
+  height: 120px;
+  /* background-color: red; */
+}
+
+.flexColChild--satisfaction__happy--container {
+  margin-right: 14px;
+}
+
+.flexRow--about__us--satisfaction {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+
+.flexRow--about__us--satisfaction :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+.flexCol--about__question--order,
+.flexCol--about__question--return {
+  margin: 20px 0;
+}
+
+.flexCol--about__question--follow {
+  margin-bottom: 20px;
+}
+.flexCol--about__question--flaw {
+  width: 55% !important;
+}
+
+.flexRow--about__us--help {
+  padding: 20px 0;
+}
+
+.flexColChild--about__help--rigth {
+  height: max-content !important;
+}
+
+/* .flexRow--about__helptitle--container,
+.flexRow--about__contacttitle--container {
+  padding-bottom: 5px;
+} */
+
+
+.flexRow--about__helptext--container {
+  width: 92% !important;
+  padding-top: 5px;
+}
+
+.flexRow--about__contactext--container {
+  width: 95% !important;
+  padding-top: 5px;
+}
+
+.flexRow--about__helplink--container{
+  margin-top: 20px;
+}
+.flexRow--about__contactlink--container  {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 1370px) {
+  .flexRowContent--about__us--main  {
+    width: 90%;
+  }
+  .flexCol--about__us--container {
+    padding: 45px 70px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .flexRow--about__contactlink--container  {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRowContent--about__us--main  {
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  .flexCol--about__us--container {
+    padding: 45px 15px;
+  }
+
+  .flexRow--about__us--spacer {
+    height: 40px;
+  }
+
+  .flexRow--about__contactlink--container  {
+    margin-top: 75px;
+  }
+
+  .flexCol--about__question--flaw {
+    width: 65% !important;
+  }
+
+  @media screen and (max-width: 640px) {
+
+    .flexRowContent--about__us--rute {
+      display: flex;
+    }
+
+    .flexCol--about__question--flaw {
+      width: 100% !important;
+    }
+    .flexRowContent--satisfaction__icons--main{
+      display: flex;
+    }
+
+    .flexRow--about__helplink--container{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .flexRow--about__contactlink--container  {
+      margin-top: 20px;
+    }
+
+  }
+
+}
