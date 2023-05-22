@@ -1,0 +1,109 @@
+.paragraph--about__rute--back,
+.paragraph--about__rute--info {
+  font-family    : "AdihausDIN-Regular";
+  font-size      : 16px;
+  color          : #000;
+  text-decoration: underline;
+  cursor         : pointer;
+}
+
+.paragraph--about__rute--slash {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+.paragraph--about__rute--back:hover {
+  background-color: #000;
+  color           : #fff;
+}
+
+.paragraph--about__rute--info:hover {
+  background-color: #000;
+  color           : #fff;
+}
+
+.paragraph--about__us--title,
+.paragraph--about__questions--title {
+  font-size     : 30px;
+  font-weight   : 700;
+  color         : #000;
+  font-family   : "adineuePRO-Bold";
+  letter-spacing: 1.5px;
+}
+
+.paragraph--about__adidasgroup--text,
+.link--about__adidasgroup--text {
+  font-family    : "AdihausDIN-Regular";
+  font-size      : 16px;
+  color          : #000;
+  text-decoration: none;
+}
+
+.paragraph--about__satisfaction--text {
+  font-size     : 18px;
+  font-weight   : 700;
+  color         : #000;
+  font-family   : "adineuePRO-Bold";
+  letter-spacing: 1px;
+  line-height   : 24px;
+}
+
+.paragraph--question__text {
+  font-family    : "AdihusDIN-Bold";
+  font-size      : 14px;
+  color          : #000;
+  text-decoration: underline;
+  font-weight    : 700;
+  letter-spacing : 2px;
+}
+
+.paragraph--question__text:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.paragraph--about__help--title,
+.paragraph--about__contact--title {
+  font-family    : "AdihusDIN-Bold";
+  font-size      : 16px;
+  color          : #000;
+  font-weight    : 700;
+  text-decoration: none;
+}
+
+.paragraph--about__help--text,
+.paragraph--about__contact--text {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+
+.paragraph--about__help--link,
+.paragraph--about__contact--link {
+  font-family    : "AdihusDIN-Bold";
+  font-size      : 14px;
+  color          : #000;
+  font-weight    : 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.paragraph--about__help--link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.paragraph--about__contact--link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 640px) {
+  .paragraph--about__questions--title {
+    font-size: 24px;
+  }
+}
