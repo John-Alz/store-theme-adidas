@@ -34,7 +34,7 @@
       "headline": "SORPRENDE A MAMÁ",
       "subhead": "Porque mamá se merece lo mejor, te presentamos <br/> nuestros últimos lanzamientos",
       "callToActionText": "Comprar ahora",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/mujer",
       "blockClass": "info-card-example",
       "textAlignment": "center"
     }
@@ -49,7 +49,7 @@
       "headline": "BAD BUNNY CAMPUS <br/> WILD MOSS",
       "subhead": "Experimenta la primavera.",
       "callToActionText": "VER AHORA",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/queso",
       "blockClass": "info-card-example",
       "textAlignment": "center"
     }

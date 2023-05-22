@@ -1,0 +1,347 @@
+{
+  "store.custom#about__us": {
+    "title": "about us",
+    "blocks": [
+      "flex-layout.row#about__us--main"
+    ],
+    "props": {
+      "blockClass": "about__us"
+    }
+  },
+  "flex-layout.row#about__us--main": {
+    "title": "about us main",
+    "children": [
+      "flex-layout.col#about__us--container"
+    ],
+    "props": {
+      "blockClass": "about__us--main"
+    }
+  },
+  "flex-layout.col#about__us--container": {
+    "title": "about us container",
+    "children": [
+      "flex-layout.row#about__us--rute",
+      "flex-layout.row#about__us--title",
+      "flex-layout.row#about__adidas--group",
+      "flex-layout.row#about__us--spacer",
+      "flex-layout.row#about__us--satisfaction",
+      "flex-layout.row#about__us--spacer",
+      "flex-layout.row#about__us--questions",
+      "flex-layout.row#about__us--spacer",
+      "flex-layout.row#about__us--help",
+      "flex-layout.row#about__us--spacer"
+    ],
+    "props": {
+      "blockClass": "about__us--container"
+    }
+  },
+  "flex-layout.row#about__us--rute": {
+    "title": "about us rute",
+    "children": [
+      "flex-layout.col#about__back--container",
+      "flex-layout.col#about__slash--container",
+      "flex-layout.col#about__info--container"
+    ],
+    "props": {
+      "blockClass": "about__us--rute"
+    }
+  },
+  "flex-layout.col#about__back--container": {
+    "title": "about back container",
+    "children": [
+      "rich-text#about__rute--back"
+    ],
+    "props": {
+      "blockClass": "about__back--container"
+    }
+  },
+  "flex-layout.col#about__slash--container": {
+    "title": "about slash container",
+    "children": [
+      "rich-text#about__rute--slash"
+    ],
+    "props": {
+      "blockClass": "about__slash--container"
+    }
+  },
+  "flex-layout.col#about__info--container": {
+    "title": "about info container",
+    "children": [
+      "rich-text#about__rute--info"
+    ],
+    "props": {
+      "blockClass": "about__info--container"
+    }
+  },
+
+  "flex-layout.row#about__us--title": {
+    "title": "about us title",
+    "children": [
+      "flex-layout.col#about__title--container"
+    ],
+    "props": {
+      "blockClass": "about__us--title"
+    }
+  },
+
+  "flex-layout.col#about__title--container": {
+    "title": "about title container",
+    "children": [
+      "rich-text#about__title--text"
+    ],
+    "props": {
+      "blockClass": "about__title--container"
+    }
+  },
+
+  "flex-layout.row#about__adidas--group": {
+    "title": "about adidas group",
+    "children": [
+      "flex-layout.col#about__adidasgroup--container"
+    ],
+    "props": {
+      "blockClass": "about__adidas--group"
+    }
+  },
+
+  "flex-layout.col#about__adidasgroup--container": {
+    "title": "about adidas group container",
+    "children": [
+      "rich-text#about__adidasgroup--text"
+    ],
+    "props": {
+      "blockClass": "about__adidasgroup--container"
+    }
+  },
+
+  "flex-layout.row#about__us--satisfaction": {
+    "title": "about us satisfaction",
+    "children": [
+      "flex-layout.col#about__satisfaction--container"
+    ],
+    "props": {
+      "blockClass": "about__us--satisfaction"
+    }
+  },
+
+  "flex-layout.col#about__satisfaction--container": {
+    "title": "about satisfaction container",
+    "children": [
+      "rich-text#about__satisfaction--text",
+      "flex-layout.row#satisfaction__icons--main"
+    ],
+    "props": {
+      "blockClass": "about__satisfaction--container"
+    }
+  },
+
+  "flex-layout.row#satisfaction__icons--main": {
+    "title": "satisfaction icons main",
+    "children": [
+      "flex-layout.col#satisfaction__happy--container",
+      "flex-layout.col#satisfaction__sad--container"
+    ],
+    "props": {
+      "blockClass": "satisfaction__icons--main"
+    }
+  },
+
+  "flex-layout.col#satisfaction__happy--container": {
+    "title": "satisfaction icons container",
+    "children": [
+      "image#about__satisfaction--happy"
+    ],
+    "props": {
+      "blockClass": "satisfaction__happy--container"
+    }
+  },
+  "flex-layout.col#satisfaction__sad--container": {
+    "title": "satisfaction icons container",
+    "children": [
+      "image#about__satisfaction--sad"
+    ],
+    "props": {
+      "blockClass": "satisfaction__sad--container"
+    }
+  },
+
+  "flex-layout.row#about__us--questions": {
+    "title": "about us questions",
+    "children": [
+      "flex-layout.col#about__questions--container"
+    ],
+    "props": {
+      "blockClass": "about__us--questions"
+    }
+  },
+
+  "flex-layout.col#about__questions--container": {
+    "title": "about us questions container",
+    "children": [
+      "flex-layout.col#about__question--title",
+      "flex-layout.col#about__question--order",
+      "flex-layout.col#about__question--flaw",
+      "flex-layout.col#about__question--return",
+      "flex-layout.col#about__question--follow",
+      "flex-layout.col#about__question--changes"
+    ],
+    "props": {
+      "blockClass": "about__questions--container"
+    }
+  },
+
+  "flex-layout.col#about__question--title": {
+    "title": "about us questions title",
+    "children": [
+      "rich-text#about__questions--title"
+    ],
+    "props": {
+      "blockClass": "about__question--title"
+    }
+  },
+  "flex-layout.col#about__question--order": {
+    "title": "about us question order",
+    "children": [
+      "rich-text#question__order--text"
+    ],
+    "props": {
+      "blockClass": "about__question--order"
+    }
+  },
+  "flex-layout.col#about__question--flaw": {
+    "title": "about us question flaw",
+    "children": [
+      "rich-text#question__flaw--text"
+    ],
+    "props": {
+      "blockClass": "about__question--flaw"
+    }
+  },
+  "flex-layout.col#about__question--return": {
+    "title": "about us question return",
+    "children": [
+      "rich-text#question__return--text"
+    ],
+    "props": {
+      "blockClass": "about__question--return"
+    }
+  },
+  "flex-layout.col#about__question--follow": {
+    "title": "about us question follow",
+    "children": [
+      "rich-text#question__follow--text"
+    ],
+    "props": {
+      "blockClass": "about__question--follow"
+    }
+  },
+  "flex-layout.col#about__question--changes": {
+    "title": "about us question changes",
+    "children": [
+      "rich-text#question__changes--text"
+    ],
+    "props": {
+      "blockClass": "about__question--changes"
+    }
+  },
+
+  "flex-layout.row#about__us--help": {
+    "title": "about us help",
+    "children": [
+      "flex-layout.col#about__help--left",
+      "flex-layout.col#about__help--rigth"
+    ],
+    "props": {
+      "blockClass": "about__us--help"
+    }
+  },
+
+  "flex-layout.col#about__help--left": {
+    "title": "about us help left",
+    "children": [
+      "flex-layout.row#about__helptitle--container",
+      "flex-layout.row#about__helptext--container",
+      "flex-layout.row#about__helplink--container"
+    ],
+    "props": {
+      "blockClass": "about__help--left"
+    }
+  },
+  "flex-layout.col#about__help--rigth":{
+    "title": "about us help rigth",
+    "children": [
+      "flex-layout.row#about__contacttitle--container",
+      "flex-layout.row#about__contactext--container",
+      "flex-layout.row#about__contactlink--container"
+    ],
+    "props": {
+      "blockClass": "about__help--rigth"
+    }
+  },
+
+  "flex-layout.row#about__helptitle--container": {
+    "title": "about us help title container",
+    "children": [
+      "rich-text#about__help--title"
+    ],
+    "props": {
+      "blockClass": "about__helptitle--container"
+    }
+  },
+  "flex-layout.row#about__helptext--container":{
+    "title": "about us help text container",
+    "children": [
+      "rich-text#about__help--text"
+    ],
+    "props": {
+      "blockClass": "about__helptext--container"
+    }
+  },
+  "flex-layout.row#about__helplink--container": {
+    "title": "about us help link container",
+    "children": [
+      "rich-text#about__help--link"
+    ],
+    "props": {
+      "blockClass": "about__helplink--container"
+    }
+  },
+
+  "flex-layout.row#about__contacttitle--container": {
+    "title": "about us contact title container",
+    "children": [
+      "rich-text#about__contact--title"
+    ],
+    "props": {
+      "blockClass": "about__contacttitle--container"
+    }
+  },
+  "flex-layout.row#about__contactext--container": {
+    "title": "about us contact ext container",
+    "children": [
+      "rich-text#about__contact--text"
+    ],
+    "props": {
+      "blockClass": "about__contactext--container"
+    }
+  },
+  "flex-layout.row#about__contactlink--container": {
+    "title": "about us contact link container",
+    "children": [
+      "rich-text#about__contact--link"
+    ],
+    "props": {
+      "blockClass": "about__contactlink--container"
+    }
+  },
+
+  //spacer
+
+  "flex-layout.row#about__us--spacer": {
+    "title": "about us spacer",
+    "props": {
+      "blockClass": "about__us--spacer"
+    }
+  }
+
+}

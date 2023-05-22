@@ -1,0 +1,165 @@
+{
+  "rich-text#about__rute--back": {
+    "title": "about rute back",
+    "props": {
+      "text": "Volver",
+      "blockClass": "about__rute--back"
+    }
+  },
+
+  "rich-text#about__rute--slash": {
+    "title": "about rute back",
+    "props": {
+      "text": "/",
+      "blockClass": "about__rute--slash"
+    }
+  },
+
+  "rich-text#about__rute--info": {
+    "title": "about rute back",
+    "props": {
+      "text": "Información de la empresa",
+      "blockClass": "about__rute--info"
+    }
+  },
+
+  "rich-text#about__title--text": {
+    "title": "about title text",
+    "props": {
+      "text": "SOBRE ADIDAS CHILE",
+      "blockClass": "about__us--title"
+    }
+  },
+
+  "rich-text#about__adidasgroup--text": {
+    "title": "about adidas group text",
+    "props": {
+      "blockClass": "about__adidasgroup--text",
+      "text": "Visita el sitio web del Grupo adidas: http://www.adidas-group.com"
+    }
+  },
+
+  "rich-text#about__satisfaction--text": {
+    "title": "about satisfaction text",
+    "props": {
+      "blockClass": "about__satisfaction--text",
+      "text": "¿LE HA RESULTADO ÚTIL ESTE ARTÍCULO?"
+    }
+  },
+
+  "image#about__satisfaction--happy": {
+    "title": "satisfaction happy icon",
+    "props": {
+      "blockClass": "about__satisfaction--happy",
+      "src": "assets/img/custom/icon__smile--happy.svg",
+      "maxHeight": 70,
+      "maxWidth": 70
+    }
+  },
+
+  "image#about__satisfaction--sad": {
+    "title": "satisfaction happy icon",
+    "props": {
+      "blockClass": "about__satisfaction--sad",
+      "src": "assets/img/custom/icon__smile--sad.svg",
+      "maxHeight": 70,
+      "maxWidth": 70
+    }
+  },
+
+  "rich-text#about__questions--title": {
+    "title": "about us questions title",
+    "props": {
+      "blockClass": "about__questions--title",
+      "text": "PREGUNTAS FRECUENTES"
+    }
+  },
+
+  "rich-text#question__order--text": {
+    "title": "about us question order",
+    "props": {
+      "blockClass": "question__text",
+      "text": "¿CUÁNTO TARDARÁ EN LLEGAR MI PEDIDO?"
+    }
+  },
+
+  "rich-text#question__flaw--text": {
+    "title": "about us question flaw",
+    "props": {
+      "blockClass": "question__text",
+      "text": "¿QUÉ PASA SI MI PRODUCTO TIENE UN DEFECTO O NO CUMPLE CON LOS ESTÁNDARES DE CALIDAD?"
+    }
+  },
+
+  "rich-text#question__return--text": {
+    "title": "about us question return",
+    "props": {
+      "blockClass": "question__text",
+      "text": "¿CÓMO ES EL PROCESO DE DEVOLUCIÓN DE UN PEDIDO EN ADIDAS?"
+    }
+  },
+
+  "rich-text#question__follow--text": {
+    "title": "about us question follow",
+    "props": {
+      "blockClass": "question__text",
+      "text": "¿CÓMO PUEDO DAR SEGUIMIENTO A LA ENTREGA DE MI PEDIDO?"
+    }
+  },
+
+  "rich-text#question__changes--text": {
+    "title": "about us question changes",
+    "props": {
+      "blockClass": "question__text",
+      "text": "¿PUEDO REALIZAR CAMBIOS EN TIENDA?"
+    }
+  },
+
+  "rich-text#about__contact--title": {
+    "title": "about us contact title",
+    "props": {
+      "blockClass": "about__contact--title",
+      "text": "¿AÚN NO ENCUENTRAS TU RESPUESTA?"
+    }
+  },
+  "rich-text#about__contact--text": {
+    "title": "about us contact text",
+    "props": {
+      "blockClass": "about__contact--text",
+      "text": "PREGUNTALE A NUESTRO SERVICIO AL CLIENTE: Lun - Vie : 9:00 AM to 9:00 PM | Sab - Dom : 10:00 AM to 6:00 PM | Teléfono: (601) 3557233"
+    }
+  },
+  "rich-text#about__contact--link": {
+    "title": "about us contact link",
+    "props": {
+      "blockClass": "about__contact--link",
+      "text": "CONTÁCTANOS"
+    }
+  },
+
+
+  "rich-text#about__help--title": {
+    "title": "about us help title",
+    "props": {
+      "blockClass": "about__help--title",
+      "text": "¿DÓNDE ESTÁ MI ORDEN?"
+    }
+  },
+
+  "rich-text#about__help--text": {
+    "title": "about us help text",
+    "props": {
+      "blockClass": "about__help--text",
+      "text": "Inicie sesión o ingrese los detalles de su pedido en el rastreador de pedidos para ver el resumen de su pedido. Desde allí, puede cancelar artículos, realizar un seguimiento del estado de la entrega u organizar un cambio o una devolución."
+    }
+  },
+
+  "rich-text#about__help--link": {
+    "title": "about us help link",
+    "props": {
+      "blockClass": "about__help--link",
+      "text": "INICIA SESIÓN"
+    }
+  }
+
+}
