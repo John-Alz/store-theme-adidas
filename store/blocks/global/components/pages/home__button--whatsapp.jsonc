@@ -1,0 +1,10 @@
+{
+  "whatsapp-button": {
+    "title": "whatsapp button",
+    "props": {
+      "logo": "assets/img/custom/whatsapp__logo.png",
+      "phone": "3144048308",
+      "message": "Adidas itg"
+    }
+  }
+}
