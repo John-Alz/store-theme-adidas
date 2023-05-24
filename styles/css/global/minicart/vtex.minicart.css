@@ -1,19 +1,5 @@
-/* Example desktop:
-.minicartTitle {
-    display: none;
-} */
-
-/* .minicartSideBarContentWrapper--desktop__minicart--icon {
-  background-color: beige;
-} */
-/*
-.drawer--desktop__minicart--icon {
-  width: 80% !important;
-  max-width: 100% !important;
-} */
-
 .minicartProductListContainer {
-  padding-left: 15px !important;
+  padding-left: 1px !important;
   padding-right: 5px !important;
 }
 
@@ -22,6 +8,10 @@
   margin-right    : 4px;
   background-color: #0071ae;
   color           : #fff;
+}
+
+.minicartProductListContainer {
+  overflow: hidden;
 }
 
 @media screen and (max-width: 426px) {

@@ -1,7 +1,7 @@
 
 .productImage {
-  transform: translateY(20px);
-  margin-left: 24px;
+  transform: translateY(50px);
+  margin-left: 50px;
   width: 90px;
   height: 90px;
 }
@@ -27,6 +27,13 @@
 .productPrice {
   text-align: center;
 }
+
+@media screen and (max-width: 470px) {
+  .productImage {
+    margin-left: 5px;
+  }
+}
+
 
 /* .unitPriceMeasurementUnit {
   display: none;

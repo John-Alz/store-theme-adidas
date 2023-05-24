@@ -1,0 +1,134 @@
+{
+  "store.custom#cart": {
+    "title": "cart page custom",
+    "blocks": [
+      "flex-layout.row#cart__custom--main"
+    ]
+  },
+
+  "flex-layout.row#cart__custom--main": {
+    "title": "cart page custom main",
+    "children": [
+      "flex-layout.col#cart__custom--rigth",
+      "flex-layout.col#cart__custom--left"
+    ],
+    "props": {
+      "blockClass": "cart__custom--main"
+    }
+  },
+
+  "flex-layout.col#cart__custom--rigth": {
+    "title": "cart page custom rigth",
+    "children": [
+      "flex-layout.row#cart__custom--title",
+      "flex-layout.row#cart__custom--warning",
+      "minicart-product-list#minicart__product--list"
+    ],
+    "props": {
+      "blockClass": "cart__custom--rigth"
+      // "width": "60%"
+    }
+  },
+
+  "flex-layout.col#cart__custom--left": {
+    "title": "cart page custom left",
+    "children": [
+      "flex-layout.row#minicart__footer",
+      "flex-layout.row#cart__custom--payment"
+    ],
+    "props": {
+      "blockClass": "cart__custom--left"
+      // "width": "40%"
+    }
+  },
+
+  "flex-layout.row#cart__custom--title": {
+    "title": "cart page custom text",
+    "children": [
+      "rich-text#cart__custom--title"
+    ]
+  },
+  "rich-text#cart__custom--title": {
+    "title": "cart page custom title",
+    "props": {
+      "blockClass": "cart__custom--title",
+      "text": "TU CARRITO"
+    }
+  },
+
+  "flex-layout.row#cart__custom--warning": {
+    "title": "carts warning",
+    "children": [
+      "rich-text#cart__custom--paragraph"
+    ],
+    "props": {
+      "blockClass": "cart__custom--warning"
+    }
+  },
+
+  "rich-text#cart__custom--paragraph": {
+    "title": "cart warning",
+    "props": {
+      "blockClass": "cart__custom--paragraph",
+      "text": "Los artículos en tu carrito no están reservados. Termina el proceso de compra ahora para hacerte con ellos."
+    }
+  },
+
+  "flex-layout.row#cart__custom--payment": {
+    "title": "cart payment",
+    "children": [
+      "flex-layout.col#cart__custom--payment-container"
+    ],
+    "props": {
+      "blockClass": "cart__custom--payment"
+    }
+  },
+
+  "flex-layout.col#cart__custom--payment-container": {
+    "title": "cart payment container",
+    "children": [
+      "flex-layout.col#cart__custom--top",
+      "flex-layout.col#cart__custom--bottom"
+    ],
+    "props": {
+      "blockClass": "cart__custom--payment-container"
+    }
+  },
+
+  "flex-layout.col#cart__custom--top": {
+    "title": "cart payment top",
+    "children": [
+      "rich-text#cart__custom--top-title"
+    ],
+    "props": {
+      "blockClass": "cart__custom--top"
+    }
+  },
+  "flex-layout.col#cart__custom--bottom": {
+    "title": "cart payment bottom",
+    "children": [
+      "image#cart__custom--img"
+    ]
+    ,
+    "props": {
+      "blockClass": "cart__custom--bottom"
+    }
+  },
+
+  "rich-text#cart__custom--top-title": {
+    "title": "cart payment top title",
+    "props": {
+      "blockClass": "cart__custom--top-title",
+      "text": "FORMAS DE PAGO ACEPTADAS"
+    }
+  },
+
+  "image#cart__custom--img": {
+    "title": "cart payment img",
+    "props": {
+      "blockClass": "cart__custom--img",
+      "src" : "assets/img/custom/payment.png"
+    }
+  }
+
+}
