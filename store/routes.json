@@ -1,5 +1,8 @@
 {
   "store.custom#about__us": {
     "path": "/sobre-adidas"
+  },
+  "store.custom#cart": {
+    "path": "/cart"
   }
 }

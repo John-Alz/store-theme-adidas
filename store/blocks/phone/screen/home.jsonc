@@ -20,6 +20,7 @@
 
   "flex-layout.col#home__phone": {
     "children": [
+      "whatsapp-button",
       "flex-layout.col#phone__home--infocards",
       "flex-layout.row#mobile__interesting--title",
       "flex-layout.row#home__shelf",
