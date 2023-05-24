@@ -22,6 +22,7 @@
     "children": [
       "whatsapp-button",
       "flex-layout.col#phone__home--infocards",
+      "list-context.bullet-group",
       "flex-layout.row#mobile__interesting--title",
       "flex-layout.row#home__shelf",
       // "flex-layout.col#phone__home--menu",
