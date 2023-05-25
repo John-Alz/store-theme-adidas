@@ -23,7 +23,7 @@
       "whatsapp-button",
       "flex-layout.col#desktop__home--infocards",
       "flex-layout.row#desktop__interesting--title",
-      "list-context.bullet-group",
+      "flex-layout.row#home__bullets",
       "flex-layout.row#home__cardstendencies--title",
       "flex-layout.col#home__cards--tendencies",
       "flex-layout.col#desktop__shields--container",
@@ -37,73 +37,5 @@
     "props": {
       "blockClass": "container__desktop--col"
     }
-  },
-  "list-context.bullet-group": {
-    "title": "bullet list context",
-    "children": [
-      "slider-layout#bullet-group"
-    ],
-    "props": {
-      "bullets": [
-      {
-        "image": "assets/img/custom/img__bullets--one.jpg",
-        "titleBullet": "computadores",
-        "link": {
-          "url": "/"
-        }
-      },
-      {
-        "image": "assets/img/custom/img__bullets--two.jpg",
-        "titleBullet": "Ropa",
-        "link": {
-          "url": "/"
-        }
-      },
-      {
-        "image": "assets/img/custom/img__bullets--three.jpg",
-        "titleBullet": "computadores",
-        "link": {
-          "url": "/"
-        }
-      },
-      {
-        "image": "assets/img/custom/img__bullets--four.jpg",
-        "titleBullet": "Ropa",
-        "link": {
-          "url": "/"
-        }
-      },
-      {
-        "image": "assets/img/custom/img__bullets--five.jpg",
-        "titleBullet": "computadores",
-        "link": {
-          "url": "/"
-        }
-      },
-      {
-        "image": "assets/img/custom/img__bullets--six.jpg",
-        "titleBullet": "Ropa",
-        "link": {
-          "url": "/"
-        }
-      }
-      ]
-    }
-  },
-
-  "slider-layout#bullet-group": {
-    "title": "bullet slider",
-    "props": {
-      "itemsPerPages": {
-        "desktop": 5,
-        "tablet": 5,
-        "mobile": 5
-      },
-      "infinite" : true,
-      "showNavigationArrows": "desktopOnly",
-        "showPaginationDots": "never",
-        "blockClass": "bullet-group"
-    }
   }
-
 }

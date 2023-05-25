@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#home__bullets": {
+    "title": "home bullets",
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+
+  "list-context.bullet-group": {
+    "title": "bullet list context",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+      {
+        "image": "assets/img/custom/img__bullets--one.jpg",
+        "titleBullet": "Zapatos",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--two.jpg",
+        "titleBullet": "Ropa",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--three.jpg",
+        "titleBullet": "Zapatos",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--four.jpg",
+        "titleBullet": "Ropa",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--five.jpg",
+        "titleBullet": "Zapatos",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--six.jpg",
+        "titleBullet": "Ropa",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--two.jpg",
+        "titleBullet": "Zapatos",
+        "link": {
+          "url": "/"
+        }
+      },
+      {
+        "image": "assets/img/custom/img__bullets--three.jpg",
+        "titleBullet": "Ropa",
+        "link": {
+          "url": "/"
+        }
+      }
+      ]
+    }
+  },
+
+  "slider-layout#bullet-group": {
+    "title": "bullet slider",
+    "props": {
+      "itemsPerPages": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite" : true,
+      "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "never",
+        "blockClass": "bullet-group"
+    }
+  }
+
+}

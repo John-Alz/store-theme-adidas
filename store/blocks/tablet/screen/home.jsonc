@@ -22,9 +22,8 @@
     "children": [
       "whatsapp-button",
       "flex-layout.col#tablet__home--infocards",
-      "list-context.bullet-group",
       "flex-layout.row#mobile__interesting--title",
-      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__bullets",
       "flex-layout.col#mobile__home--menu",
       "flex-layout.row#mobile__cardstendencies--title",
       "flex-layout.col#home__cards--tendencies",
