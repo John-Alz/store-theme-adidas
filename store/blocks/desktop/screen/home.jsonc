@@ -23,7 +23,7 @@
       "whatsapp-button",
       "flex-layout.col#desktop__home--infocards",
       "flex-layout.row#desktop__interesting--title",
-      "flex-layout.row#home__shelf",
+      "flex-layout.row#home__bullets",
       "flex-layout.row#home__cardstendencies--title",
       "flex-layout.col#home__cards--tendencies",
       "flex-layout.col#desktop__shields--container",
