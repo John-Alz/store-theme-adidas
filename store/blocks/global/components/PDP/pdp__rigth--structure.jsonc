@@ -9,6 +9,7 @@
       "flex-layout.row#pdp__product--skuselector",
       "flex-layout.row#pdp__skuselector--link",
       "flex-layout.row#pdp__product--buttons",
+      "modal-trigger#add-to-cart-info",
       "flex-layout.row#pdp__product--benefits-main"
       // "vtex.store-components:product-price"
     ],
@@ -316,6 +317,30 @@
     ],
     "props": {
       "blockClass": "pdp__returnstxt--container"
+    }
+  },
+
+  "modal-trigger#add-to-cart-info": {
+    "title": "add to cart info",
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+
+  "modal-layout#add-to-cart-info": {
+    "title": "add to cart info layout",
+    "children": [
+      "add-to-cart-info"
+    ]
+  },
+
+  "add-to-cart-info": {
+    "title": "add to cart info",
+    "props": {
+      "blockClass": "add__cart--custom"
     }
   }
 

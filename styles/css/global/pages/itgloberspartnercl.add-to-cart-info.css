@@ -1,0 +1,29 @@
+.link--add__cart--custom,
+.link__two--add__cart--custom,
+.link__three--add__cart--custom {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  font-family    : "AdihusDIN-Bold";
+  font-size  : 16px;
+}
+
+.title__product--add__cart--custom {
+  font-family: "AdihusDIN-Bold";;
+  font-size  : 16px;
+  color      : #000;
+}
+
+.paragraph__product--add__cart--custom {
+  font-family: "AdihausDIN-Regular";
+  font-size  : 16px;
+  color      : #000;
+}
+
+@media screen and (max-width: 780px) {
+  .link--add__cart--custom,
+.link__two--add__cart--custom,
+.link__three--add__cart--custom {
+  font-size  : 10px;
+}
+}

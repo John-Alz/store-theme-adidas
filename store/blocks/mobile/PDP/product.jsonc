@@ -19,6 +19,7 @@
       "flex-layout.row#pdp__product--skuselector",
       "flex-layout.row#pdp__skuselector--link",
       "flex-layout.row#pdp__product--buttons",
+      "modal-trigger#add-to-cart-info",
       "flex-layout.row#pdp__product--benefits-main",
       "flex-layout.row#pdp__disclosure--main",
       "flex-layout.row#pdp__interesting--title",
