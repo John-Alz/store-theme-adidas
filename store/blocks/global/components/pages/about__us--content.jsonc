@@ -160,6 +160,14 @@
       "blockClass": "about__help--link",
       "text": "INICIA SESIÓN"
     }
+  },
+
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/pdf__example.pdf",
+      "width": 500,
+      "height": 800
+    }
   }
 
 }

@@ -22,7 +22,7 @@
     "children": [
       "whatsapp-button",
       "flex-layout.col#desktop__home--infocards",
-      "department-search",
+      // "department-search",
       "flex-layout.row#desktop__interesting--title",
       "flex-layout.row#home__bullets",
       "flex-layout.row#home__cardstendencies--title",
@@ -39,4 +39,5 @@
       "blockClass": "container__desktop--col"
     }
   }
+
 }
