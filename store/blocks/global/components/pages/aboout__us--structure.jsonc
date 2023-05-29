@@ -30,6 +30,7 @@
       "flex-layout.row#about__us--spacer",
       "flex-layout.row#about__us--help",
       "flex-layout.row#about__us--spacer"
+      // "pdf-reader"
     ],
     "props": {
       "blockClass": "about__us--container"
